@@ -1,0 +1,27 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet"
+      href="{{url_for('.static', filename='css/styles.css')}}">
+{% endblock %}
+
+{% block title %}Projects{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+
+            <h1>All Cafes</h1>
+
+	        <p>Coming Soon!</p>
+
+        <p><a href="/">Return to index page</a></p>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}
