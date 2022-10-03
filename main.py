@@ -43,14 +43,14 @@ def add_cafe():
     return render_template('add.html', form=form)
 
 
-@app.route('/cafes')
+@app.route('/projects')
 def cafes():
     with open('cafe-data.csv', encoding="utf-8", newline='') as csv_file:
         csv_data = csv.reader(csv_file, delimiter=',')
         list_of_rows = []
         for row in csv_data:
             list_of_rows.append(row)
-    return render_template('cafes.html', cafes=list_of_rows)
+    return render_template('projects.html', cafes=list_of_rows)
 
 
 if __name__ == '__main__':
