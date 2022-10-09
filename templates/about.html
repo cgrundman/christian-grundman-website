@@ -1,0 +1,27 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet"
+      href="{{url_for('.static', filename='css/styles.css')}}">
+{% endblock %}
+
+{% block title %}About Me{% endblock %}
+
+{% block content %}
+<!-- About -->
+<section id="title">
+    <div class="jumbotron text-center">
+        <div class="container">
+            <h1 class="display-4">🚀 About Me 📚️</h1>
+            <p class="lead">Programmer and Engineer</p>
+            <hr class="my-4">
+            <p>This is more information about me.</p>
+            <hr class="my-4">
+            <p>Interested in my full resume?</p>
+            <a class="btn btn-warning btn-lg" href="/resume" role="button">Resume</a>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
