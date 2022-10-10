@@ -6,6 +6,9 @@ from flask_bootstrap import Bootstrap
 # from wtforms.validators import DataRequired, URL
 # import csv
 
+# Deploy with the command: git push heroku master
+
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "8BYkEfBA6O6donzWlSihBXox7C0sKR6b"
 Bootstrap(app)

@@ -10,6 +10,15 @@ a {
     color: #ffc107;
 }
 
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+hr {
+    padding-bottom: 20px;
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
@@ -19,7 +28,15 @@ a {
   background-color: #333;
 }
 
+.projects {
+    margin-top: 40px;
+}
+
 .space-above {
     margin-top: 20px;
     padding-top: 20px;
+}
+
+.btn {
+    margin-bottom: 20px;
 }
