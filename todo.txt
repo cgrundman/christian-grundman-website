@@ -1,0 +1,5 @@
+1) Add German version to site, think about how to do this
+2) Make project list to display
+3) Add Projects
+4) Add webcam page
+5) Add computer vision projects
