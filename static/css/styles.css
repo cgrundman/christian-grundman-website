@@ -10,31 +10,28 @@ a {
     color: #ffc107;
 }
 
+h1 {
+    margin-top: 40px;
+}
+
 p {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-hr {
-    padding-bottom: 20px;
-}
 
 .jumbotron {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  height: 100vh;
-  color: white;
-  background-color: #333;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    color: white;
+    background-color: #333;
 }
 
-.projects {
-    margin-top: 40px;
-}
-
-.space-above {
+.navbar-brand {
+    font-size: 30px;
     margin-top: 20px;
-    padding-top: 20px;
 }
 
 .btn {

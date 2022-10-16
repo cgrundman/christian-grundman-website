@@ -9,22 +9,20 @@
 {% block title %}Projects{% endblock %}
 
 {% block content %}
-
+<!-- Projects -->
 <div class="projects text-center">
     <div class="container">
         <h1 class="display-4">💼 Projects ✅</h1>
         <p class="lead">These are the projects that I have worked on recently.</p>
         <hr class="my-4">
+
+        <p>Interested in my full resume?</p>
         <div class="row">
-            <p>Interested in my full resume?</p>
-        </div>
-        <div class="row">
-            <a class="btn btn-warning btn-lg" href="/resume" role="button">resume</a>
+            <a class="btn btn-warning btn-lg" href="{{url_for('static', filename='cv/cv.pdf')}}" role="button">Resume</a>
         </div>
         <hr class="my-4">
-        <div class="row">
-            <p>Return to homepage here:</p>
-        </div>
+
+        <p>Return to homepage here:</p>
         <div class="row">
             <a class="btn btn-warning btn-lg" href="/" role="button">Home</a>
         </div>
