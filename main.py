@@ -25,6 +25,11 @@ def projects():
     return render_template('projects.html')
 
 
+@app.route('/medical-system')
+def medical_system():
+    return render_template('medical_system.html')
+
+
 @app.route('/about')
 def about():
     return render_template('about.html')

@@ -1,0 +1,56 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet"
+      href="{{url_for('.static', filename='css/styles.css')}}">
+{% endblock %}
+
+{% block title %}Medical System{% endblock %}
+
+{% block content %}
+<!-- Medical System -->
+<div class="projects text-center">
+    <div class="container">
+        <h1 class="display-4">Medical System</h1>
+        <p class="lead">Design, Development, and Construction of a "Medical System"</p>
+        <hr class="my-4">
+
+        <img class="img_proj" src="{{url_for('static', filename='images/medical_system_1.jpg')}}" alt="Image 1">
+        <p>Final System</p>
+        <hr class="my-4">
+
+        <img class="img_proj" src="{{url_for('static', filename='images/medical_system_2.jpg')}}" alt="Image 2">
+        <p>Analog Circuit Designed by Analog Team. The team had 2 weeks to design a board to fit all the filters, amplifiers, and signal connections together.</p>
+        <hr class="my-4">
+
+        <img class="img_proj" src="{{url_for('static', filename='images/medical_system_3.jpg')}}" alt="Image 3">
+        <p>Final analog circuit board. This is a handmade PCB from the above design.</p>
+        <hr class="my-4">
+
+        <img class="img_proj" src="{{url_for('static', filename='images/medical_system_4.jpg')}}" alt="Image 4">
+        <p>The signal received from the sensor, after analog processing, to the oscilloscope. This was used to tune the digital thresholding.</p>
+        <hr class="my-4">
+
+        <img class="img_proj" src="{{url_for('static', filename='images/medical_system_5.jpg')}}" alt="Image 5">
+        <p>Sample readout of heart, with high Pressure alarm. The device also includes a buzzer to indicate heart beat (during the QRS-complex).</p>
+        <hr class="my-4">
+
+        <h3>Special Thanks:</h3>
+        <p>Paniz Izadi, Sevda Golkar, Andrea, Akin Çaǧlayan</p>
+        <p>Also to the Professors and student tutors that provided insights and learning opportunities</p>
+        <hr class="my-4">
+
+        <p>Return to projects page here:</p>
+        <div class="row">
+            <a class="btn btn-warning btn-lg" href="/projects" role="button">Projects</a>
+        </div>
+
+        <p>Return to homepage here:</p>
+        <div class="row">
+            <a class="btn btn-warning btn-lg" href="/" role="button">Home</a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
