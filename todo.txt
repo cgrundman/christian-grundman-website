@@ -1,9 +1,11 @@
 1) Add German version to site, think about how to do this
 1b) Add Social Media and Professional contact links
 2) Make project list to display
+2a) Ad image link for projects to project page
 3) Add more projects
+3a) Add andreas last name
 3b) format individual projects pages
 4) Add webcam page
 5) Add computer vision projects
 6) Select and implement fonts into site
-6) Make text more readable
+6b) Make text more readable
