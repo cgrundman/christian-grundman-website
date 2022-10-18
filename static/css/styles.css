@@ -38,15 +38,15 @@ section {
 }
 
 .img_proj {
-    width: 400px;
+    width: 350px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
 .img_thumbnail {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     object-fit:cover;
     border-radius: 10%;
 }
