@@ -15,11 +15,10 @@ body {
 }
 
 a {
-    color: #ffc107;
+    color: #00ABB3;
 }
 
 h1 {
-    margin-top: 40px;
 }
 
 hr {
@@ -32,22 +31,10 @@ p {
     font-size: 16px;
 }
 
-
-.jumbotron {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    height: 100vh;
-    color: white;
-    background-color: #333;
-}
-
-.navbar-brand {
-    font-size: 30px;
-    margin-top: 20px;
-}
-
-.btn {
+section {
+    padding: 20px 40px 40px;
+    margin-right:auto;
+    margin-left:auto;
 }
 
 .img_proj {
@@ -55,4 +42,30 @@ p {
     height: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+.img_thumbnail {
+    width: 400px;
+    height: 400px;
+    object-fit:cover;
+    border-radius: 10%;
+}
+
+/* Title */
+#title {
+}
+
+/* Projects Preview */
+#projects-preview {
+    background-color: #B2B2B2;
+    color: #3C4048;
+}
+
+.project-desc-section {
+    vertical-align: middle;
+}
+
+/* Footer */
+#footer {
+    padding-bottom: 0px;
 }

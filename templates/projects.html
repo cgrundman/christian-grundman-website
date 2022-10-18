@@ -9,38 +9,72 @@
 {% block title %}Projects{% endblock %}
 
 {% block content %}
-<!-- Projects -->
-<div class="projects text-center">
-    <div class="container">
-        <h1 class="display-4">💼 Projects ✅</h1>
-        <p class="lead">These are the projects that I have worked on recently.</p>
-        <hr class="my-4">
-
-<!--        <div class="row">-->
-<!--            <a class="btn btn-info btn-lg" href="/medical-system" role="button">Design and Development of a "Medical System"</a>-->
-<!--        </div>-->
-        <div>
-            <img class="img_proj" src="{{url_for('static', filename='images/medical_system_1.jpg')}}" alt="Image 1">
+<!-- Title -->
+<section class="title">
+    <div class="projects text-center">
+        <div class="container">
+            <h1 class="display-4">💼 Projects ✅</h1>
+            <p class="lead">These are the projects that I have worked on recently.</p>
         </div>
-        <hr class="my-4">
+    </div>
+</section>
 
-        <p>Interested in my full resume?</p>
+<!-- Projects Preview -->
+<section id="projects-preview">
+    <div class="container-fluid">
         <div class="row">
-            <a class="btn btn-info btn-lg" href="{{url_for('static', filename='cv/cv.pdf')}}" role="button">Resume</a>
+            <div class="col-lg-6 text-center">
+                <a href="/medical-system">
+                    <img src="{{url_for('static', filename='images/medical_system_1.jpg')}}" alt="img1" class="img_thumbnail rounded">
+                </a>
+            </div>
+            <div class="col-lg-6 text-center">
+                <div class="project-desc-section">
+                    <h3 class="project-title">Medical System</h3>
+                    <p class="project-description">
+                        Project to build a system that accomplished a given task and executed by multiple groups. In
+                        this case the project was divided into an analog and digital team. The analog team was
+                        responsible to process an analog signal received from a sensor and the digital team responsible
+                        for the analog/digital conversion and digital interface.
+                    </p>
+                </div>
+            </div>
         </div>
+    </div>
+</section>
 
-        <hr class="my-4">
-        <p>Hier gibt mein Lebenslauf auf Deutsch:</p>
-        <div class="row">
-            <a class="btn btn-info btn-lg" href="{{url_for('static', filename='cv/cv-deutsch.pdf')}}" role="button">Resume (Deutsch)</a>
+<!-- Resume-->
+<section>
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-lg-6 text-center">
+                <p>Interested in my full resume?</p>
+                <div class="row">
+                    <a class="btn btn-info btn-lg" href="{{url_for('static', filename='cv/cv.pdf')}}" role="button">Resume</a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <p>Hier gibt mein Lebenslauf auf Deutsch:</p>
+                <div class="row">
+                    <a class="btn btn-info btn-lg" href="{{url_for('static', filename='cv/cv-deutsch.pdf')}}" role="button">Resume (Deutsch)</a>
+                </div>
+            </div>
         </div>
-        <hr class="my-4">
+    </div>
+</section>
 
+<!-- Footer-->
+<section id="footer">
+    <div class="row text-center">
         <p>Return to homepage here:</p>
         <div class="row">
             <a class="btn btn-info btn-lg" href="/" role="button">Home</a>
         </div>
+        <div>
+            <p>© Copyright 2022 Christian Grundman</p>
+        </div>
     </div>
-</div>
+</section>
+
 
 {% endblock %}
