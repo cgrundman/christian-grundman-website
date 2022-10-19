@@ -1,7 +1,7 @@
 1a) Add German version to site, think about how to do this
-1b) Add Social Media and Professional contact links - add to footer
-✅ 1c) Add icons to buttons for resumes (flags)
-1d) Change color to buttons
+✅ 1b) Add Social Media and Professional contact links - add to footer
+1c) Add icons to buttons for resumes (flags)
+✅ 1d) Change color to buttons
 
 2a) Make project list to display
 ✅ 2b) Add image link for projects to project page
