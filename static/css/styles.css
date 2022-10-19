@@ -51,18 +51,30 @@ section {
     border-radius: 10%;
 }
 
+.vertical-center {
+
+}
+
 /* Title */
 #title {
 }
 
-/* Projects Preview */
-#projects-preview {
+/* Content */
+#content {
     background-color: #B2B2B2;
     color: #3C4048;
 }
 
-.project-desc-section {
-    vertical-align: middle;
+.content-div {
+    padding: 20px;
+}
+
+.content-text-div {
+    text-align: vertical;
+}
+
+/* Base Content */
+#base-content {
 }
 
 /* Footer */

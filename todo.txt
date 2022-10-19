@@ -1,5 +1,3 @@
-*** Fix thumbnail images on projects to work on mobil
-
 1a) Add German version to site, think about how to do this
 1b) Add Social Media and Professional contact links - add to footer
 1c) Add icons to buttons for resumes (flags)
@@ -9,7 +7,7 @@
 
 3a) Add more projects
 ✅ 3b) Add andreas last name
-3c) format individual projects pages
+✅ 3c) format individual projects pages
 3d) Add Webcam page
 3e) add computer vision projects
 
