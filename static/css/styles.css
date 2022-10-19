@@ -81,3 +81,7 @@ section {
 #footer {
     padding-bottom: 0px;
 }
+
+.footer-icons {
+  padding: 50px 10px 20px;
+}

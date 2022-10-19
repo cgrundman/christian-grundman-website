@@ -1,6 +1,7 @@
 1a) Add German version to site, think about how to do this
 1b) Add Social Media and Professional contact links - add to footer
-1c) Add icons to buttons for resumes (flags)
+✅ 1c) Add icons to buttons for resumes (flags)
+1d) Change color to buttons
 
 2a) Make project list to display
 ✅ 2b) Add image link for projects to project page
@@ -16,7 +17,7 @@
 
 5a) Add header file, footer file for "secret" page
 5b) Add Navbar to header file
-5c) Add footer (links to sites and social media, built on year)
+✅ 5c) Add footer (links to sites and social media, built on year)
 5d) Deploy header and footer to site
 
 6a) Format titles for all pages, more creative, like original css site

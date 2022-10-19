@@ -4,6 +4,9 @@
 {{super()}}
 <link rel="stylesheet"
       href="{{url_for('.static', filename='css/styles.css')}}">
+
+<!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/679f7d93aa.js" crossorigin="anonymous"></script>
 {% endblock %}
 
 {% block title %}About Me{% endblock %}
@@ -32,5 +35,23 @@
         <a class="btn btn-info btn-lg" href="/" role="button">Home</a>
     </div>
 </div>
+
+<!-- Footer-->
+<section id="footer">
+    <div class="row text-center">
+        <a href="https://www.linkedin.com/in/christian-grundman/">
+            <i class="footer-icons fa-brands fa-2xl fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.xing.com/profile/Christian_Grundman">
+            <i class="footer-icons fa-brands fa-2xl fa-xing"></i>
+        </a>
+        <a href="https://www.xing.com/profile/Christian_Grundman">
+            <i class="footer-icons fa-brands fa-2xl fa-github"></i>
+        </a>
+        <div>
+            <p>© Copyright 2022 Christian Grundman</p>
+        </div>
+    </div>
+</section>
 
 {% endblock %}
