@@ -40,6 +40,7 @@ section {
 .btn {
     background-color: #00ABB3;
     color: #EAEAEA;
+    border-radius: 0px!important;
 }
 
 .img_proj {
@@ -53,7 +54,7 @@ section {
     width: 300px;
     height: 300px;
     object-fit:cover;
-    border-radius: 10%;
+    border-radius: 4%;
 }
 
 .thumbnail {

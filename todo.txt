@@ -2,7 +2,8 @@
 ✅ 1b) Add Social Media and Professional contact links - add to footer
 1c) Add icons to buttons for resumes (flags)
 ✅ 1d) Change color to buttons
-1e) Add favicon
+✅ 1e) Change button shape
+1f) Add favicon
 
 2a) Make project list to display
 ✅ 2b) Add image link for projects to project page
