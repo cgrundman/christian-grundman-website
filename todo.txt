@@ -1,25 +1,41 @@
+To Do List
+
+Buttons
 1a) Add German version to site, think about how to do this
 ✅ 1b) Add Social Media and Professional contact links - add to footer
-1c) Add icons to buttons for resumes (flags)
+✅ 1c) Add icons to buttons for resumes (flags)
 ✅ 1d) Change color to buttons
 ✅ 1e) Change button shape
 1f) Add favicon
 
+Projects
 2a) Make project list to display
 ✅ 2b) Add image link for projects to project page
+2c) Add more projects
+✅ 2d) Add andreas last name
+✅ 2e) format individual projects pages
+2f) Add Webcam page
+2g) add computer vision projects
 
-3a) Add more projects
-✅ 3b) Add andreas last name
-✅ 3c) format individual projects pages
-3d) Add Webcam page
-3e) add computer vision projects
+About Me
+3a) Add information to the about me page
+3b) Add picture to about me of index
+✅ 3c) Add information to about me of index
 
-4a) Select and implement fonts into site
-4b) Make text more readable
+Skills/Resumes
+4a) Expand upon the information in the skills section of index.
+4b) Add a contact me button
 
-5a) Add header file, footer file for "secret" page
-5b) Add Navbar to header file
-✅ 5c) Add footer (links to sites and social media, built on year)
-✅ 5d) Deploy header and footer to site
+Fonts and Styling
+5a) Select and implement fonts into site
+5b) Make text more readable
+5c) Vertical Center Content (start with secret page)
 
-6a) Format titles for all pages, more creative, like original css site
+Header and Footer
+6a) Add header file, footer file for "secret" page
+6b) Add Navbar to header file
+✅ 6c) Add footer (links to sites and social media, built on year)
+✅ 6d) Deploy header and footer to site
+
+Titles
+7a) Format titles for all pages, more creative, like original css site
