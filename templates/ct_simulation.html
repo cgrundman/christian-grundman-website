@@ -1,0 +1,180 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet"
+      href="{{url_for('.static', filename='css/styles.css')}}">
+
+<!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/679f7d93aa.js" crossorigin="anonymous"></script>
+{% endblock %}
+
+{% block title %}Medical System{% endblock %}
+
+{% block content %}
+<!-- Navbar -->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Christian Grundman</a>
+        </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/about">About Me</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resume/CV <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{url_for('static', filename='cv/cv.pdf')}}">English</a></li>
+                        <li><a href="{{url_for('static', filename='cv/cv-deutsch.pdf')}}">German</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!-- Title -->
+<section class="title">
+    <div class="container-fluid text-center">
+        <div class="container">
+            <h1 class="display-4">CT Simulation</h1>
+            <p class="lead">Mathematical Model of a CT Scan</p>
+            <div class="row">
+                <a href="https://github.com/cgrundman/CT-1-Sinogram">Github Files (CT Sinogram)</a>
+            </div>
+            <div class="row">
+            <a href="https://github.com/cgrundman/CT-2-Simulation">Github Files (CT Simulation)</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Content -->
+<section id="content">
+    <!-- Image 1 -->
+    <div class="container-fluid text-center">
+        <div class="row content-div">
+            <h2>CT Simulation</h2>
+        </div>
+        <div class="row content-div">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj" src="{{url_for('static', filename='images/ct_simulation_1.jpg')}}" alt="Image 1">
+            </div>
+            <div class="col-lg-6 text-center content-text-div">
+                <h3 class="project-title">Initial Object to Scan</h3>
+                <p class="project-description">
+                    The goal of this project is to demonstrate how a CT Scan creates an image. Rather than buying a CT
+                    Scanner for this project, we can generate a similar dataset to the dataset that the CT Scanner
+                    generates. Let's start with a known cross-section.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Image 2 -->
+    <div class="container-fluid text-center">
+        <div class="row content-div">
+            <div class="col-lg-6 text-center content-text-div">
+                <img class="img_proj" src="{{url_for('static', filename='images/ct_simulation_2.jpg')}}" alt="Image 2">
+            </div>
+            <div class="col-lg-6 text-center">
+                <h3 class="project-title">Sinogram Creation (Basic)</h3>
+                <p class="project-description">
+                    A CT Scan generated a pattern known as a sinogram. That is, that objects in a cross-section are
+                    represented by a a series of sine waves. Notice in this image it almost makes sense what you are
+                    looking at. The Structures in the original image correspond to shapes in the sinogram.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Image 3 -->
+    <div class="container-fluid text-center">
+        <div class="row content-div">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj" src="{{url_for('static', filename='images/ct_simulation_3.jpg')}}" alt="Image 3">
+            </div>
+            <div class="col-lg-6 text-center">
+                <h3 class="project-title">Sinogram Creation (Advanced)</h3>
+                <p class="project-description">
+                    Now the same method is done on a real cross-section. Now the sinogram is very complicated. However,
+                    we know there is a mathematical formulation for getting back to the original image. We know this
+                    because there is a relationship between objects in the original cross-section and the sinogram (see
+                    above).
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Image 4 -->
+    <div class="container-fluid text-center">
+        <div class="row content-div">
+            <h2>CT Simulation</h2>
+        </div>
+        <div class="row content-div">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj" src="{{url_for('static', filename='images/ct_simulation_4.jpg')}}" alt="Image 4">
+            </div>
+            <div class="col-lg-6 text-center">
+                <h3 class="project-title">Sinogram (Single Row)</h3>
+                <p class="project-description">
+                    This is a single row of a sinogram, there is a spacial dimension on the x-axis and an intensity
+                    dimension on the y-axis. These values are then assigned a relative brightness and form one column of
+                    the sinogram. You can think of a sinogram as a stack of these plots.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Image 5 -->
+    <div class="container-fluid text-center">
+        <div class="row content-div">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj" src="{{url_for('static', filename='images/ct_simulation_5.jpg')}}" alt="Image 5">
+            </div>
+            <div class="col-lg-6 text-center">
+                <h3 class="project-title">Final Simulation</h3>
+                <p class="project-description">
+                    After adding all the values obtained from the single rows of sinograms, now the final sinogram is obtained. This is the
+                    final output from the simulation.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Content -->
+<section id="base-content">
+    <div class="container-fluid">
+        <div class="row content-div">
+            <div class="text-center">
+                <p>Part 3 to come</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer-->
+<section id="footer">
+    <div class="row text-center">
+        <a href="https://www.linkedin.com/in/christian-grundman/">
+            <i class="footer-icons fa-brands fa-2xl fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.xing.com/profile/Christian_Grundman">
+            <i class="footer-icons fa-brands fa-2xl fa-xing"></i>
+        </a>
+        <a href="https://www.xing.com/profile/Christian_Grundman">
+            <i class="footer-icons fa-brands fa-2xl fa-github"></i>
+        </a>
+        <div>
+            <p>© Copyright 2022 Christian Grundman</p>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

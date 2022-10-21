@@ -56,10 +56,11 @@
 <!-- Content -->
 <section id="content">
     <div class="container-fluid">
+        <!-- Medical System -->
         <div class="row">
             <div class="col-lg-6 text-center">
                 <a href="/medical-system">
-                    <img src="{{url_for('static', filename='images/medical_system_1.jpg')}}" alt="img1" class="img_thumbnail rounded">
+                    <img src="{{url_for('static', filename='images/medical_system_1.jpg')}}" alt="Medical System" class="img_thumbnail rounded">
                 </a>
             </div>
             <div class="col-lg-6 text-center">
@@ -74,6 +75,26 @@
                 </div>
             </div>
         </div>
+
+        <!-- CT Simulation -->
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <a href="/ct-simulation">
+                    <img src="{{url_for('static', filename='images/ct_simulation_1.jpg')}}" alt="CT Simulation" class="img_thumbnail rounded">
+                </a>
+            </div>
+            <div class="col-lg-6 text-center">
+                <div class="project-desc-section">
+                    <h3 class="project-title">CT Simulation</h3>
+                    <p class="project-description">
+                        Project to mathematically model a CT imaging system. CT-Sinogram is the sinogram achieved with
+                        the accumulation of intensity values along a direction. CT-Simulation uses MATLAB to then
+                        mathematically reconstruct the initial image.
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 

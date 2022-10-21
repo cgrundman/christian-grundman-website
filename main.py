@@ -30,6 +30,11 @@ def medical_system():
     return render_template('medical_system.html')
 
 
+@app.route('/ct-simulation')
+def ct_simulation():
+    return render_template('ct_simulation.html')
+
+
 @app.route('/about')
 def about():
     return render_template('about.html')
