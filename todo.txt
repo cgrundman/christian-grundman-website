@@ -11,12 +11,13 @@ Buttons
 Projects
 2a) Make project list to display
 ✅ 2b) Add image link for projects to project page
-2c) Add more projects
+2c) Make list of projects to add to site
 ✅ 2d) Add andreas last name
 ✅ 2e) format individual projects pages
 2f) Add Webcam page
-2g) add computer vision projects
+2g) Add computer vision projects
 2h) Update content for CT Simulation
+2i) Update image width for all project images
 
 About Me
 3a) Add information to the about me page
