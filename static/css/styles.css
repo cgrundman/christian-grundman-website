@@ -43,11 +43,21 @@ section {
     border-radius: 0px!important;
 }
 
+.container-item {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-lg-6 {
+    padding: 0px;
+}
+
 .img_proj {
     width: 350px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    padding: 0px 0px 0px;
 }
 
 .img_thumbnail {
