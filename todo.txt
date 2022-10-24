@@ -38,6 +38,8 @@ Header and Footer
 6b) Add Navbar to header file
 ✅ 6c) Add footer (links to sites and social media, built on year)
 ✅ 6d) Deploy header and footer to site
+6e) Add email "Contact me" with pop-up window
+6f) Add current year
 
 Titles
 7a) Format titles for all pages, more creative, like original css site
