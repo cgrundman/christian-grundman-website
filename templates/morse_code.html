@@ -1,0 +1,90 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet"
+      href="{{url_for('.static', filename='css/styles.css')}}">
+
+<!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/679f7d93aa.js" crossorigin="anonymous"></script>
+{% endblock %}
+
+{% block title %}Morse Code Translator{% endblock %}
+
+{% block content %}
+
+{% include "header.html" %}
+
+<!-- Title -->
+<section class="title">
+    <div class="container-fluid text-center">
+        <div class="container">
+            <h1 class="display-4">Morse Code Translator</h1>
+            <p class="lead">Simple Dictionary-Based Python Translator</p>
+            <div class="row">
+                <a href="https://github.com/cgrundman/Morse-Code-Translator">Github Files</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Content -->
+<section id="content">
+    <!-- Image 1 -->
+    <div class="container-item text-center">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='images/morse_code_1.jpg')}}" alt="Image 1">
+                <p>Image courtesy of Wikipedia</p>
+            </div>
+            <div class="col-lg-6 text-center content-text-div">
+                <h3 class="project-title">Introduction</h3>
+                <p class="project-description">
+                    Wikipedia is a great resource for learning more about morse code. There is a long history in Morse
+                    code development. In this project I will only discuss the basics. If you want to learn more, click the link below.
+                </p>
+                <a href="https://en.wikipedia.org/wiki/Morse_code">Morse Code on Wikipedia</a>
+            </div>
+        </div>
+    </div>
+    <!-- Image 2 -->
+    <div class="container-item text-center">
+        <div class="row">
+            <div class="text-center content-text-div">
+                <h3 class="project-title">Code Function</h3>
+                <p class="project-description">
+                    This code is based on the ITU morse standard. There is no symbolic difference between long and short
+                    pulses, however the spaces in between words and characters are included.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Image 3 -->
+    <div class="container-item text-center">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='images/morse_code_3.png')}}" alt="Image 5">
+            </div>
+            <div class="col-lg-6 text-center content-text-div">
+                <h3 class="project-title">Example Output</h3>
+                <p class="project-description">
+            </div>
+        </div>
+    </div>
+    <!-- Image 4 -->
+    <div class="container-item text-center">
+        <div class="row">
+            <div class="text-center content-text-div">
+                <h3 class="project-title">Code on Replit:</h3>
+                <a href="https://replit.com/@ctgrundm/Morse-Code-Translator?v=1">Replit</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer Content -->
+
+{% include "footer.html" %}
+
+{% endblock %}

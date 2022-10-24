@@ -39,6 +39,11 @@ def ct_simulation():
     return render_template('ct_simulation.html')
 
 
+@app.route('/morse-code')
+def morse_code():
+    return render_template('morse_code.html')
+
+
 @app.route('/about')
 def about():
     return render_template('about.html')
