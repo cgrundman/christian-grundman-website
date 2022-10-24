@@ -17,11 +17,11 @@ Projects
 2f) Add Webcam page
 2g) Add computer vision projects
 2h) Update content for CT Simulation
-2i) Update image width for all project images
+✅ 2i) Update image width for all project images
 
 About Me
 3a) Add information to the about me page
-3b) Add picture to about me of index
+✅ 3b) Add picture to about me of index
 ✅ 3c) Add information to about me of index
 
 Skills/Resumes
@@ -34,8 +34,8 @@ Fonts and Styling
 5c) Vertical Center Content (start with secret page)
 
 Header and Footer
-6a) Add header file, footer file for "secret" page
-6b) Add Navbar to header file
+✅ 6a) Add header file, footer file for "secret" page
+✅ 6b) Add Navbar to header file
 ✅ 6c) Add footer (links to sites and social media, built on year)
 ✅ 6d) Deploy header and footer to site
 6e) Add email "Contact me" with pop-up window

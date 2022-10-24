@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 from flask_bootstrap import Bootstrap
+from datetime import datetime
 # from flask import redirect, url_for
 # from flask_wtf import FlaskForm
 # from wtforms import StringField, SubmitField, SelectField
@@ -13,11 +14,14 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = "8BYkEfBA6O6donzWlSihBXox7C0sKR6b"
 Bootstrap(app)
 
+# Current year for Footer
+current_year = datetime.now().year
+
 
 # all Flask routes below
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("index.html", current_year=current_year)
 
 
 @app.route('/projects')
