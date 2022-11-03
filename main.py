@@ -44,6 +44,11 @@ def morse_code():
     return render_template('morse_code.html')
 
 
+@app.route('/computer-vision')
+def computer_vision():
+    return render_template('computer_vision.html')
+
+
 @app.route('/about')
 def about():
     return render_template('about.html')
