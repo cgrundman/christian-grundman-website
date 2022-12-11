@@ -18,6 +18,7 @@ Projects
 2g) Add computer vision projects
 2h) Update content for CT Simulation
 ✅ 2i) Update image width for all project images
+2j) Add images for computer vision project
 
 About Me
 3a) Add information to the about me page
