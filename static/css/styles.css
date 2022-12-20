@@ -43,6 +43,13 @@ section {
     border-radius: 0px!important;
 }
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .container-item {
     margin-right: auto;
     margin-left: auto;
@@ -99,6 +106,14 @@ section {
 
 .content-text-div {
     text-align: vertical;
+}
+
+/* Background Image */
+#bg-img-1 {
+    position: relative;
+    text-align: left;
+    left: -500px;
+    height: 20%;
 }
 
 /* Footer Content */
