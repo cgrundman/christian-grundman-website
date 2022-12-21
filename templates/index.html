@@ -20,7 +20,10 @@
     <img id="bg-img-1" src="{{url_for('static', filename='images/circuit-bg.png')}}" alt="circuit-img">
     <div class="text-center">
         <div class="container">
-            <h1 class="display-4 centered">Christian Grundman _</h1>
+            <h1 class="display-4 centered">Christian Grundman</h1>
+            <div class="row">
+                <img class="img_thumbnail" src="{{url_for('static', filename='images/christian.png')}}" alt="Me">
+            </div>
         </div>
     </div>
 </section>
@@ -29,10 +32,7 @@
 <section id="content">
     <div class="container-fluid text-center">
         <div class="row">
-            <div class="col-lg-4">
-                <img class="img_thumbnail" src="{{url_for('static', filename='images/christian.jpg')}}" alt="Me">
-            </div>
-            <div class="col-lg-8">
+            <div class="row">
                 <h2>About Me</h2>
                 <p>I am a mechanical engineer and programmer. I am currently enrolled in a Biomedical Engineering Program at
                     the Technische Hochschule Lübeck, Germany. Learn more about me below:
@@ -65,14 +65,18 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-6">
-                <p>Find my full resume below:</p>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-2">
+                <p>Full resume:</p>
                 <a class="btn btn-lg" href="{{url_for('static', filename='cv/cv.pdf')}}" role="button">Resume</a>
             </div>
-            <div class="col-lg-6">
-                <p>Find my German resume below:</p>
+            <div class="col-lg-2">
+                <p>German resume:</p>
                 <a class="btn btn-lg" href="{{url_for('static', filename='cv/cv-deutsch.pdf')}}" role="button">Lebenslauf</a>
             </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-2"></div>
         </div>
 
         </div>

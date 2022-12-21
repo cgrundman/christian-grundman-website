@@ -40,14 +40,13 @@ section {
 .btn {
     background-color: #00ABB3;
     color: #EAEAEA;
-    border-radius: 0px!important;
 }
 
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -400%);
 }
 
 .container-item {
@@ -68,9 +67,11 @@ section {
 }
 
 .img_thumbnail {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit:cover;
+    position: absolute;
+    transform: translate(-50%, -200%)
 }
 
 .thumbnail {
@@ -92,6 +93,7 @@ section {
 
 /* Title */
 #title {
+    color: #00ABB3;
 }
 
 /* Content */
