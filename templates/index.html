@@ -17,16 +17,34 @@
 
 <!-- Title -->
 <section id="title">
-    <img id="bg-img-1" src="{{url_for('static', filename='images/circuit-bg.png')}}" alt="circuit-img">
-    <img id="bg-img-2" src="{{url_for('static', filename='images/brain-bg.png')}}" alt="brain-img">
-    <div class="text-center">
-        <div class="container">
-            <h1 class="display-4 centered">Christian Grundman</h1>
-            <div class="row">
+
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img id="bg-img-1" src="{{url_for('static', filename='images/circuit-bg.png')}}" alt="circuit-img">
+            </div>
+            <div class="col-md-4 text-center">
+                <h1>Christian Grundman</h1>
                 <img class="img_thumbnail" src="{{url_for('static', filename='images/christian.png')}}" alt="Me">
             </div>
+            <div class="col-md-4 text-center">
+                <img id="bg-img-2" src="{{url_for('static', filename='images/brain-bg.png')}}" alt="brain-img">
+            </div>
         </div>
-    </div>
+
+<!--    <div class="col-sm">-->
+<!--        <img id="bg-img-1" src="{{url_for('static', filename='images/circuit-bg.png')}}" alt="circuit-img">-->
+<!--    </div>-->
+<!--    <div class="text-center col-sm">-->
+<!--        <div class="container">-->
+<!--            <h1 class="display-4 centered">Christian Grundman</h1>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <img class="img_thumbnail" src="{{url_for('static', filename='images/christian.png')}}" alt="Me">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <dive class="col-sm">-->
+<!--        <img id="bg-img-2" src="{{url_for('static', filename='images/brain-bg.png')}}" alt="brain-img">-->
+<!--    </dive>-->
 </section>
 
 <!-- Content -->
@@ -55,16 +73,16 @@
                 <img class="code-img-r" src="{{url_for('static', filename='images/404-icon.jpg')}}" alt="code-img">
                 <h3>💾 Programming ☕</h3>
                 <p>
-                    I have 6 years working experience designing custom machinery and initial product design. I have used my
-                    skills in SRE-LeverWheel, a company I co-founded.
+                    I have a passion for programming. It started with arduinos and has become a hobby for python and machine
+                    learning.
                 </p>
             </div>
             <div class="skill-row">
                 <img class="code-img-l" src="{{url_for('static', filename='images/404-icon.jpg')}}" alt="code-img">
                 <h3>⚙️ Mechanical Design 🔧</h3>
                 <p>
-                    I have a passion for programming. It started with arduinos and has become a hobby for python and machine
-                    learning.
+                    I have 6 years working experience designing custom machinery and initial product design. I have used my
+                    skills in SRE-LeverWheel, a company I co-founded.
                 </p>
              </div>
             <div class="skill-row">
