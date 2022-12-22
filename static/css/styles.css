@@ -102,6 +102,11 @@ section {
     color: #3C4048;
 }
 
+.about-me {
+    width: 65%;
+    margin: 100px auto 100px auto;
+}
+
 .content-div {
     padding: 20px;
 }
@@ -110,12 +115,40 @@ section {
     text-align: vertical;
 }
 
+.code-img-l {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.code-img-r {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    width: 65%;
+    margin: 100px auto 200px auto;
+    text-align: left;
+}
+
 /* Background Image */
 #bg-img-1 {
     position: relative;
     text-align: left;
-    left: -500px;
+    left: -100px;
     height: 20%;
+    width: 70%;
+}
+
+#bg-img-2 {
+    position: relative;
+    transform: translate(-200%, -50%)
+    text-align: right;
+    right: -100px;
+    height: 20%;
+    width: 70%;
 }
 
 /* Footer Content */
