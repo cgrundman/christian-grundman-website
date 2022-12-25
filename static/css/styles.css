@@ -128,12 +128,38 @@ section {
     float: left;
     margin-right: 30px;
 }
+/* Mobile Settings */
+@media screen and (max-width: 992) {
+  .code-img-l {
+    max-width: 200px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 600) {
+  .code-img-l {
+    max-width: 200px;
+    height: auto;
+  }
+}
 
 .code-img-r {
     width: 25%;
     max-width: 100px;
     float: right;
     margin-left: 30px;
+}
+/* Mobile Settings */
+@media screen and (max-width: 992) {
+  .code-img-r {
+    max-width: 200px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 600) {
+  .code-img-r {
+    max-width: 200px;
+    height: auto;
+  }
 }
 
 .bold {
