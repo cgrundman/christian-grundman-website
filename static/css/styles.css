@@ -7,7 +7,13 @@ Teal/Blue:  #00ABB3
 Dark Gray:  #3C4048
 Light Gray: #B2B2B2
 Off-White:  #EAEAEA
+
+Peach: #ad5f5f
+Purple: #6e0a50
+Blue: #00538C
+Green: #006241
 */
+
 
 body {
     background-color: #3C4048;
@@ -19,34 +25,39 @@ a {
 }
 
 h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 4.5em;
-    margin: 50px;
+    margin: 50px 0px 50px;
 }
 
 h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 3.5em;
+    line-height: 1.5;
 }
 
 h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 2.5em;
+    line-height: 1.5;
 }
 
 h4 {
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 2em;
+    line-height: 1.5;
 }
 
 p {
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1.5em;
+    line-height: 2;
 }
 
 hr {
     border: 4px solid #B2B2B2;
     border-radius: 4px 4px 4px 4px;
     width:50%;
-}
-
-p {
-    font-size: 16px;
 }
 
 section {
@@ -124,42 +135,18 @@ section {
 
 .code-img-l {
     width: 25%;
-    max-width: 100px;
+    max-width: 200px;
+    min-width: 100px;
     float: left;
     margin-right: 30px;
-}
-/* Mobile Settings */
-@media screen and (max-width: 992) {
-  .code-img-l {
-    max-width: 200px;
-    height: auto;
-  }
-}
-@media screen and (max-width: 600) {
-  .code-img-l {
-    max-width: 200px;
-    height: auto;
-  }
 }
 
 .code-img-r {
     width: 25%;
-    max-width: 100px;
+    max-width: 200px;
+    min-width: 100px;
     float: right;
     margin-left: 30px;
-}
-/* Mobile Settings */
-@media screen and (max-width: 992) {
-  .code-img-r {
-    max-width: 200px;
-    height: auto;
-  }
-}
-@media screen and (max-width: 600) {
-  .code-img-r {
-    max-width: 200px;
-    height: auto;
-  }
 }
 
 .bold {
