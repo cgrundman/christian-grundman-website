@@ -135,18 +135,22 @@ section {
 
 .code-img-l {
     width: 25%;
+    height: 25%;
     max-width: 200px;
     min-width: 100px;
     float: left;
     margin-right: 30px;
+    border-radius: 50%;
 }
 
 .code-img-r {
     width: 25%;
+    height: 25%;
     max-width: 200px;
     min-width: 100px;
     float: right;
     margin-left: 30px;
+    border-radius: 50%;
 }
 
 .bold {

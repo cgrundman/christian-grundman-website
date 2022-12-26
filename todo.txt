@@ -21,18 +21,18 @@ Projects
 2j) Add images for computer vision project
 
 About Me
-3a) Add information to the about me page
+✅ 3a) Add information to the about me page
 ✅ 3b) Add picture to about me of index
 ✅ 3c) Add information to about me of index
 
 Skills/Resumes
-4a) Expand upon the information in the skills section of index.
+✅ 4a) Expand upon the information in the skills section of index.
 4b) Add a contact me button
 
 Fonts and Styling
-5a) Select and implement fonts into site
-5b) Make text more readable
-5c) Vertical Center Content (start with secret page)
+✅ 5a) Select and implement fonts into site
+✅ 5b) Make text more readable
+✅ 5c) Vertical Center Content (start with secret page)
 5d) Reformat css divs, after restyling
 
 Header and Footer

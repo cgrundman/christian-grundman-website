@@ -54,6 +54,11 @@ def about():
     return render_template('about.html')
 
 
+@app.route('/contact-me')
+def contact_me():
+    return render_template('contact_me.html')
+
+
 @app.route('/secret')
 def secret():
     return render_template('secret.html')
