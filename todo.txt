@@ -24,6 +24,7 @@ About Me
 ✅ 3a) Add information to the about me page
 ✅ 3b) Add picture to about me of index
 ✅ 3c) Add information to about me of index
+3d) Add content for each column
 
 Skills/Resumes
 ✅ 4a) Expand upon the information in the skills section of index.
@@ -40,7 +41,7 @@ Header and Footer
 ✅ 6b) Add Navbar to header file
 ✅ 6c) Add footer (links to sites and social media, built on year)
 ✅ 6d) Deploy header and footer to site
-6e) Add email "Contact me" with pop-up window
+6e) Add email "Contact me" form
 ✅ 6f) Add current year
 
 Titles
