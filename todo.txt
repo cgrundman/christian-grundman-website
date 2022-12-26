@@ -6,7 +6,7 @@ Buttons
 ✅ 1c) Add icons to buttons for resumes (flags)
 ✅ 1d) Change color to buttons
 ✅ 1e) Change button shape
-1f) Add favicon
+✅ 1f) Add favicon
 
 Projects
 2a) Make project list to display
