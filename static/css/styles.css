@@ -92,7 +92,7 @@ section {
 
 .img_thumbnail {
     width: 300px;
-    height: 300px;
+    height: auto;
     object-fit:cover;
 }
 
@@ -168,6 +168,8 @@ section {
 
 .lead {
     font-style: italic;
+    font-size: 2em;
+    margin: 70px 25% 0px;
 }
 
 /* Background Image */
