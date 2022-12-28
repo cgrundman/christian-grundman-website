@@ -1,10 +1,10 @@
 # import os
 # from flask import Flask, render_template, send_from_directory
-import pandas as pd
+# import pandas as pd
 from flask_bootstrap import Bootstrap
 from datetime import datetime
 from flask import Flask, render_template, request
-from forms import ContactForm
+# from forms import ContactForm
 # from wtforms.validators import DataRequired, URL
 # import csv
 
@@ -55,21 +55,21 @@ def about():
     return render_template('about.html')
 
 
-@app.route('/contact-me', methods=["GET", "POST"])
-def contact_me():
-    form = ContactForm()
-    # here, if the request type is a POST we get the data on contact
-    # forms and save them else we return the contact forms html page
-    if request.method == 'POST':
-        name = request.form["name"]
-        email = request.form["email"]
-        subject = request.form["subject"]
-        message = request.form["message"]
-        res = pd.DataFrame({'name': name, 'email': email, 'subject': subject, 'message': message}, index=[0])
-        res.to_csv('./contactusMessage.csv')
-        print("The data are saved !")
-    else:
-        return render_template('contact_me.html', form=form)
+# @app.route('/contact-me', methods=["GET", "POST"])
+# def contact_me():
+#     form = ContactForm()
+#     # here, if the request type is a POST we get the data on contact
+#     # forms and save them else we return the contact forms html page
+#     if request.method == 'POST':
+#         name = request.form["name"]
+#         email = request.form["email"]
+#         subject = request.form["subject"]
+#         message = request.form["message"]
+#         res = pd.DataFrame({'name': name, 'email': email, 'subject': subject, 'message': message}, index=[0])
+#         res.to_csv('./contactusMessage.csv')
+#         print("The data are saved !")
+#     else:
+#         return render_template('contact_me.html', form=form)
 
 
 @app.route('/secret')
