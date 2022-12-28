@@ -34,7 +34,7 @@ Fonts and Styling
 ✅ 5a) Select and implement fonts into site
 ✅ 5b) Make text more readable
 ✅ 5c) Vertical Center Content (start with secret page)
-5d) Reformat css divs, after restyling
+✅ 5d) Reformat css divs, after restyling
 
 Header and Footer
 ✅ 6a) Add header file, footer file for "secret" page
