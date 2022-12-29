@@ -33,12 +33,12 @@
             <h2>Contact Form</h2>
             <form action="{{ url_for('contact_me') }}" method=post>
                 <div>
-                    <!-- name forms -->
+                    <!-- Name -->
                     <p>
                         {{ form.name.label }} <br>
                         {{ form.name(placeholder='Your name') }}
                     </p>
-                    <!-- email forms -->
+                    <!-- E-Mail -->
                     <p>
                         {{ form.email.label }} <br>
                         {{ form.email(placeholder='Your e-mail ...') }}
@@ -58,6 +58,13 @@
                         {{ form.submit }}
                     </p>
                 </div>
+                {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                        {% for message in messages %}
+                            <p>{{message}}</p>
+                        {% endfor %}
+                    {% endif %}
+                {% endwith %}
             </form>
         </div>
     </div>
