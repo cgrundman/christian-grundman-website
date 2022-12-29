@@ -59,6 +59,7 @@ def about():
 def contact_me():
     form = ContactForm()
     if form.validate_on_submit():
+        print(form.data)
         with open("contact_me_form.csv", "a", newline="") as file:
             writer = csv.writer(file)
             writer.writerow([form.data["name"],
