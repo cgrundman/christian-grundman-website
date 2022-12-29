@@ -1,11 +1,10 @@
 # import os
 # from flask import Flask, render_template, send_from_directory
-import pandas as pd
+# import pandas as pd
 from flask_bootstrap import Bootstrap
 from datetime import datetime
-from flask import Flask, render_template, request, redirect, url_for, flash
+from flask import Flask, render_template, redirect, url_for, flash
 from forms import ContactForm
-# from wtforms.validators import DataRequired, URL
 import csv
 
 # Deploy with the command: git push heroku master
@@ -55,20 +54,20 @@ def about():
     return render_template('about.html')
 
 
-@app.route('/contact-me', methods=["GET", "POST"])
-def contact_me():
-    form = ContactForm()
-    if form.validate_on_submit():
-        print(form.data)
-        with open("contact_me_form.csv", "a", newline="") as file:
-            writer = csv.writer(file)
-            writer.writerow([form.data["name"],
-                             form.data["email"],
-                             form.data["subject"],
-                             form.data["message"]])
-        flash("Message sent successfully!")
-        return redirect(url_for("contact_me"))
-    return render_template('contact_me.html', form=form)
+# @app.route('/contact-me', methods=["GET", "POST"])
+# def contact_me():
+#     form = ContactForm()
+#     if form.validate_on_submit():
+#         print(form.data)
+#         with open("contact_me_form.csv", "a", newline="") as file:
+#             writer = csv.writer(file)
+#             writer.writerow([form.data["name"],
+#                              form.data["email"],
+#                              form.data["subject"],
+#                              form.data["message"]])
+#         flash("Message sent successfully!")
+#         return redirect(url_for("contact_me"))
+#     return render_template('contact_me.html', form=form)
 
 
 @app.route('/secret')
