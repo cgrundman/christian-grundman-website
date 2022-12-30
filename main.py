@@ -54,20 +54,20 @@ def about():
     return render_template('about.html')
 
 
-# @app.route('/contact-me', methods=["GET", "POST"])
-# def contact_me():
-#     form = ContactForm()
-#     if form.validate_on_submit():
-#         print(form.data)
-#         with open("contact_me_form.csv", "a", newline="") as file:
-#             writer = csv.writer(file)
-#             writer.writerow([form.data["name"],
-#                              form.data["email"],
-#                              form.data["subject"],
-#                              form.data["message"]])
-#         flash("Message sent successfully!")
-#         return redirect(url_for("contact_me"))
-#     return render_template('contact_me.html', form=form)
+@app.route('/contact-me', methods=["GET", "POST"])
+def contact_me():
+    form = ContactForm()
+    if form.validate_on_submit():
+        print(form.data)
+        with open("contact_me_form.csv", "a", newline="") as file:
+            writer = csv.writer(file)
+            writer.writerow([form.data["name"],
+                             form.data["email"],
+                             form.data["subject"],
+                             form.data["message"]])
+        flash("Message sent successfully!")
+        return redirect(url_for("contact_me"))
+    return render_template('contact_me.html', form=form)
 
 
 @app.route('/secret')
