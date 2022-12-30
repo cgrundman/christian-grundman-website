@@ -45,4 +45,4 @@ Header and Footer
 ✅ 6f) Add current year
 
 Titles
-7a) Format titles for all pages, more creative, like original css site
+✅ 7a) Format titles for all pages, more creative, like original css site
