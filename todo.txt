@@ -28,7 +28,7 @@ About Me
 
 Skills/Resumes
 ✅ 4a) Expand upon the information in the skills section of index.
-4b) Add a contact me button
+✅ 4b) Add a contact me button
 
 Fonts and Styling
 ✅ 5a) Select and implement fonts into site
@@ -41,7 +41,7 @@ Header and Footer
 ✅ 6b) Add Navbar to header file
 ✅ 6c) Add footer (links to sites and social media, built on year)
 ✅ 6d) Deploy header and footer to site
-6e) Add email "Contact me" form
+✅ 6e) Add email "Contact me" form
 ✅ 6f) Add current year
 
 Titles

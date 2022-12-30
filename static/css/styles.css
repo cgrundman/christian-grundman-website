@@ -176,6 +176,40 @@ section {
     text-align: left;
 }
 
+/* Contact Form */
+form {
+    text-align: left;
+}
+
+input {
+    width: 400px;
+    border-radius: 6px;
+    border: None;
+}
+
+label {
+    font-weight: 100;
+}
+
+textarea {
+    height: 30rem;
+    width: 100%;
+    border-radius: 6px;
+    border: None;
+}
+
+#submit {
+    background-color: #00ABB3;
+    color: #EAEAEA;
+    margin: 25px auto 25px auto;
+    border: None;
+    font-size: 2em;
+    padding: 10px 16px;
+    border-radius: 6px;
+    width: auto;
+    text-align: center;
+}
+
 /* Footer Content */
 #base-content {
 }
@@ -190,52 +224,3 @@ section {
   padding: 10px 10px 20px;
 }
 
-/*******************************************************************
-                                CONTACT
-*******************************************************************/
-.contact form {
-    margin-top: 0px;
-    padding: 0px 30px;
-}
-.contact h3 {
-    color: #488ace;
-    text-align: center;
-    font-weight: 600;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.contact p {
-    margin: 0 0px 10px;
-    margin-left: 0px!important;
-}
-.contact label {
-    display: none;
-}
-.contact input {
-   width: 100%;
-    border: none;
-    border: 1px solid #dddddd78;
-    padding: 10px;
-    border-radius: 4px;
-}
-.contact textarea#message {
-    width: 100%;
-    height: 122px;
-    border: 1px solid #dddddd78;
-    border-radius: 4px;
-    padding: 10px;
-}
-.contact input#submit {
-    color: white;
-    background: linear-gradient(0.25turn,#2a78ca, #71a1d4);
-    float: right;
-    border: none;
-    border-radius: 4px;
-    padding: 15px 23px;
-    /* margin-right: 10px; */
-    box-shadow: 0px 0px 4px 0px #00000087;
-    margin-top: 15px;
-}
-/*******************************************************************
-                                END CONTACT
-*******************************************************************/
