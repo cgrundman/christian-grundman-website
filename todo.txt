@@ -7,7 +7,7 @@ Buttons
 ✅ 1d) Change button color
 ✅ 1e) Change button shape
 ✅ 1f) Add favicon
-1g) Commonize project panels in index.html
+1g) Commonize project cards in index.html
 
 Projects
 2a) Make project list to display
@@ -26,8 +26,8 @@ About Me
 ✅ 3b) Add picture to about me of index
 ✅ 3c) Add information to about me of index
 ✅ 3d) Add content for each column
-3e) Commonize columns in about me
-3f) Add pictures in about me
+✅ 3e) Commonize columns in about me
+✅ 3f) Add pictures in about me
 
 Skills/Resumes
 ✅ 4a) Expand upon the information in the skills section of index.
