@@ -47,6 +47,12 @@ h4 {
     line-height: 1.5;
 }
 
+h5 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
 p {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1.5em;
@@ -83,6 +89,10 @@ section {
     border-color: #77797f;
 }
 
+.thumbnail-img {
+    height: 100px
+}
+
 .vertical-center {
 }
 
@@ -117,6 +127,10 @@ section {
 #content {
     background-color: #B2B2B2;
     color: #3C4048;
+}
+
+.card {
+    background-color: #B2B2B2;
 }
 
 .content-div {
