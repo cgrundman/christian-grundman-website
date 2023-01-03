@@ -3,10 +3,11 @@ your web pages for the styles to be rendered. */
 
 /*
 Theme colors are:
-Teal/Blue:  #00ABB3
-Dark Gray:  #3C4048
-Light Gray: #B2B2B2
-Off-White:  #EAEAEA
+Teal/Blue:   #00ABB3
+Dark Gray:   #3C4048
+Medium Gray: #77797f
+Light Gray:  #B2B2B2
+Off-White:   #EAEAEA
 
 Peach: #ad5f5f
 Purple: #6e0a50
@@ -130,7 +131,32 @@ section {
 }
 
 .card {
-    background-color: #B2B2B2;
+    background-color: #77797f;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    color: #3C4048;
+}
+
+.card-header {
+    padding: 15px 0px 5px;
+}
+
+.card-text {
+    color: #3C4048;
+    padding: 0px 20px 0px;
+    text-align: left;
+}
+
+.card-img-top {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
 }
 
 .content-div {
