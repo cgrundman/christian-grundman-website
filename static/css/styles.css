@@ -204,6 +204,10 @@ section {
     padding: 0px 0px 0px;
 }
 
+.project-entry {
+    padding: 20px 0px;
+}
+
 .about-row {
     width: 65%;
     margin: 50px auto 3rem auto;
