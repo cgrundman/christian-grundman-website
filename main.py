@@ -49,6 +49,21 @@ def computer_vision():
     return render_template('computer_vision.html')
 
 
+@app.route('/ml-stethoscope')
+def ml_stethoscope():
+    return render_template('ml_stethoscope.html')
+
+
+@app.route('/leaf-diagnosis')
+def leaf_diagnosis():
+    return render_template('leaf_diagnosis.html')
+
+
+@app.route('/digital-nmr')
+def digital_nmr():
+    return render_template('digital_nmr.html')
+
+
 @app.route('/about')
 def about():
     return render_template('about.html')

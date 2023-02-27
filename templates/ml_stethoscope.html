@@ -1,10 +1,142 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'bootstrap/base.html' %}
 
-</body>
-</html>
+{% block styles %}
+{{super()}}
+<link rel="stylesheet"
+      href="{{url_for('.static', filename='css/styles.css')}}">
+<link rel="shortcut icon"
+      href="{{url_for('.static', filename='favicon.ico')}}">
+
+<!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/679f7d93aa.js" crossorigin="anonymous"></script>
+{% endblock %}
+
+{% block title %}Machine Learned Stethoscope{% endblock %}
+
+{% block content %}
+
+{% include "header.html" %}
+
+<!-- Title -->
+<section class="title">
+    <div class="text-center">
+        <div class="container">
+            <h1 class="display-4">Machine Learned Stethoscope</h1>
+            <p class="lead">Medical application of machine learning</p>
+            <a href="https://github.com/cgrundman/ml-stethoscope">Github Files</a>
+        </div>
+    </div>
+</section>
+
+<!-- Content -->
+<section id="content">
+    <!-- Image 1 -->
+    <div class="container-item">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='')}}" alt="TBA">
+            </div>
+            <div class="col-lg-6 text-center content-text-div">
+                <h3 class="project-title">TBA</h3>
+                <p class="project-description">
+                    TBA
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Image 2 -->
+    <div class="container-item">
+        <div class="row">
+            <div class="col-lg-6 text-center content-text-div">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='')}}" alt="TBA">
+            </div>
+            <div class="col-lg-6 text-center">
+                <h3 class="project-title">TBA</h3>
+                <p class="project-description">
+                    TBA
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Image 3 -->
+    <div class="container-item">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='')}}" alt="TBA">
+            </div>
+            <div class="col-lg-6 text-center">
+                <h3 class="project-title">TBA</h3>
+                <p class="project-description">
+                    TBA
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Image 4 -->
+    <div class="container-item">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='')}}" alt="TBA">
+            </div>
+            <div class="col-lg-6 text-center">
+                <h3 class="project-title">TBA</h3>
+                <p class="project-description">
+                    TBA
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Image 5 -->
+    <div class="container-item">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='')}}" alt="TBA">
+            </div>
+            <div class="col-lg-6 text-center">
+                <h3 class="project-title">TBA</h3>
+                <p class="project-description">
+                    TBA
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Image 6 -->
+    <div class="container-item">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='')}}" alt="TBA">
+            </div>
+            <div class="col-lg-6 text-center">
+                <h3 class="project-title">TBA</h3>
+                <p class="project-description">
+                    TBA
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Content -->
+<section id="base-content">
+    <div class="container-fluid text-center">
+        <div class="row">
+            <h3>Special Thanks:</h3>
+            <p>Insert Course Name</p>
+            <p>Link to course page</p>
+
+            <p>Return to projects page here:</p>
+            <div class="row">
+                <a class="btn btn-lg" href="/projects" role="button">Projects</a>
+            </div>
+
+            <p>Return to homepage here:</p>
+            <div class="row">
+                <a class="btn btn-lg" href="/" role="button">Home</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include "footer.html" %}
+
+{% endblock %}
