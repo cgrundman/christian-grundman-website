@@ -1,0 +1,256 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet"
+      href="{{url_for('.static', filename='css/styles.css')}}">
+<link rel="shortcut icon"
+      href="{{url_for('.static', filename='favicon.ico')}}">
+
+<!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/679f7d93aa.js" crossorigin="anonymous"></script>
+{% endblock %}
+
+{% block title %}ISP Optimization{% endblock %}
+
+{% block content %}
+
+{% include "header.html" %}
+
+<!-- Title -->
+<section class="title">
+    <div class="container-fluid text-center">
+        <div class="container">
+            <h1 class="display-4">ISP Optimization</h1>
+            <p class="lead">Optimization of an ISP using a Differentiable Proxy</p>
+            <div class="row">
+            <a>Files are owned by Basler AG</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Content -->
+<section id="content">
+    <!-- Image 1 -->
+    <div class="container-item text-center">
+        <div class="row content-div">
+            <h2>ISP Optimization</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='images/isp_optimization_1.png')}}" alt="Image 1">
+            </div>
+            <div class="col-lg-6 text-center content-text-div">
+                <h3 class="project-title">The Problem: Part 1</h3>
+                <p class="project-description">
+                    Cameras operate as a part of a very complicated system. Photons travel from an object, through an
+                    optics system, onto an image sensor. No object is the same. And both the optic systems and the image
+                    sensors are chosen based on application. Each of these components are variable to any application.
+                    We can see that this is already a complex system.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Image 1-2 -->
+    <div class="container-item text-center">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='images/isp_optimization_1-2.png')}}" alt="Image 1">
+            </div>
+            <div class="col-lg-6 text-center content-text-div">
+                <h3 class="project-title">The Problem: Part 2</h3>
+                <p class="project-description">
+                    Finally, the image sensor filters these photons by color, and registers them by strikes. THe more
+                    strikes, the higher the intensity. This creates a bayer pattern, as seen on the left of the image.
+                    The image signal processor (ISP) has to compensate for all the components and produce an image.
+                    Further, it must do this for many different application, so they are parameterized. The parameters
+                    are then optimized manually by a team of engineers and a golden-eye expert.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Image 2 -->
+    <div class="container-item text-center">
+        <div class="row">
+            <div class="col-lg-6 text-center content-text-div">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='images/isp_optimization_2.png')}}" alt="Image 2">
+            </div>
+            <div class="col-lg-6 text-center">
+                <h3 class="project-title">The Solution</h3>
+                <p class="project-description">
+                    ISP's are complex and are too complex and are considered black boxes. The inputs and outputs are
+                    known, but the processed are to complex to model mathematically to optimize the parameters.
+                    Therefor this research aimed to approximate an ISP in a model that was able to be optimized
+                    (differentiable). This is where the differentiable proxy comes in. A differentiable proxy would be a
+                    white box, in this case a U-Net neural network model.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Image 3 -->
+    <div class="container-item text-center">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='images/isp_optimization_3.png')}}" alt="Image 3">
+            </div>
+            <div class="col-lg-6 text-center">
+                <h3 class="project-title">Step 1: Approximate the ISP</h3>
+                <p class="project-description">
+                    The research requires 2 overall steps. The first step was to approximate the ISP using the U-Net.
+                    This step builds the differentiable proxy. The Rawpy ISP was chosen as a cheap and easy way to begin
+                    this research, as it is free and open sourced. ISP parameters were randomized and passed into both
+                    the Rawpy ISP and the U-Net model. The difference between the outputs was then used to improve the
+                    model and the process was repeated several thousand times.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Image 4 -->
+    <div class="container-item text-center">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='images/isp_optimization_4.png')}}" alt="Image 4">
+            </div>
+            <div class="col-lg-6 text-center">
+                <h3 class="project-title">Step 2: Optimize the ISP</h3>
+                <p class="project-description">
+                    The second step took these this developed model and Optimized the ISP parameters to produce more
+                    similar images. This was done by taking fixed ISP parameters (referred to ideal parameters), putting
+                    them into Rawpy, while taking random ISP parameters (referred to as tunable parameters) and putting
+                    them into the proxy. The difference between these would then be used to improve the tunable
+                    parameters to try to see if the tunable parameters would converge on the ideal parameters.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Image 5 -->
+    <div class="container-item text-center">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='images/isp_optimization_5.png')}}" alt="Image 5">
+            </div>
+            <div class="col-lg-6 text-center content-div">
+                <h3 class="project-title">Data Used</h3>
+                <p class="project-description">
+                    This experiment was conducted on two different data sets. The first being the COCO data set
+                    (https://cocodataset.org/), which is a collection of hundreds of thousand of images tagged for image
+                    segmentation, object detection, and captioning. The second of which being the HAM10000 data set
+                    (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), consisting of 10000 images of
+                    skin lesions. In both cases, this project used a small subset of randomly selected images of each
+                    dataset. The selected images were then transformed into RAW data, that contains bayer patterns of
+                    the original images.
+                </p>
+            </div>
+        </div>
+    </div>
+  <!-- Image 6 -->
+    <div class="container-item text-center">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='images/isp_optimization_6.png')}}" alt="Image 5">
+            </div>
+            <div class="col-lg-6 text-center content-div">
+                <h3 class="project-title">Step 1 Results: COCO</h3>
+                <p class="project-description">
+                    Pictured are 4 random images from the data set. From left to right: the Rawpy ISP output, the
+                    differentiable proxy output, and the difference between these two images. If the differentiable
+                    proxy was perfect, the difference image would be completely black. Interesting insights were the
+                    errors at the lines and details as seen in images 637 and 1548. Also interesting are the inclusion
+                    of a hotspot in image 3215 not present in the rawpy image.
+                </p>
+            </div>
+        </div>
+    </div>
+  <!-- Image 7 -->
+    <div class="container-item text-center">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='images/isp_optimization_7.png')}}" alt="Image 5">
+            </div>
+            <div class="col-lg-6 text-center content-div">
+                <h3 class="project-title">Step 1 Results: HAM10000</h3>
+                <p class="project-description">
+                    The differentiable proxy performed much better on the lower diversity HAM10000 data set. Still
+                    notable problems were at the lines. And even more interesting, the differentiable proxy had a
+                    greater problem with inclusion of structures not present in the image, as seen in the splotches of
+                    light or dark spots in all images. Overall performance was better for this data set, but the model
+                    introduced more artifacts in the process.
+                </p>
+            </div>
+        </div>
+    </div>
+  <!-- Image 8 -->
+    <div class="container-item text-center">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='images/isp_optimization_8.png')}}" alt="Image 5">
+            </div>
+            <div class="col-lg-6 text-center content-div">
+                <h3 class="project-title">Parameter Optimization Results</h3>
+                <p class="project-description">
+                    Finally, these are the results in the parameter tuning. Of the 12 parameters tested from Rawpy, "No
+                    Auto Scaling" was fixed. Of the remaining parameters, only "Four Color RGB" and Use Auto White
+                    Balance" converged on their ideal values. Though it is important to note that these are the only
+                    boolean (trie/false) parameters in the set.
+                </p>
+            </div>
+        </div>
+    </div>
+  <!-- Image 9 -->
+    <div class="container-item text-center">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='images/isp_optimization_9.png')}}" alt="Image 5">
+            </div>
+            <div class="col-lg-6 text-center content-div">
+                <h3 class="project-title">Cross Implementation Results</h3>
+                <p class="project-description">
+                    Another insight was gained through cross implementation of the differentiable proxies. THe proxy
+                    trained on COCO images was fed HAM10000 images and vise versa. If the model was learning how to
+                    de-bayer and process raw data effectively, this would not be the case.
+                </p>
+            </div>
+        </div>
+    </div>
+  <!-- Image 10 -->
+    <div class="container-item text-center">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img class="img_proj img-responsive" src="{{url_for('static', filename='images/isp_optimization_10.png')}}" alt="Image 5">
+            </div>
+            <div class="col-lg-6 text-center content-div">
+                <h3 class="project-title">Recommendations and Special Thanks</h3>
+                <p class="project-description">
+                    The results prompt the following recommendations:
+                    <ol>
+                        <li>More complex image signal processor</li>
+                        <li>Different approximations</li>
+                        <li>Different data sets</li>
+                        <li>Change Loss Calculations for Parameter Tuning</li>
+                    </ol>
+                <p class="project-description">
+                    Finally, A special thanks to the Research and Development team at Basler AG for giving the access to
+                    technology, hardware, and expertise to complete this research project. And Also thanks to the
+                    University of Applied Sciences of Lübeck to providing resources and education that made completing
+                    this project possible.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Content -->
+<section id="base-content">
+    <div class="container-fluid">
+        <div class="row content-div">
+            <div class="text-center">
+                <p></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include "footer.html" %}
+
+{% endblock %}
