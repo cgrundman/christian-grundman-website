@@ -7,7 +7,7 @@ Buttons
 ✅ 1d) Change button color
 ✅ 1e) Change button shape
 ✅ 1f) Add favicon
-1g) Commonize project cards in index.html
+✅ 1g) Commonize project cards in index.html
 
 Projects
 2a) Make project list to display
