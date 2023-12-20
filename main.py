@@ -59,9 +59,9 @@ def leaf_diagnosis():
     return render_template('leaf_diagnosis.html')
 
 
-# @app.route('/digital-nmr')
-# def digital_nmr():
-#     return render_template('digital_nmr.html')
+@app.route('/digital-nmr')
+def digital_nmr():
+    return render_template('digital_nmr.html')
 
 
 @app.route('/isp-optimization')
