@@ -65,7 +65,7 @@ def digital_nmr():
 
 
 @app.route('/isp-optimization')
-def digital_nmr():
+def isp_optimization():
     return render_template('isp_optimization.html')
 
 
