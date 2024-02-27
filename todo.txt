@@ -1,51 +1,25 @@
 # ToDo List
 
 # Buttons
-# ✅ 1a) Add German version to site, think about how to do this - canceled
-# ✅ 1b) Add Social Media and Professional contact links - add to footer
-# ✅ 1c) Add icons to buttons for resumes (flags)
-# ✅ 1d) Change button color
-# ✅ 1e) Change button shape
-# ✅ 1f) Add favicon
-# ✅ 1g) Commonize project cards in index.html
+# 1a)
 
 # Projects
-# ✅ 2a) Make project list to display
-# ✅ 2b) Add image link for projects to project page
-# ✅ 2c) Make list of projects to add to site
-# ✅ 2d) Add Morse Code Project
-# ✅ 2e) format individual projects pages
-# ✅ 2f) Add Webcam page
-# ✅ 2g) Add computer vision projects
-# ✅ 2h) Update content for CT Simulation
-# ✅ 2i) Update image width for all project images
-# ✅ 2j) Add images for computer vision project
+# 2a) Automate the project page renderings
+# 2b) create list of project information to store all project data
+# 2c) create standard project file
+# 2d) create standard project footer code
 
 # About Me
-# ✅ 3a) Add information to the about me page
-# ✅ 3b) Add picture to about me of index
-# ✅ 3c) Add information to about me of index
-# ✅ 3d) Add content for each column
-# ✅ 3e) Commonize columns in about me
-# ✅ 3f) Add pictures in about me
+# 3a) Add blog pages, eleborate over about me content
 
 # Skills/Resumes
-# ✅ 4a) Expand upon the information in the skills section of index.
-# ✅ 4b) Add a contact me button
+# 4a) Update Resumes with masters degree
 
 # Fonts and Styling
-# ✅ 5a) Select and implement fonts into site
-# ✅ 5b) Make text more readable
-# ✅ 5c) Vertical Center Content (start with secret page)
-# ✅ 5d) Reformat css divs, after restyling
+# 5a)
 
 # Header and Footer
-# ✅ 6a) Add header file, footer file for "secret" page
-# ✅ 6b) Add Navbar to header file
-# ✅ 6c) Add footer (links to sites and social media, built on year)
-# ✅ 6d) Deploy header and footer to site
-# ✅ 6e) Add email "Contact me" form
-# ✅ 6f) Add current year
+# 6a) create standard project footer code
 
 # Titles
-# ✅ 7a) Format titles for all pages, more creative, like original css site
+# 7a)
