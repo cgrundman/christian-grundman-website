@@ -1,22 +1,20 @@
 import logo from './logo.svg';
+// import electricalLogo from './electrical.svg'
+// import mechanicalLogo from './mechanical.svg'
+// import programmingLogo from './programming.svg'
+// import projectManagementLogo from './programming.svg'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Christian Grundman</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          New site coming soon...
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <a href="https://github.com/cgrundman/">Github Page</a>
       </header>
     </div>
   );
