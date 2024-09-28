@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-// import electricalLogo from './electrical.svg'
+import electricalLogo from './electrical.svg'
 import mechanicalLogo from './mechanical.svg'
 // import programmingLogo from './programming.svg'
 // import projectManagementLogo from './programming.svg'
@@ -10,7 +10,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Christian Grundman</h1>
-        <img src={mechanicalLogo} className="App-logo" alt="logo" />
+        <img src={electricalLogo} className="App-logo" alt="electricalLogo" />
+        <img src={mechanicalLogo} className="App-logo" alt="mechanicalLogo" />
         <p>
           New site coming soon...
         </p>
