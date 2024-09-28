@@ -2,7 +2,7 @@
 import electricalLogo from './electrical.svg'
 import mechanicalLogo from './mechanical.svg'
 import programmingLogo from './programming.svg'
-// import projectManagementLogo from './programming.svg'
+import projectManagementLogo from './project_management.svg'
 import './App.css';
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
         <img src={electricalLogo} className="App-logo" alt="electricalLogo" />
         <img src={mechanicalLogo} className="App-logo" alt="mechanicalLogo" />
         <img src={programmingLogo} className="App-logo" alt="programmingLogo" />
+        <img src={projectManagementLogo} className="App-logo" alt="projectManagementLogo" />
         <p>
           New site coming soon...
         </p>
