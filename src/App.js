@@ -10,10 +10,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Christian Grundman</h1>
-        <img src={electricalLogo} className="App-logo" alt="electricalLogo" />
-        <img src={mechanicalLogo} className="App-logo" alt="mechanicalLogo" />
-        <img src={programmingLogo} className="App-logo" alt="programmingLogo" />
-        <img src={projectManagementLogo} className="App-logo" alt="projectManagementLogo" />
+        <div>
+          <img src={electricalLogo} className="App-logo" alt="electricalLogo" />
+          <img src={mechanicalLogo} className="App-logo" alt="mechanicalLogo" />
+        </div>
+        <div>
+          <img src={programmingLogo} className="App-logo" alt="programmingLogo" />
+          <img src={projectManagementLogo} className="App-logo" alt="projectManagementLogo" />
+        </div>
         <p>
           New site coming soon...
         </p>
