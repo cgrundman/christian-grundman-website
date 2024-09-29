@@ -2,15 +2,25 @@
   text-align: center;
 }
 
-.App-logo {
+.Logo {
+  height: 25vmin;
+  margin: 0px 5px 0px 5px;
+  pointer-events: none;
+}
+
+.Programming-logo {
   height: 25vmin;
   margin: 0px 5px 0px 5px;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .Logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+
+  .underscore {
+    animation: blink infinite 1s ease;
   }
 }
 
@@ -35,5 +45,14 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
   }
 }

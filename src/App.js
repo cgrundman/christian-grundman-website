@@ -11,12 +11,12 @@ function App() {
       <header className="App-header">
         <h1>Christian Grundman</h1>
         <div>
-          <img src={electricalLogo} className="App-logo" alt="electricalLogo" />
-          <img src={mechanicalLogo} className="App-logo" alt="mechanicalLogo" />
+          <img src={electricalLogo} className="Logo" alt="electricalLogo" />
+          <img src={mechanicalLogo} className="Logo" alt="mechanicalLogo" />
         </div>
         <div>
-          <img src={programmingLogo} className="App-logo" alt="programmingLogo" />
-          <img src={projectManagementLogo} className="App-logo" alt="projectManagementLogo" />
+          <img src={programmingLogo} className="Logo underscore" alt="programmingLogo" />
+          <img src={projectManagementLogo} className="Logo" alt="projectManagementLogo" />
         </div>
         <p>
           New site coming soon...
