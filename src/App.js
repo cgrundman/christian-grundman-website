@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import electricalLogo from './electrical.svg'
 import mechanicalLogo from './mechanical.svg'
 import programmingLogo from './programming.svg'
