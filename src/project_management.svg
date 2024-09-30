@@ -1,1 +1,110 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 400 400"><defs><g id="c"><circle cx="200" cy="200" r="18" fill="#ed9e49"/><circle cx="200" cy="200" r="14" fill="#fff"/><circle cx="200" cy="200" r="10" fill="#ed9e49"/><circle cx="200" cy="200" r="6" fill="#574c42"/></g><g id="b"><circle cx="200" cy="200" r="12" fill="#ed9e49"/><circle cx="200" cy="200" r="8" fill="#fff"/><circle cx="200" cy="200" r="4" fill="#ed9e49"/></g><g id="a"><circle cx="200" cy="200" r="8" fill="#ed9e49"/><circle cx="200" cy="200" r="4" fill="#fff"/></g></defs><circle cx="200" cy="200" r="200" fill="#574c42"/><use href="#a" y="50"/><use href="#a" y="50" transform="rotate(40 200 200)"/><use href="#a" y="50" transform="rotate(40 200 200)"/><use href="#a" y="50" transform="rotate(80 200 200)"/><use href="#a" y="50" transform="rotate(120 200 200)"/><use href="#a" y="50" transform="rotate(160 200 200)"/><use href="#a" y="50" transform="rotate(200 200 200)"/><use href="#a" y="50" transform="rotate(240 200 200)"/><use href="#b" y="-100"/><use href="#b" y="-100" transform="rotate(25 200 200)"/><use href="#b" y="-100" transform="rotate(50 200 200)"/><use href="#b" y="-100" transform="rotate(75 200 200)"/><use href="#b" y="-100" transform="rotate(100 200 200)"/><use href="#b" y="-100" transform="rotate(125 200 200)"/><use href="#b" y="-100" transform="rotate(150 200 200)"/><use href="#b" y="-100" transform="rotate(175 200 200)"/><use href="#b" y="-100" transform="rotate(200 200 200)"/><use href="#b" y="-100" transform="rotate(225 200 200)"/><use href="#b" y="-100" transform="rotate(250 200 200)"/><use href="#c" y="150"/><use href="#c" y="150" transform="rotate(20 200 200)"/><use href="#c" y="150" transform="rotate(40 200 200)"/><use href="#c" y="150" transform="rotate(60 200 200)"/><use href="#c" y="150" transform="rotate(80 200 200)"/><use href="#c" y="150" transform="rotate(100 200 200)"/><use href="#c" y="150" transform="rotate(120 200 200)"/><use href="#c" y="150" transform="rotate(140 200 200)"/><use href="#c" y="150" transform="rotate(-20 200 200)"/><use href="#c" y="150" transform="rotate(-40 200 200)"/><use href="#c" y="150" transform="rotate(-60 200 200)"/><use href="#c" y="150" transform="rotate(-80 200 200)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 400 400">
+  <defs>
+    <g id="c">
+      <circle cx="200" cy="200" r="18" fill="#ed9e49"/>
+      <circle cx="200" cy="200" r="14" fill="#fff"/>
+      <circle cx="200" cy="200" r="10" fill="#ed9e49"/>
+      <circle cx="200" cy="200" r="6" fill="#574c42"/>
+    </g>
+    <g id="b">
+      <circle cx="200" cy="200" r="12" fill="#ed9e49"/>
+      <circle cx="200" cy="200" r="8" fill="#fff"/>
+      <circle cx="200" cy="200" r="4" fill="#ed9e49"/>
+    </g>
+    <g id="a">
+      <circle cx="200" cy="200" r="8" fill="#ed9e49"/>
+      <circle cx="200" cy="200" r="4" fill="#fff"/>
+    </g>
+  </defs>
+  <circle cx="200" cy="200" r="200" fill="#574c42"/>
+  <use href="#a" x="0" y="50">
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#a" x="-32.139" y="38.302">
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#a" x="-49.240" y="8.682" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#a" x="-43.301" y="-25.000" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#a" x="-17.101" y="-46.984" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#a" x="17.101" y="-46.984" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#a" x="43.301" y="-25.000" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#b" x="0" y="-100">
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#b" x="42.261" y="-90.630" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#b" x="76.604" y="-64.278" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#b" x="96.592" y="-25.881" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#b" x="98.480" y="17.364" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#b" x="81.915" y="57.357" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#b" x="50" y="86.602" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#b" x="8.715" y="99.619" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#b" x="-34.202" y="93.969" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#b" x="-70.710" y="70.710" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#b" x="-93.969" y="34.202" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#c" x="0" y="150">
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#c" x="-51.303" y="140.953" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#c" x="-96.418" y="114.906" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#c" x="-129.903" y="75" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#c" x="-147.721" y="26.047" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#c" x="-147.721" y="-26.047" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#c" x="-129.903" y="-75" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#c" x="-96.418" y="-114.906" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#c" x="51.303" y="140.953" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#c" x="96.418" y="114.906" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#c" x="129.903" y="75" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+  <use href="#c" x="147.721" y="26.047" >
+    <!-- <animateTransform attributeName="transform" type="translate" values="0 0;26 112;0 0" dur="2s" repeatCount="indefinite" /> -->
+  </use>
+</svg>
