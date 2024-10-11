@@ -1,9 +1,15 @@
 .footer {
-    margin: auto;
     padding: 1rem;
-    display: flex;
-    justify-content: space-between;
     background-color: #3C4048;
     color: #EAEAEA;
-    text-align: "center";
   }
+
+.row {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    padding: 1rem;
+}
