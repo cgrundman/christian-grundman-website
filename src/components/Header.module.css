@@ -1,22 +1,23 @@
 .header {
-    max-width: 60rem;
     margin: auto;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     justify-content: space-between;
+    background-color: #3C4048;
   }
   
   .list {
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
+    list-style-type: none;
   }
   
   .list a {
     text-decoration: none;
-    color: var(--color-primary-400);
+    color: #EAEAEA;
   }
   
   .list a:hover,
   .list a.active {
-    color: var(--color-primary-800);
+    color: #00ABB3;
   }
