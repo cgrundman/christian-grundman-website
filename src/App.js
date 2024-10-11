@@ -5,12 +5,13 @@ import HomePage from "./pages/HomePage.js";
 import Projects from "./pages/Projects.js";
 import Project from "./pages/Project.js";
 import Error from "./pages/Error.js";
+import RootLayout from "./pages/Root.js";
 
 const router = createBrowserRouter([
   {
     path: '/',
-    // element: <ComingSoon />, // create standard layout <RouteLayout />
-    errorElement: <Error />,
+    element: <RootLayout />, // create standard layout <RouteLayout />
+    errorElement: <ErrorPage />,
     children: [
       { index: true, element: <ComingSoon /> },
       { path: 'homepage', element: <HomePage /> },

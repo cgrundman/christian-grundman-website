@@ -5,6 +5,7 @@ import PageContent from "../components/PageContent.js";
 function Projects() {
     return (
         <PageContent title="Projects" >
+            <p>Coming Soon!</p>
             <Link to={`/projects/project`}>
                 <div>
                     <p>Project Page</p>
