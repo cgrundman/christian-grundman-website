@@ -9,7 +9,7 @@ function Header() {
                 <ul className={classes.list}>
                     <li>
                         <NavLink 
-                            to="/homepage"
+                            to="/"
                             className={({ isActive }) => 
                                 isActive ? classes.active : undefined 
                             } 

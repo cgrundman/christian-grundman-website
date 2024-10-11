@@ -12,7 +12,7 @@ function HomePage() {
             <div>
                 <img src={electricalLogo} className="Logo" alt="electricalLogo" />
                 <img src={mechanicalLogo} className="Logo" alt="mechanicalLogo" />
-                <img src={programmingLogo} className="Logo underscore" alt="programmingLogo" />
+                <img src={programmingLogo} className="Logo" alt="programmingLogo" />
                 <img src={projectManagementLogo} className="Logo" alt="projectManagementLogo" />
             </div>
             <h3>Full site coming soon!</h3>

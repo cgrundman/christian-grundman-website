@@ -1,6 +1,10 @@
 .content {
-    text-align: center;
-    background-color: #3C4048;
-    color: #EAEAEA;
-    padding: 1rem;
-  }
+  text-align: center;
+  background-color: #3C4048;
+  color: #EAEAEA;
+  padding: 1rem;
+}
+
+img {
+  max-width: 200px;
+}
