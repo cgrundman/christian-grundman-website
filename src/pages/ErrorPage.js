@@ -1,6 +1,6 @@
 import PageContent from "../components/PageContent.js"
 
-function Error() {
+function ErrorPage() {
     return (
         <PageContent title="Error">
             <p>An error has occured.</p>
@@ -8,4 +8,4 @@ function Error() {
     )
 }
 
-export default Error;
+export default ErrorPage;

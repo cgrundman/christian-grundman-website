@@ -4,7 +4,7 @@ import ComingSoon from "./pages/ComingSoon.js"
 import HomePage from "./pages/HomePage.js";
 import Projects from "./pages/Projects.js";
 import Project from "./pages/Project.js";
-import Error from "./pages/Error.js";
+import ErrorPage from "./pages/ErrorPage.js";
 import RootLayout from "./pages/Root.js";
 
 const router = createBrowserRouter([
