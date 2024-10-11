@@ -1,9 +1,10 @@
+import PageContent from "../components/PageContent.js"
+
 function Error() {
     return (
-        <>
-            <h1>Error</h1>
-            <h3>An error has occured.</h3>
-        </>
+        <PageContent title="Error">
+            <p>An error has occured.</p>
+        </PageContent>
     )
 }
 
