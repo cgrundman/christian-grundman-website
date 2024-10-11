@@ -4,6 +4,7 @@ import ComingSoon from "./pages/ComingSoon.js"
 import HomePage from "./pages/HomePage.js";
 import Projects from "./pages/Projects.js";
 import Project from "./pages/Project.js";
+import Error from "./pages/Error.js";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <ComingSoon /> },
       { path: 'homepage', element: <HomePage /> },
+      { path: 'error', element: <Error /> },
       { path: 'projects', element: <Projects /> },
       { path: 'projects/project', element: <Project /> },
     ],
