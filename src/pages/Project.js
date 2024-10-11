@@ -1,5 +1,10 @@
+import PageContent from "../components/PageContent";
+
 function Project() {
-    return <h1>Project Page</h1>
+    return (
+        <PageContent title="Project" >
+        </PageContent>
+    )
 }
 
 export default Project;
