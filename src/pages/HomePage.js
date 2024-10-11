@@ -18,7 +18,9 @@ function HomePage() {
             <h3>Full site coming soon!</h3>
             <Link to={`/projects`}>
                 <div>
-                    <p>Projects</p>
+                    <button>
+                        <p>Projects</p>
+                    </button>
                 </div>
             </Link>
         </PageContent>
