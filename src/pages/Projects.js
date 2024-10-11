@@ -10,7 +10,7 @@ import morse from '../logos/morse.svg'
 import nmr from '../logos/nmr.svg'
 import PageContent from "../components/PageContent.js";
 
-let LOGOSIZE = "150"; 
+let LOGOSIZE = "100"; 
 
 function Projects() {
     return (
@@ -18,7 +18,9 @@ function Projects() {
             <p>Coming Soon!</p>
             <Link to={`/projects/project`}>
                 <div>
-                    <p>Project Page</p>
+                    <button>
+                        <p>Project Page</p>
+                    </button>
                 </div>
             </Link>
             <div>
