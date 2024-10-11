@@ -1,5 +1,17 @@
+import { Link } from "react-router-dom";
+
+import PageContent from "../components/PageContent.js";
+
 function Projects() {
-    return <h1>Projects</h1>
+    return (
+        <PageContent title="Projects" >
+            <Link to={`/projects/project`}>
+                <div>
+                    <p>Project Page</p>
+                </div>
+            </Link>
+        </PageContent>
+    )
 }
 
 export default Projects;
