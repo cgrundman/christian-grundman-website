@@ -10,7 +10,7 @@ import morse from '../logos/morse.svg'
 import nmr from '../logos/nmr.svg'
 import PageContent from "../components/PageContent.js";
 
-let LOGOSIZE = "100"; 
+let LOGOSIZE = "125"; 
 
 function Projects() {
     return (

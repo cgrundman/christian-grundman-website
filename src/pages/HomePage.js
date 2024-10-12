@@ -8,7 +8,7 @@ import PageContent from "../components/PageContent.js";
 
 function HomePage() {
     return (
-        <PageContent title="Home Page">
+        <PageContent>
             <div>
                 <img src={electricalLogo} className="Logo" alt="electricalLogo" />
                 <img src={mechanicalLogo} className="Logo" alt="mechanicalLogo" />
