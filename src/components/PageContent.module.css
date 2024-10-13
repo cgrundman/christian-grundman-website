@@ -5,6 +5,11 @@
   padding: 1rem;
 }
 
+button {
+  color: #3C4048;
+  background-color: #00ABB3;
+}
+
 img {
   max-width: 200px;
 }

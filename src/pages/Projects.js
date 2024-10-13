@@ -26,11 +26,11 @@ function Projects() {
             <div>
                 <img src={computerVision} className="Logo" alt="computerVision" width={LOGOSIZE} />
                 <img src={ct} className="Logo" alt="ct" width={LOGOSIZE} />
-                <img src={ecg} className="Logo underscore" alt="ecg" width={LOGOSIZE} />
+                <img src={ecg} className="Logo" alt="ecg" width={LOGOSIZE} />
                 <img src={isp} className="Logo" alt="isp" width={LOGOSIZE} />
                 <img src={leaf_disease} className="Logo" alt="leaf_disease" width={LOGOSIZE} />
                 <img src={mlStethoscope} className="Logo" alt="mlStethoscope" width={LOGOSIZE} />
-                <img src={morse} className="Logo underscore" alt="morse" width={LOGOSIZE} />
+                <img src={morse} className="Logo" alt="morse" width={LOGOSIZE} />
                 <img src={nmr} className="Logo" alt="nmr" width={LOGOSIZE} />
             </div>
         </PageContent>
