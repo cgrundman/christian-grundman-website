@@ -5,6 +5,9 @@ import linkedInIcon from '../icons/linkedin.png'
 import xingIcon from '../icons/xing.png'
 import githubIcon from '../icons/github.png'
 
+var today = new Date();
+var yyyy = today.getFullYear();
+
 function Footer() {
     return (
         <footer className={classes.footer}>
@@ -20,7 +23,7 @@ function Footer() {
                 </a>
             </div>
             <div className={classes.row}>
-                <p>© Copyright - insert current year - Christian Grundman</p>
+                <p>© Copyright {yyyy} - Christian Grundman</p>
             </div>
         </footer>
     )
