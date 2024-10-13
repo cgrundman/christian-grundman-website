@@ -14,4 +14,8 @@ button {
   width: 40%;
   /* max-width: 400px; */
 }
+
+.avatar {
+  width: 25%;
+  padding: 1rem;
 }
