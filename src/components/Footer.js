@@ -13,13 +13,13 @@ function Footer() {
         <footer className={classes.footer}>
             <div className={classes.row}>
                 <a href="https://www.linkedin.com/in/christian-grundman/" >
-                    <img src={linkedInIcon} alt="LinkedIn" width="25" />
+                    <img src={linkedInIcon} className={classes.icon} alt="LinkedIn" width="25" />
                 </a>
                 <a href="https://www.xing.com/profile/Christian_Grundman" >
-                    <img src={xingIcon} alt="Xing" width="25" />
+                    <img src={xingIcon} className={classes.icon} alt="Xing" width="25" />
                 </a>
                 <a href="https://github.com/cgrundman/" >
-                    <img src={githubIcon} alt="GitHub" width="25" />
+                    <img src={githubIcon} className={classes.icon} alt="GitHub" width="25" />
                 </a>
             </div>
             <div className={classes.row}>
