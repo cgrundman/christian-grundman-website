@@ -10,6 +10,8 @@ button {
   background-color: #00ABB3;
 }
 
-img {
-  max-width: 200px;
+.logo {
+  width: 40%;
+  /* max-width: 400px; */
+}
 }
