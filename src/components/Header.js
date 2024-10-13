@@ -29,6 +29,17 @@ function Header() {
                             Projects
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink 
+                            to="/aboutme"
+                            className={({ isActive }) => 
+                                isActive ? classes.active : undefined 
+                            } 
+                            end 
+                        >
+                            About Me
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
         </header>
