@@ -23,7 +23,7 @@ function Footer() {
                 </a>
             </div>
             <div className={classes.row}>
-                <p>© Copyright {yyyy} - Christian Grundman</p>
+                <p>© {yyyy} Christian Grundman</p>
             </div>
         </footer>
     )

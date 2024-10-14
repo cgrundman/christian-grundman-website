@@ -12,7 +12,13 @@ button {
 
 .logo {
   width: 40%;
-  /* max-width: 400px; */
+  max-width: 300px;
+  padding: 1rem;
+}
+
+.projectlogo {
+  width: 15%;
+  padding: 1rem;
 }
 
 .avatar {
