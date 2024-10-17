@@ -3,6 +3,7 @@
         {
             "title": "Computer Vision",
             "description": "Computer Vision demostration through project-based work.",
+            "logo": "../logos/computer_vision.svg",
             "subtitles": [
                 "OpenCV Basics",
                 "Image Processing",
@@ -47,6 +48,60 @@
                 "The results of the masked sinogram and masked reconstruction is pictured here. The metal data is gone, but so is much of the other relevant data. So more must be done.",
                 "A simple interpolation algorithm is performed on the sinogram data using the mask called regionfill(). This is an internal function within MATLAB and worked very well to showcase how this method works. There was another method shown in my git repo."
             ]
+        },
+        {
+            "title": "ECG Device",
+            "description": "Design, Development, and Construction of a electrocardiogram device.",
+            "logo": "",
+            "subtitles": [
+            ],
+            "sections": [         
+            ] 
+        },
+        {
+            "title": "ISP Optimization",
+            "description": "Optimization of an image signal processor using a differentiable proxy.",
+            "logo": "",
+            "subtitles": [
+            ],
+            "sections": [         
+            ] 
+        },
+        {
+            "title": "Leaf Disease Diagnosis",
+            "description": "Agriculture application of deep learning in detecting plant disease.",
+            "logo": "",
+            "subtitles": [
+            ],
+            "sections": [         
+            ] 
+        },
+        {
+            "title": "Machine-Learned Stethoscope",
+            "description": "Medical application of machine learning.",
+            "logo": "",
+            "subtitles": [
+            ],
+            "sections": [         
+            ] 
+        },
+        {
+            "title": "Morse Code Translator",
+            "description": "A simple dictionary-based Morse code translator.",
+            "logo": "",
+            "subtitles": [
+            ],
+            "sections": [         
+            ] 
+        },
+        {
+            "title": "Nuclear Magnetic Resonance",
+            "description": "A digitalization project for a CW-NMR Machine.",
+            "logo": "",
+            "subtitles": [
+            ],
+            "sections": [         
+            ] 
         }
     ],
     "logos": ["logo1", "logo2", "logo3", "logo4"]
