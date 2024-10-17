@@ -1,3 +1,11 @@
 {
-    "members": ["Member1", "Member2", "Member3"]
+    "project_list": [
+        "Computer Vision", 
+        "Computed Tomography", 
+        "ECG Device", 
+        "Image Signal Processor Optimization", 
+        "Leaf Disease Diagnosis", 
+        "Machine-Learned Stethoscope", 
+        "Morse Code Translator", 
+        "Nuclear Magnetic Resonance"]
 }

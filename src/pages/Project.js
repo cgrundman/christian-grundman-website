@@ -8,7 +8,7 @@ function Project() {
     const [data, setData] = useState([])
 
     useEffect(() => {
-        fetch("/members").then(
+        fetch("/project_list").then(
             res => res.json()
         ).then(
             data => {
@@ -21,11 +21,11 @@ function Project() {
     return (
         <PageContent title="Project" >
             <div>
-                {(typeof data.members === 'undefined') ? (
+                {(typeof data.projects === 'undefined') ? (
                     <p>Loading...</p>
                 ) : (
-                    data.members.map((member, i) => (
-                        <p key={i}>{member}</p>
+                    data.projects.map((project, i) => (
+                        <p key={i}>{project}</p>
                     ))
                 )}
             </div>
