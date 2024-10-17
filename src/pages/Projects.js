@@ -39,15 +39,6 @@ function Projects() {
                 </div>
             </Link>
             <div>
-                {(typeof data.projects === 'undefined') ? (
-                    <p>Loading...</p>
-                ) : (
-                    data.projects.map((project, i) => (
-                        <p key={i}>{project.title}</p>
-                    ))
-                )}
-            </div>
-            <div>
                 <img src={computerVision} className={classes.projectlogo} alt="computerVision" width={LOGOSIZE} />
                 <img src={ct} className={classes.projectlogo} alt="ct" width={LOGOSIZE} />
                 <img src={ecg} className={classes.projectlogo} alt="ecg" width={LOGOSIZE} />
@@ -58,6 +49,18 @@ function Projects() {
                 <img src={mlStethoscope} className={classes.projectlogo} alt="mlStethoscope" width={LOGOSIZE} />
                 <img src={morse} className={classes.projectlogo} alt="morse" width={LOGOSIZE} />
                 <img src={nmr} className={classes.projectlogo} alt="nmr" width={LOGOSIZE} />
+            </div>
+            <div>
+                {(typeof data.projects === 'undefined') ? (
+                    <p>Loading...</p>
+                ) : (
+                    data.projects.map((project, i) => (
+                        <div>
+                            <h3 key={i}>{project.title}</h3>
+                            <p key={i}>{project.description}</p>
+                        </div>
+                    ))
+                )}
             </div>
         </PageContent>
     )
