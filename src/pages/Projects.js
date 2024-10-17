@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import computerVision from '../logos/computer_vision.svg'
@@ -14,9 +15,22 @@ import classes from '../components/PageContent.module.css'
 let LOGOSIZE = "125"; 
 
 function Projects() {
+
+    const [data, setData] = useState([])
+
+    useEffect(() => {
+        fetch("/projects").then(
+            res => res.json()
+        ).then(
+            data => {
+                setData(data)
+                console.log(data)
+            }
+        )
+    }, [])
+
     return (
         <PageContent title="Projects" >
-            <p>Coming Soon!</p>
             <Link to={`/projects/project`}>
                 <div>
                     <button>
@@ -24,6 +38,15 @@ function Projects() {
                     </button>
                 </div>
             </Link>
+            <div>
+                {(typeof data.projects === 'undefined') ? (
+                    <p>Loading...</p>
+                ) : (
+                    data.projects.map((project, i) => (
+                        <p key={i}>{project.title}</p>
+                    ))
+                )}
+            </div>
             <div>
                 <img src={computerVision} className={classes.projectlogo} alt="computerVision" width={LOGOSIZE} />
                 <img src={ct} className={classes.projectlogo} alt="ct" width={LOGOSIZE} />

@@ -6,8 +6,6 @@ import json
 with open('content.json', 'r') as file:
     data = json.load(file)
 
-print(data)
-
 
 app = Flask(__name__)
 
