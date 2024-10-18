@@ -16,18 +16,18 @@ let LOGOSIZE = "125";
 
 function Projects() {
 
-    const [data, setData] = useState([])
+    // const [data, setData] = useState([])
 
-    useEffect(() => {
-        fetch("/projects").then(
-            res => res.json()
-        ).then(
-            data => {
-                setData(data)
-                console.log(data)
-            }
-        )
-    }, [])
+    // useEffect(() => {
+    //     fetch("/projects").then(
+    //         res => res.json()
+    //     ).then(
+    //         data => {
+    //             setData(data)
+    //             console.log(data)
+    //         }
+    //     )
+    // }, [])
 
     return (
         <PageContent title="Projects" >
