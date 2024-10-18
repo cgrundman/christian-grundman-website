@@ -1,6 +1,7 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
+import content from '../content.json';
 import computerVision from '../logos/computer_vision.svg'
 import ct from '../logos/ct.svg'
 import ecg from '../logos/ecg.svg'
@@ -12,7 +13,7 @@ import nmr from '../logos/nmr.svg'
 import PageContent from "../components/PageContent.js";
 import classes from '../components/PageContent.module.css'
 
-let LOGOSIZE = "125"; 
+let LOGOSIZE = "125";
 
 function Projects() {
 
@@ -28,6 +29,13 @@ function Projects() {
     //         }
     //     )
     // }, [])
+
+    // fetch(`${process.env.PUBLIC_URL}/data.json`)
+    // .then((response) => response.json())
+    // .then((data) => {
+    //     console.log(data);
+    // });
+
 
     return (
         <PageContent title="Projects" >
@@ -51,10 +59,10 @@ function Projects() {
                 <img src={nmr} className={classes.projectlogo} alt="nmr" width={LOGOSIZE} />
             </div>
             <div>
-                {(typeof data.projects === 'undefined') ? (
+                {(typeof content.projects === 'undefined') ? (
                     <p>Loading...</p>
                 ) : (
-                    data.projects.map((project, i) => (
+                    content.projects.map((project, i) => (
                         <div>
                             <h3 key={i}>{project.title}</h3>
                             <p key={i}>{project.description}</p>
