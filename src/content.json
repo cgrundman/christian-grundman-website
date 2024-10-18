@@ -1,6 +1,7 @@
 {
     "projects": [
         {
+            "id": "computerVision",
             "title": "Computer Vision",
             "description": "Computer Vision demostration through project-based work.",
             "logo": "../logos/computer_vision.svg",
@@ -22,6 +23,7 @@
             ] 
         },
         {
+            "id": "ct",
             "title": "Computed Tomography",
             "description": "CT scanner mathematical simulation with MATLAB.",
             "subtitles": [
