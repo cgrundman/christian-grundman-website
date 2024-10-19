@@ -14,7 +14,7 @@ import PageContent from "../components/PageContent.js";
 import classes from '../components/PageContent.module.css';
 
 
-function Projects() {
+function ProjectsPage() {
 
     // Extract project information
     const projects = content.projects
@@ -56,4 +56,4 @@ function Projects() {
     )
 }
 
-export default Projects;
+export default ProjectsPage;
