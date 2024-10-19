@@ -1,7 +1,14 @@
-.content {
+.banner {
   text-align: center;
   background-color: #3C4048;
   color: #EAEAEA;
+  padding-top: 1rem;
+}
+
+.content {
+  text-align: center;
+  background-color: #EAEAEA;
+  color: #3C4048;
   padding: 1rem;
 }
 

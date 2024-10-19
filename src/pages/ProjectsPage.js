@@ -46,7 +46,7 @@ function ProjectsPage() {
             </div>
             {/* Conditionally rendering information for Selected project */}
             {visibleInfo && (
-                <div>
+                <div className={classes.content}>
                     <h2>{projects[visibleInfo-1].title}</h2>
                     <p>{projects[visibleInfo-1].description}</p>
                     <button>Project Page</button>
