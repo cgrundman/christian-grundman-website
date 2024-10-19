@@ -14,7 +14,7 @@ function HomePage() {
             <div>
                 <div>
                     <img src={professional} className={classes.avatar} alt="professional" />
-                    <p>I never make the same mistake twice. I make them three or four times just to be sure.</p>
+                    <p>"I never make the same mistake twice. I make them three or four times just to be sure."</p>
                 </div>
                 <div>
                     <img src={electricalLogo} className={classes.logo} alt="electricalLogo" />
@@ -25,14 +25,18 @@ function HomePage() {
                     <img src={projectManagementLogo} className={classes.logo} alt="projectManagementLogo" />
                 </div>
             </div>
-            <h3>Full site coming soon!</h3>
-            <Link to={`/projects`}>
-                <div>
+            <div>
+                <Link to={`/projects`}>
                     <button>
                         <p>Projects</p>
                     </button>
-                </div>
-            </Link>
+                </Link>
+                <Link to={`/aboutme`}>
+                    <button>
+                        <p>About Me</p>
+                    </button>
+                </Link>
+            </div>
         </PageContent>
     )
 }
