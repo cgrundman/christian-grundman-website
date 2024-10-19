@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "id": "computerVision",
+            "id": "cv",
             "title": "Computer Vision",
             "description": "Computer Vision demostration through project-based work.",
             "logo": "../logos/computer_vision.svg",
