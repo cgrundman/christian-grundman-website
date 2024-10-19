@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import content from '../content.json';
 import cvz from '../logos/computer_vision.svg';
@@ -50,9 +50,11 @@ function ProjectsPage() {
                 <div className={classes.content}>
                     <h2>{projects[visibleInfo-1].title}</h2>
                     <p>{projects[visibleInfo-1].description}</p>
-                    <button>
-                        <p>Project Page</p>
-                    </button>
+                    <Link to={`/projects/${projects[visibleInfo-1].id}`}>
+                        <button>
+                            <p>Project Page</p>
+                        </button>
+                    </Link>
                 </div>
             )}
         </PageContent>
