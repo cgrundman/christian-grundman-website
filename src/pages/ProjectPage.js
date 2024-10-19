@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import PageContent from "../components/PageContent";
 
-function Project() {
+function ProjectPage() {
     return (
         <PageContent title="Project" >
             <Link to={`/projects`}>
@@ -16,4 +16,4 @@ function Project() {
     )
 }
 
-export default Project;
+export default ProjectPage;
