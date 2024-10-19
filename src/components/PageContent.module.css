@@ -3,6 +3,7 @@
   background-color: #3C4048;
   color: #EAEAEA;
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .content {
@@ -29,6 +30,6 @@ button {
 }
 
 .avatar {
-  width: 25%;
+  width: 50%;
   padding: 1rem;
 }
