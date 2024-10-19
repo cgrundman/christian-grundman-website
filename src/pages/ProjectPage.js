@@ -12,14 +12,25 @@ function ProjectPage() {
     const project = content.projects.find(project => project.id === projectid)
 
     return (
-        <PageContent title="Project" >
-            <Link to={`/projects`}>
-                <div>
-                    <button>
-                        <p>Back</p>
-                    </button>
-                </div>
-            </Link>
+        <PageContent title={project.title} >
+            <p>{project.description}</p>
+            <div className={classes.content}>
+                <ul>
+                    {project.subtitles.map((subtitle, index) => (
+                        <div>
+                            <h3 key={index}>{subtitle}</h3>
+                            <p key={index}>{project.sections[index]}</p>
+                        </div>
+                    ))}
+                </ul>
+                <Link to={`/projects`}>
+                    <div>
+                        <button>
+                            <p>Back</p>
+                        </button>
+                    </div>
+                </Link>
+            </div>
         </PageContent>
     )
 }
