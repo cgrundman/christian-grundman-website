@@ -4,7 +4,7 @@ import relaxed from '../avatars/relaxed.svg'
 import PageContent from '../components/PageContent';
 import classes from '../components/PageContent.module.css'
 
-function AboutMe() {
+function AboutMePage() {
     return (
         <PageContent title="About Me">
             <div>
@@ -17,4 +17,4 @@ function AboutMe() {
     )
 }
 
-export default AboutMe;
+export default AboutMePage;
