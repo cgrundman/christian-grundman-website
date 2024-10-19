@@ -2,7 +2,7 @@ import { useState } from "react";
 // import { Link } from "react-router-dom";
 
 import content from '../content.json';
-import computerVision from '../logos/computer_vision.svg';
+import cv from '../logos/computer_vision.svg';
 import ct from '../logos/ct.svg';
 // import ecg from '../logos/ecg.svg';
 // import isp from '../logos/isp.svg';
@@ -17,19 +17,8 @@ let LOGOSIZE = "125";
 
 function Projects() {
 
-    // // State to track the visibility of the info
-    // const [isInfoVisible, setInfoVisible] = useState(false);
-
-    // // Set the info to be displayed
-    // const [projectTitle, setProjectTitle] = useState([]);
-    // const [projectDesc, setProjectDesc] = useState([])
-
-    // // Function to toggle the visibility
-    // const toggleInfo = () => {
-    //     setInfoVisible(!isInfoVisible); // Toggle the state between true and false
-    //     setProjectTitle(content.projects[0].title)
-    //     setProjectDesc(content.projects[0].description)
-    // };
+    // Extract project information
+    const projects = content.projects
 
     // State to track which image's information is visible (null means no info is visible)
     const [visibleInfo, setVisibleInfo] = useState(null);
@@ -56,47 +45,10 @@ function Projects() {
                 <img src={morse} className={classes.projectlogo} alt="morse" width={LOGOSIZE} />
                 <img src={nmr} className={classes.projectlogo} alt="nmr" width={LOGOSIZE} />
             </div> */}
-            {/* <div>
-                {(typeof content.projects === 'undefined') ? (
-                    <p>Loading...</p>
-                ) : (
-                    content.projects.map((project, i) => (
-                        <div>
-                            <h3 key={i}>{project.title}</h3>
-                            <p key={i}>{project.description}</p>
-                        </div>
-                    ))
-                )}
-            </div> */}
-            {/* <div>
-                {isInfoVisible && (
-                    <div>
-                        <h2>{projectTitle}</h2>
-                        <p>{projectDesc}</p>
-                        <Link to={`/projects/project`}>
-                            <div>
-                                <button>
-                                    <p>Project Page</p>
-                                </button>
-                            </div>
-                        </Link>
-                    </div>
-                )}
-            </div> */}
-            {/* Image 1 */}
-            <img
-                src={computerVision}
-                alt="Computer Vision"
-                onClick={() => toggleInfo(1)}
-                style={{ cursor: 'pointer', width: '300px', height: 'auto', margin: '10px' }}
-            />
-            {/* Image 2 */}
-            <img
-                src={ct}
-                alt="Computed Tomography"
-                onClick={() => toggleInfo(2)}
-                style={{ cursor: 'pointer', width: '300px', height: 'auto', margin: '10px' }}
-            />
+            <div>
+                <img src={cv} alt="Computer Vision" onClick={() => toggleInfo(1)} width={LOGOSIZE} />
+                <img src={ct} alt="Computed Tomography" onClick={() => toggleInfo(2)} width={LOGOSIZE} />
+            </div>
             {/* Conditionally rendering information for Selected project */}
             {visibleInfo && (
                 <div>
