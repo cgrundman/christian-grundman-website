@@ -32,6 +32,7 @@ function ProjectsPage() {
 
     return (
         <PageContent title="Projects" >
+            <p>Select a project icon to find out more.</p>
             <div>
                 <img src={cvz} onClick={() => toggleInfo(1)} className={classes.projectlogo} alt="Computer Vision" />
                 <img src={ctr} onClick={() => toggleInfo(2)} className={classes.projectlogo} alt="Computed Tomography Reconstruction" />
@@ -49,7 +50,9 @@ function ProjectsPage() {
                 <div className={classes.content}>
                     <h2>{projects[visibleInfo-1].title}</h2>
                     <p>{projects[visibleInfo-1].description}</p>
-                    <button>Project Page</button>
+                    <button>
+                        <p>Project Page</p>
+                    </button>
                 </div>
             )}
         </PageContent>
