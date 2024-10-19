@@ -1,7 +1,7 @@
 import { useState } from "react";
 // import { Link } from "react-router-dom";
 
-// import content from '../content.json';
+import content from '../content.json';
 import computerVision from '../logos/computer_vision.svg';
 import ct from '../logos/ct.svg';
 // import ecg from '../logos/ecg.svg';
@@ -86,32 +86,22 @@ function Projects() {
             {/* Image 1 */}
             <img
                 src={computerVision}
-                alt="Image 1"
+                alt="Computer Vision"
                 onClick={() => toggleInfo(1)}
                 style={{ cursor: 'pointer', width: '300px', height: 'auto', margin: '10px' }}
             />
-
             {/* Image 2 */}
             <img
                 src={ct}
-                alt="Image 2"
+                alt="Computed Tomography"
                 onClick={() => toggleInfo(2)}
                 style={{ cursor: 'pointer', width: '300px', height: 'auto', margin: '10px' }}
             />
-
-            {/* Conditionally rendering information for Image 1 */}
-            {visibleInfo === 1 && (
+            {/* Conditionally rendering information for Selected project */}
+            {visibleInfo && (
                 <div>
-                <h2>Information about Image 1</h2>
-                <p>This is some additional information about the first image.</p>
-                </div>
-            )}
-
-            {/* Conditionally rendering information for Image 2 */}
-            {visibleInfo === 2 && (
-                <div>
-                <h2>Information about Image 2</h2>
-                <p>This is some additional information about the second image.</p>
+                <h2>{content.projects[visibleInfo - 1].title}</h2>
+                <p>{content.projects[visibleInfo -1].description}</p>
                 </div>
             )}
         </PageContent>
