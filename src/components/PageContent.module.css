@@ -8,14 +8,17 @@
 
 .content {
   text-align: center;
-  background-color: #EAEAEA;
+  background: rgb(60,64,72);
+  background: linear-gradient(0deg, rgba(60,64,72,1) 0%, rgba(234,234,234,1) 7%, rgba(234,234,234,1) 93%, rgba(60,64,72,1) 100%);
   color: #3C4048;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 button {
   color: #3C4048;
   background-color: #00ABB3;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .logo {
