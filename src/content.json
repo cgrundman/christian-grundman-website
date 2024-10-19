@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "id": "cv",
+            "id": "cvz",
             "title": "Computer Vision",
             "description": "Computer Vision demostration through project-based work.",
             "logo": "../logos/computer_vision.svg",
@@ -23,7 +23,7 @@
             ] 
         },
         {
-            "id": "ct",
+            "id": "ctr",
             "title": "Computed Tomography",
             "description": "CT scanner mathematical simulation with MATLAB.",
             "subtitles": [
@@ -52,6 +52,7 @@
             ]
         },
         {
+            "id": "ecg",
             "title": "ECG Device",
             "description": "Design, Development, and Construction of a electrocardiogram device.",
             "logo": "",
@@ -61,6 +62,7 @@
             ] 
         },
         {
+            "id": "isp",
             "title": "ISP Optimization",
             "description": "Optimization of an image signal processor using a differentiable proxy.",
             "logo": "",
@@ -70,6 +72,7 @@
             ] 
         },
         {
+            "id": "ldd",
             "title": "Leaf Disease Diagnosis",
             "description": "Agriculture application of deep learning in detecting plant disease.",
             "logo": "",
@@ -79,6 +82,7 @@
             ] 
         },
         {
+            "id": "mls",
             "title": "Machine-Learned Stethoscope",
             "description": "Medical application of machine learning.",
             "logo": "",
@@ -88,6 +92,7 @@
             ] 
         },
         {
+            "id": "mct",
             "title": "Morse Code Translator",
             "description": "A simple dictionary-based Morse code translator.",
             "logo": "",
@@ -97,6 +102,7 @@
             ] 
         },
         {
+            "id": "nmr",
             "title": "Nuclear Magnetic Resonance",
             "description": "A digitalization project for a CW-NMR Machine.",
             "logo": "",
