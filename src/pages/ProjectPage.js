@@ -17,6 +17,7 @@ function ProjectPage() {
         <PageContent title={project.title} >
             <p>{project.description}</p>
             <div className={classes.content}>
+                <img src={project.logo} alt={project.id} className={classes.logoLarge} />
                 <ul>
                     {project.subtitles.map((subtitle, index) => (
                         <div key={index}>
