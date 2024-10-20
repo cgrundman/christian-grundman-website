@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import professional from '../avatars/professional.svg'
@@ -7,8 +8,24 @@ import programmingLogo from '../logos/programming.svg'
 import projectManagementLogo from '../logos/project_management.svg'
 import PageContent from "../components/PageContent.js";
 import classes from "../components/PageContent.module.css"
+import content from "../content.json"
 
 function HomePage() {
+
+    // Extract logo information
+    const logos = content.logos
+
+    // State to track which logos's information is visible (null means no info is visible)
+    const [visibleInfo, setVisibleInfo] = useState(null);
+
+    // Function to toggle information for a specific logo
+    const toggleInfo = (logoIndex) => {
+        // Set the clicked logo's index to visible, or hide if clicked again
+        setVisibleInfo((prevVisibleInfo) => 
+        prevVisibleInfo === logoIndex ? null : logoIndex
+        );
+    };
+
     return (
         <PageContent>
             <div>
@@ -17,14 +34,19 @@ function HomePage() {
                     <p>"I never make the same mistake twice. I make them three or four times just to be sure."</p>
                 </div>
                 <div>
-                    <img src={electricalLogo} className={classes.logo} alt="electricalLogo" />
-                    <img src={mechanicalLogo} className={classes.logo} alt="mechanicalLogo" />
-                </div>
-                <div>
-                    <img src={programmingLogo} className={classes.logo} alt="programmingLogo" />
-                    <img src={projectManagementLogo} className={classes.logo} alt="projectManagementLogo" />
+                    <img src={electricalLogo} className={classes.logo} onClick={() => toggleInfo(1) } alt="electricalLogo" />
+                    <img src={mechanicalLogo} className={classes.logo} onClick={() => toggleInfo(2) } alt="mechanicalLogo" />
+                    <img src={programmingLogo} className={classes.logo} onClick={() => toggleInfo(3) } alt="programmingLogo" />
+                    <img src={projectManagementLogo} className={classes.logo} onClick={() => toggleInfo(4) } alt="projectManagementLogo" />
                 </div>
             </div>
+            {/* Conditionally rendering information for Selected subject */}
+            {visibleInfo && (
+                <div>
+                    <h2>{logos[visibleInfo-1].title}</h2>
+                    <p>{logos[visibleInfo-1].description}</p>
+                </div>
+            )}
             <div>
                 <Link to={`/projects`}>
                     <button>
