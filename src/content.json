@@ -161,8 +161,16 @@
             "description": "A simple dictionary-based Morse code translator.",
             "logo": "",
             "subtitles": [
+                "Introduction",
+                "Code Function",
+                "Example Output",
+                "Code on Replit:"
             ],
-            "sections": [         
+            "sections": [   
+                "Wikipedia is a great resource for learning more about morse code. There is a long history in Morse code development. In this project I will only discuss the basics. If you want to learn more, click the link below.",
+                "This code is based on the ITU morse standard. There is no symbolic difference between long and short pulses, however the spaces in between words and characters are included.",
+                "",
+                "<a>Link to Replit</a>"      
             ] 
         },
         {
