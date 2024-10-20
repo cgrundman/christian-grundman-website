@@ -26,6 +26,11 @@ button {
   padding: 1rem;
 }
 
+.logoContent {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .projectlogo {
   width: 15%;
   padding: 1rem;
