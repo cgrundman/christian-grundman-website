@@ -126,7 +126,7 @@
                 "As with every AI project, data preprocessing had to be performed to normalize the image data for training the models. However, the main experiment performed was on the model architecture. There were 5 different CNN models tested:\n\n3 Convolutional Layers and 3 FC Layers\n3 Convolutional Layers and 4 FC Layers\n4 Convolutional Layers and 3 FC Layers\n3 Convolutional Layers and 3 FC Layers and dropout in the dense layers\n3 Convolutional Layers and 3 FC Layers and dropout in the convolutional layers",
                 "The Results were promising, an accuracy of between 80-90% were the results for each model. The best results were for model 4, where dropout proved effective at improving model performance.",
                 "This is a confusion matrix of the classification for the validation data. This tests how effective the model was at classifying each case. The results suggested an improvement. By separating the classification into the different types of plants, the performance could be improved. The model could be having to learn too many features. So one solution could be creating a series of small models for classifying each disease based on plant type. THe plant type would already be known by farmers, as crops are planted deliberately. Most of the functionality of a system like this would be to check for diseases on a known crop. Th other improvement would be to implement a more complicated model, like ResNet-18. This could recognize enough features to be effective.",
-                "Coursera Course"
+                "<a href='www.google.com'>Andrew Yu's Deep Learning Coursera Course</a>"
             ] 
         },
         {
