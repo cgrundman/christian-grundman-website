@@ -161,7 +161,16 @@
                 "Lastly, the augmented data is padded to give it a consistent size. CNNs need the same size of data to function. This is why the data is padding into the same size. THe largest data is kept the same and the rest of the data is padded to match.",
                 "The final step is the implementation of the CNN model. This passes the data through a series of Convolutional Neural Networks (CNNs) and then through layers of dense neural networks. The CNNs act to find patters withing the visual data. The dense neural networks attempt to classify these patterns into a diagnosis. This project did not have high enough diagnosis to prototype a product for it. However, this was a valuable learning experience. And a great introduction into Machine Learning.",
                 "<a>Course: Machine Learning with TensorFlow and OpenCampus.SH</a>"    
-            ] 
+            ],
+            "images": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
         },
         {
             "id": "mct",
