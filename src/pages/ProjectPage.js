@@ -4,6 +4,8 @@ import content from '../content.json';
 import PageContent from "../components/PageContent";
 import classes from "../components/PageContent.module.css";
 
+// import nmr1 from "../images/nmr_1.png"
+
 function ProjectPage() {
 
     const { projectid } = useParams();
@@ -17,11 +19,12 @@ function ProjectPage() {
             <div className={classes.content}>
                 <ul>
                     {project.subtitles.map((subtitle, index) => (
-                        <div>
-                            <h3 key={index}>{subtitle}</h3>
-                            <p key={index}>{project.sections[index]}</p>
+                        <div key={index}>
+                            <h3>{subtitle}</h3>
+                            <p>{project.sections[index]}</p>
+                            {/* <img src={} alt={project.id + "_" + index} /> */}
                             {project.images[index] !== "" && (
-                                <img kex={index} src={project.images[index]} alt="Not Found" />
+                                <img src={project.images[index]} alt="Not Found" style={{ width: '100%', borderRadius: '10px' }} />
                             )}
                         </div>
                     ))}

@@ -59,17 +59,16 @@
                 "A simple interpolation algorithm is performed on the sinogram data using the mask called regionfill(). This is an internal function within MATLAB and worked very well to showcase how this method works. There was another method shown in my git repo."
             ],
             "images": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_1.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_2.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_3.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_4.jpg",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_5.gif",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_6.gif",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_7.jpg",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_8.jpg",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_9.jpg",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_10.jpg"
             ]
         },
         {
@@ -94,11 +93,11 @@
                 "Paniz Izadi, Sevda Golkar, Andrea Rǎileanu, Akin Çaǧlayan. Also to the Professors and student tutors that provided insights and learning opportunities."
             ],
             "images": [
-                "",
-                "",
-                "",
-                "",
-                "",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ecg_1.jpg",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ecg_2.jpg",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ecg_3.jpg",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ecg_4.jpg",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ecg_5.jpg",
                 ""
             ]
         },
@@ -134,17 +133,17 @@
                 "The results prompt the following recommendations:\nMore complex image signal processor\nDifferent approximations\nDifferent data sets\nChange Loss Calculations for Parameter Tuning\nFinally, A special thanks to the Research and Development team at Basler AG for giving the access to technology, hardware, and expertise to complete this research project. And Also thanks to the University of Applied Sciences of Lübeck to providing resources and education that made completing this project possible." 
             ],
             "images": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_1.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_2.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_3.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_4.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_5.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_6.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_7.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_8.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_9.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_10.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_11.png"
             ]
         },
         {
@@ -171,12 +170,12 @@
                 "<a href='www.google.com'>Andrew Yu's Deep Learning Coursera Course and OpenCampus.SH<\/a>"
             ],
             "images": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_1.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_2.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_3.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_4.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_5.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_6.png",
                 ""
             ]
         },
@@ -206,12 +205,13 @@
                 "<a>Course: Machine Learning with TensorFlow and OpenCampus.SH</a>"    
             ],
             "images": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_1.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_2.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_3.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_4.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_5.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_6.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_7.png",
                 ""
             ]
         },
@@ -233,9 +233,9 @@
                 "<a>Link to Replit</a>"      
             ],
             "images": [
+                "https://github.com/cgrundman/christian-grundman-website/blob/master/src/images/mct_1.jpg?raw=true",
                 "",
-                "",
-                "",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mct_3.png",
                 ""
             ]
         },
@@ -269,14 +269,14 @@
                 "<a>Insert Course Name,Link to course page</a>"
             ],
             "images":[
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_1.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_2.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_3.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_4.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_5.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_6.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_7.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_8.png",
                 "",
                 ""
             ]
