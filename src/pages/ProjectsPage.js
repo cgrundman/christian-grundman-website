@@ -10,6 +10,7 @@ import ldd from '../logos/leaf_disease.svg';
 import mls from '../logos/ml_stethoscope.svg';
 import mct from '../logos/morse.svg';
 import nmr from '../logos/nmr.svg';
+import relaxed from '../avatars/relaxed.svg'
 import PageContent from "../components/PageContent.js";
 import classes from '../components/PageContent.module.css';
 
@@ -32,7 +33,10 @@ function ProjectsPage() {
 
     return (
         <PageContent title="Projects" >
-            <p>Select a project icon to find out more.</p>
+            <div>
+                <img src={relaxed} className={classes.avatar} alt="relaxed" />
+                <p>Select a project icon to find out more.</p>
+            </div>
             <div>
                 <img src={cvz} onClick={() => toggleInfo(1)} className={classes.projectlogo} alt="Computer Vision" />
                 <img src={ctr} onClick={() => toggleInfo(2)} className={classes.projectlogo} alt="Computed Tomography Reconstruction" />
