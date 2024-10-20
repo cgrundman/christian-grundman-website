@@ -22,11 +22,11 @@
                 "This is a finger counter program. With live video from the camera, a neural network counts the number of fingers being held up in a segment of the image."
             ],
             "images": [
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/cvz_1.png",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/cvz_2.png",
                 "",
-                "",
-                "",
-                "",
-                "",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/cvz_4.jpg",
+                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/cvz_5.png",
                 ""
             ]
         },
