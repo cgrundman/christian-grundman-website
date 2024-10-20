@@ -11,8 +11,9 @@
   background: rgb(60,64,72);
   background: linear-gradient(0deg, rgba(60,64,72,1) 0%, rgba(234,234,234,1) 7%, rgba(234,234,234,1) 93%, rgba(60,64,72,1) 100%);
   color: #3C4048;
-  padding: 2rem;
+  padding: 8%;
 }
+
 
 button {
   color: #3C4048;

@@ -57,9 +57,21 @@
             "description": "Design, Development, and Construction of a electrocardiogram device.",
             "logo": "",
             "subtitles": [
+                "Final System",
+                "Analog Design",
+                "Analog PCB",
+                "Analog Signal",
+                "System Display",
+                "Special Thanks:"
             ],
-            "sections": [         
-            ] 
+            "sections": [
+                "The total system together. Unseen are the sensor and arduino board. There was no casing designed for this project.",
+                "Analog Circuit Designed by Analog Team. The team had 2 weeks to design a board to fit all the filters, amplifiers, and signal connections together.",
+                "Final analog circuit board. This is a handmade PCB from the above design.",
+                "The signal received from the sensor, after analog processing, to the oscilloscope. This was used to tune the digital thresholding.",
+                "Sample readout of heart, with high Pressure alarm. The device also includes a buzzer to indicate heart beat (during the QRS-complex).",
+                "Paniz Izadi, Sevda Golkar, Andrea Rǎileanu, Akin Çaǧlayan. Also to the Professors and student tutors that provided insights and learning opportunities."
+            ]
         },
         {
             "id": "isp",
