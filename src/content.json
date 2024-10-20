@@ -57,6 +57,19 @@
                 "Masks are commonly used in imaging to identify areas of interest. In this case, the metal is a structure of high attenuation. So the idea is to isolate these regions, transform it into sinogram space, and then apply this mask to the sinogram and reconstruct.",
                 "The results of the masked sinogram and masked reconstruction is pictured here. The metal data is gone, but so is much of the other relevant data. So more must be done.",
                 "A simple interpolation algorithm is performed on the sinogram data using the mask called regionfill(). This is an internal function within MATLAB and worked very well to showcase how this method works. There was another method shown in my git repo."
+            ],
+            "images": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
             ]
         },
         {
@@ -245,7 +258,19 @@
                 "Finally a Raspberry Pi was developed with a python kernel. This was done for 3 reasons: creating a user interface is easy in Python, AI frameworks are most commonly found in python, and the Raspberry pi removes cost but provides a fully functional computer. The data size was found to be small enough to fit hundred of samples onto a single SD card.",
                 "With the system architecture complete, future projects could be identified. Further developments were needed. Within the DDS/Amplification/Attenuation subsystem, all the components were prototyped seperately. A full integration of all the electronics is needed. For the Data Storage and Pattern Recognition subsystem, the Pattern Recognition (AI) system had to be developed now that the signal data is better known. Further integrating the communication pipeline between the STM32 and the Raspberry Pi and developing the user interface was another project to be completed.",
                 "<a>Insert Course Name,Link to course page</a>"
-            ] 
+            ],
+            "images":[
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
         }
     ],
     "logos": [
