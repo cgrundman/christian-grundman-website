@@ -79,6 +79,14 @@
                 "The signal received from the sensor, after analog processing, to the oscilloscope. This was used to tune the digital thresholding.",
                 "Sample readout of heart, with high Pressure alarm. The device also includes a buzzer to indicate heart beat (during the QRS-complex).",
                 "Paniz Izadi, Sevda Golkar, Andrea Rǎileanu, Akin Çaǧlayan. Also to the Professors and student tutors that provided insights and learning opportunities."
+            ],
+            "images": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
             ]
         },
         {
