@@ -20,6 +20,9 @@ function ProjectPage() {
                         <div>
                             <h3 key={index}>{subtitle}</h3>
                             <p key={index}>{project.sections[index]}</p>
+                            {project.images[index] !== "" && (
+                                <img kex={index} src={project.images[index]} alt="Not Found" />
+                            )}
                         </div>
                     ))}
                 </ul>

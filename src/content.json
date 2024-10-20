@@ -20,7 +20,15 @@
                 "Introduces and explains how to track objects in Python and OpenCV. Contained are instruction for what features the software detects and how the software can detect these features.",
                 "Introduction to automated computerized image processing. All deep learning is done within Keras. All models are contained within the .h5 files.",
                 "This is a finger counter program. With live video from the camera, a neural network counts the number of fingers being held up in a segment of the image."
-            ] 
+            ],
+            "images": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
         },
         {
             "id": "ctr",
@@ -171,7 +179,13 @@
                 "This code is based on the ITU morse standard. There is no symbolic difference between long and short pulses, however the spaces in between words and characters are included.",
                 "",
                 "<a>Link to Replit</a>"      
-            ] 
+            ],
+            "images": [
+                "",
+                "",
+                "",
+                ""
+            ]
         },
         {
             "id": "nmr",
