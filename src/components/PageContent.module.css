@@ -27,8 +27,7 @@ button {
 }
 
 .logoLarge {
-  width: 75%;
-  max-width: 300px;
+  max-width: 50%;
   padding: 1rem;
 }
 
@@ -40,6 +39,12 @@ button {
 .projectlogo {
   width: 15%;
   padding: 1rem;
+}
+
+.projectImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .avatar {

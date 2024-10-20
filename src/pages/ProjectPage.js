@@ -25,7 +25,7 @@ function ProjectPage() {
                             <p>{project.sections[index]}</p>
                             {/* <img src={} alt={project.id + "_" + index} /> */}
                             {project.images[index] !== "" && (
-                                <img src={project.images[index]} alt="Not Found" style={{ width: '100%', borderRadius: '10px' }} />
+                                <img src={project.images[index]} alt="Not Found" className={classes.projectImage} />
                             )}
                         </div>
                     ))}
