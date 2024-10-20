@@ -119,6 +119,19 @@
                 "Finally, these are the results in the parameter tuning. Of the 12 parameters tested from Rawpy, 'No Auto Scaling' was fixed. Of the remaining parameters, only 'Four Color RGB' and 'Use Auto White Balance' converged on their ideal values. Though it is important to note that these are the only boolean (trie/false) parameters in the set.",
                 "Another insight was gained through cross implementation of the differentiable proxies. THe proxy trained on COCO images was fed HAM10000 images and vise versa. If the model was learning how to de-bayer and process raw data effectively, this would not be the case.",
                 "The results prompt the following recommendations:\nMore complex image signal processor\nDifferent approximations\nDifferent data sets\nChange Loss Calculations for Parameter Tuning\nFinally, A special thanks to the Research and Development team at Basler AG for giving the access to technology, hardware, and expertise to complete this research project. And Also thanks to the University of Applied Sciences of Lübeck to providing resources and education that made completing this project possible." 
+            ],
+            "images": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
             ]
         },
         {
