@@ -2,14 +2,14 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import content from "../content.json";
-import cvz from "../logos/computer_vision.svg";
-import ctr from "../logos/ct.svg";
-import ecg from "../logos/ecg.svg";
-import isp from "../logos/isp.svg";
-import ldd from "../logos/leaf_disease.svg";
-import mls from "../logos/ml_stethoscope.svg";
-import mct from "../logos/morse.svg";
-import nmr from "../logos/nmr.svg";
+import CVZ from "../logos/CVZ.jsx";
+import CTR from "../logos/CTR.jsx";
+import ECG from "../logos/ECG.jsx";
+import ISP from "../logos/ISP.jsx";
+import LDD from "../logos/LDD.jsx";
+import MLS from "../logos/MLS.jsx";
+import MCT from "../logos/MCT.jsx";
+import NMR from "../logos/NMR.jsx";
 import relaxed from "../avatars/relaxed.svg";
 import PageContent from "../components/PageContent.js";
 import classes from "../components/PageContent.module.css";
@@ -20,6 +20,7 @@ function ProjectsPage() {
 
   // State to track which image's information is visible (null means no info is visible)
   const [visibleInfo, setVisibleInfo] = useState(null);
+  const [highlighted, setHighlighted] = useState(null);
 
   // Function to toggle information for a specific image
   const toggleInfo = (imageIndex) => {
@@ -27,6 +28,7 @@ function ProjectsPage() {
     setVisibleInfo((prevVisibleInfo) =>
       prevVisibleInfo === imageIndex ? null : imageIndex
     );
+    setHighlighted((prevIndex) => (prevIndex === imageIndex ? null : imageIndex));
   };
 
   return (
@@ -36,55 +38,55 @@ function ProjectsPage() {
         <p>Select a project icon to find out more.</p>
       </div>
       <div>
-        <img
-          src={cvz}
+        <CVZ
           onClick={() => toggleInfo(1)}
-          className={classes.projectlogo}
+          className={highlighted === 1 ? "highlight" : ""}
           alt="Computer Vision"
+          width="20%"
         />
-        <img
-          src={ctr}
+        <CTR
           onClick={() => toggleInfo(2)}
-          className={classes.projectlogo}
+          className={highlighted === 2 ? "highlight" : ""}
           alt="Computed Tomography Reconstruction"
+          width="20%"
         />
-        <img
-          src={ecg}
+        <ECG
           onClick={() => toggleInfo(3)}
-          className={classes.projectlogo}
+          className={highlighted === 3 ? "highlight" : ""}
           alt="Electrocardiogram"
+          width="20%"
         />
-        <img
-          src={isp}
+        <ISP
           onClick={() => toggleInfo(4)}
-          className={classes.projectlogo}
+          className={highlighted === 4 ? "highlight" : ""}
           alt="IMG Signal Processor"
+          width="20%"
         />
       </div>
       <div>
-        <img
-          src={ldd}
+        <LDD
           onClick={() => toggleInfo(5)}
-          className={classes.projectlogo}
+          className={highlighted === 5 ? "highlight" : ""}
           alt="Leaf Disease Detection"
+          width="20%"
         />
-        <img
-          src={mls}
+        <MLS
           onClick={() => toggleInfo(6)}
-          className={classes.projectlogo}
+          className={highlighted === 6 ? "highlight" : ""}
           alt="ML Stethoscope"
+          width="20%"
         />
-        <img
-          src={mct}
+        <MCT
           onClick={() => toggleInfo(7)}
-          className={classes.projectlogo}
+          className={highlighted === 7 ? "highlight" : ""}
           alt="Morse Code Translator"
+          width="20%"
         />
-        <img
-          src={nmr}
+        <NMR
           onClick={() => toggleInfo(8)}
-          className={classes.projectlogo}
+          className={highlighted === 8 ? "highlight" : ""}
           alt="Nuclear Magnetic Resonance"
+          width="20%"
         />
       </div>
       {/* Conditionally rendering information for Selected project */}
