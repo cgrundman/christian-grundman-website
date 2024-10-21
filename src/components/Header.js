@@ -15,7 +15,7 @@ function Header() {
                             } 
                             end 
                         >
-                            Home
+                            <b>Home</b>
                         </NavLink>
                     </li>
                     <li>
@@ -26,7 +26,7 @@ function Header() {
                             } 
                             end 
                         >
-                            Projects
+                            <b>Projects</b>
                         </NavLink>
                     </li>
                     <li>
@@ -37,7 +37,7 @@ function Header() {
                             } 
                             end 
                         >
-                            About Me
+                            <b>About Me</b>
                         </NavLink>
                     </li>
                 </ul>
