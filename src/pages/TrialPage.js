@@ -5,6 +5,7 @@ import CTR from "../logos/CTR.jsx";
 import ECG from "../logos/ECG.jsx";
 import ISP from "../logos/ISP.jsx";
 import LDD from "../logos/LDD.jsx";
+import MLS from "../logos/MLS.jsx";
 import PageContent from "../components/PageContent";
 
 const TrialPage = () => {
@@ -43,6 +44,11 @@ const TrialPage = () => {
         <LDD 
           className={highlighted === 5 ? "highlight" : ""}
           onClick={() => handleToggleHighlight(5)}
+          width="20%"
+        />
+        <MLS 
+          className={highlighted === 6 ? "highlight" : ""}
+          onClick={() => handleToggleHighlight(6)}
           width="20%"
         />
       </div>
