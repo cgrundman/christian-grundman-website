@@ -9,15 +9,15 @@
   
   /* Highlight class for the SVG */
   .highlight {
-    fill: yellow;  /* Change the color to highlight */
-    stroke: red;   /* Add a stroke for highlighting */
+    fill: #324f52;  /* Change the color to highlight */
+    stroke: #00ABB3;   /* Add a stroke for highlighting */
     stroke-width: 5;
   }
   
   /* Default styling for the SVG */
   svg {
-    fill: lightgray;
-    stroke: gray;
+    fill: #3C4048;
+    stroke: #aaa;
     stroke-width: 2;
     cursor: pointer;
   }
