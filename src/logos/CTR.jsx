@@ -1,5 +1,5 @@
 import * as React from "react";
-const Trial1 = (props) => (
+const CT = (props) => (
   <svg
     width="800"
     height="800"
@@ -76,4 +76,4 @@ const Trial1 = (props) => (
     />
   </svg>
 );
-export default Trial1;
+export default CT;
