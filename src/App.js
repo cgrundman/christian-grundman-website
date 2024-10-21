@@ -5,6 +5,7 @@ import ProjectsPage from "./pages/ProjectsPage.js";
 import ProjectPage from "./pages/ProjectPage.js";
 import AboutMePage from "./pages/AboutMePage.js";
 import ErrorPage from "./pages/ErrorPage.js";
+import TrialPage from "./pages/TrialPage.js";
 import RootLayout from "./pages/Root.js";
 
 const router = createBrowserRouter([
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
       { path: 'projects', element: <ProjectsPage /> },
       { path: 'projects/:projectid', element: <ProjectPage /> },
       { path: 'aboutme', element: <AboutMePage /> },
+      { path: 'trial', element: <TrialPage /> },
     ],
   }
 ])

@@ -18,6 +18,7 @@ button {
   margin-left: 1rem;
   margin-right: 1rem;
   border-radius: 10px;
+  padding: 5px 0px 5px 0px;
   border: #00ABB3;
   width: 200px;
   font-weight: bold;
