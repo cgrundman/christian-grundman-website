@@ -11,14 +11,12 @@ const Trial1 = (props) => (
     <defs>
       <g id="a">
         <path
-          stroke="#aaa"
           strokeWidth={12}
           strokeLinecap="round"
           strokeLinejoin="round"
           d="M50 300V100h50l25-15h150l25 15h50v200z"
         />
         <circle
-          stroke="#aaa"
           strokeWidth={12}
           strokeMiterlimit={10}
           cx={200}
@@ -29,7 +27,6 @@ const Trial1 = (props) => (
           cx={92}
           cy={142}
           r={20}
-          stroke="#aaa"
           strokeWidth={12}
           strokeMiterlimit={10}
         />
@@ -43,6 +40,7 @@ const Trial1 = (props) => (
         />
         <circle
           stroke="#fff"
+          fill="transparent"
           strokeWidth={5}
           strokeMiterlimit={10}
           cx={200}
@@ -54,6 +52,7 @@ const Trial1 = (props) => (
           cy={142}
           r={20}
           stroke="#fff"
+          fill="transparent"
           strokeWidth={5}
           strokeMiterlimit={10}
         />
