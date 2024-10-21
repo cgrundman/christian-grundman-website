@@ -1,5 +1,5 @@
 import * as React from "react";
-const Trial1 = (props) => (
+const CVZ = (props) => (
   <svg
     width={800}
     height={800}
@@ -62,4 +62,4 @@ const Trial1 = (props) => (
     <use href="#a" />
   </svg>
 );
-export default Trial1;
+export default CVZ;
