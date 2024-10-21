@@ -1,5 +1,5 @@
 import * as React from "react";
-const Trial2 = (props) => (
+const ECG = (props) => (
     <svg 
         width="800" 
         height="800" 
@@ -39,4 +39,4 @@ const Trial2 = (props) => (
         <use href="#s" x="85" y="85"/>
     </svg>
 );
-export default Trial2;
+export default ECG;
