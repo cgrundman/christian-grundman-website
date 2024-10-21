@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./TrialPage.css";
 import Trial1 from "../logos/computer_vision.jsx";
-import Trial2 from "../logos/ecg.jsx";
+import Trial2 from "../logos/ct.jsx";
+import Trial3 from "../logos/ecg.jsx";
 import PageContent from "../components/PageContent";
 
 const TrialPage = () => {
@@ -20,12 +21,17 @@ const TrialPage = () => {
       <Trial1
         className={highlighted === 1 ? "highlight" : ""}
         onClick={() => handleToggleHighlight(1)}
-        width="400"S
+        width="200"
       />
       <Trial2
         className={highlighted === 2 ? "highlight" : ""}
         onClick={() => handleToggleHighlight(2)}
-        width="400"
+        width="200"
+      />
+      <Trial3
+        className={highlighted === 3 ? "highlight" : ""}
+        onClick={() => handleToggleHighlight(3)}
+        width="200"
       />
     </PageContent>
   );
