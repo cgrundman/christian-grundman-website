@@ -13,13 +13,6 @@
   padding: 8%;
 }
 
-button {
-  color: #3C4048;
-  background-color: #00ABB3;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .logo {
   width: 15%;
   max-width: 300px;
@@ -55,4 +48,8 @@ button {
 .interests {
   width: 25%;
   padding: 1rem;
+}
+
+.description {
+  padding-bottom: 2rem;
 }

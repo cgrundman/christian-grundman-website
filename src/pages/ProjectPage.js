@@ -15,7 +15,7 @@ function ProjectPage() {
 
     return (
         <PageContent title={project.title} >
-            <p>{project.description}</p>
+            <p className={classes.description}>{project.description}</p>
             <div className={classes.content}>
                 <img src={project.logo} alt={project.id} className={classes.logoLarge} />
                 <ul>
