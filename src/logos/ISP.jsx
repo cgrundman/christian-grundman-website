@@ -9,7 +9,7 @@ const ISP = (props) => (
     {...props}
   >
     <defs>
-      <g id="a">
+      <g id="camera">
         <path
           strokeWidth={12}
           strokeLinecap="round"
@@ -59,7 +59,7 @@ const ISP = (props) => (
       </g>
     </defs>
     <circle cx={200} cy={200} r={200} stroke="transparent" />
-    <use href="#a" />
+    <use href="#camera" />
   </svg>
 );
 export default ISP;
