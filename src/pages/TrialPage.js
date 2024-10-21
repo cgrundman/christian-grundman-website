@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./TrialPage.css";
-import Trial1 from "../logos/computer_vision.jsx";
-import Trial2 from "../logos/ct.jsx";
-import Trial3 from "../logos/ecg.jsx";
+import CVZ from "../logos/CVZ.jsx";
+import CTR from "../logos/CTR.jsx";
+import ECG from "../logos/ECG.jsx";
+import ISP from "../logos/ISP.jsx";
 import PageContent from "../components/PageContent";
 
 const TrialPage = () => {
@@ -18,21 +19,31 @@ const TrialPage = () => {
 
   return (
     <PageContent title="Trial Page">
-      <Trial1
+      <CVZ
         className={highlighted === 1 ? "highlight" : ""}
         onClick={() => handleToggleHighlight(1)}
-        width="200"
+        width="100"
       />
-      <Trial2
+      <CTR
         className={highlighted === 2 ? "highlight" : ""}
         onClick={() => handleToggleHighlight(2)}
-        width="200"
+        width="100"
       />
-      <Trial3
+      <ECG
         className={highlighted === 3 ? "highlight" : ""}
         onClick={() => handleToggleHighlight(3)}
-        width="200"
+        width="100"
       />
+      <ISP
+        className={highlighted === 4 ? "highlight" : ""}
+        onClick={() => handleToggleHighlight(4)}
+        width="100"
+      />
+      {/* <Trial4
+        className={highlighted === 4 ? "highlight" : ""}
+        onClick={() => handleToggleHighlight(4)}
+        width="200"
+      /> */}
     </PageContent>
   );
 };
