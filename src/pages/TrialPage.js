@@ -6,6 +6,7 @@ import ECG from "../logos/ECG.jsx";
 import ISP from "../logos/ISP.jsx";
 import LDD from "../logos/LDD.jsx";
 import MLS from "../logos/MLS.jsx";
+import NMR from "../logos/NMR.jsx";
 import PageContent from "../components/PageContent";
 
 const TrialPage = () => {
@@ -49,6 +50,11 @@ const TrialPage = () => {
         <MLS 
           className={highlighted === 6 ? "highlight" : ""}
           onClick={() => handleToggleHighlight(6)}
+          width="20%"
+        />
+        <NMR 
+          className={highlighted === 7 ? "highlight" : ""}
+          onClick={() => handleToggleHighlight(7)}
           width="20%"
         />
       </div>
