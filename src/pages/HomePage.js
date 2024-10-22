@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 import professional from '../avatars/professional.svg'
 import Electrical from "../logos/electrical.jsx";
-import programmingLogo from '../logos/programming.svg'
 import Mechanical from "../logos/mechanical.jsx";
+import Programming from "../logos/programming.jsx";
 import projectManagementLogo from '../logos/project_management.svg'
 import PageContent from "../components/PageContent.js";
 import classes from "../components/PageContent.module.css"
@@ -35,8 +35,8 @@ function HomePage() {
                 </div>
                 <div>
                     <Electrical className={classes.logo} onClick={() => toggleInfo(1) } alt="electricalLogo" />
-                    <img src={programmingLogo} className={classes.logo} onClick={() => toggleInfo(3) } alt="programmingLogo" />
                     <Mechanical className={classes.logo} onClick={() => toggleInfo(2) } alt="mechanicalLogo" />
+                    <Programming className={classes.logo} onClick={() => toggleInfo(3) } alt="programmingLogo" />
                     <img src={projectManagementLogo} className={classes.logo} onClick={() => toggleInfo(4) } alt="projectManagementLogo" />
                 </div>
             </div>
