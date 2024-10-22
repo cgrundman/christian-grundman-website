@@ -126,7 +126,7 @@ const Mechanical = (props) => (
           cy="165"
           r="10"
           fill="#cc314b"
-          stroke="transparent" 
+          stroke="transparent"
           transform="rotate(60 200 200)"
         />
         <circle
@@ -134,7 +134,7 @@ const Mechanical = (props) => (
           cy="165"
           r="10"
           fill="#cc314b"
-          stroke="transparent" 
+          stroke="transparent"
           transform="rotate(120 200 200)"
         />
         <circle
@@ -142,7 +142,7 @@ const Mechanical = (props) => (
           cy="165"
           r="10"
           fill="#cc314b"
-          stroke="transparent" 
+          stroke="transparent"
           transform="rotate(180 200 200)"
         />
         <circle
@@ -150,7 +150,7 @@ const Mechanical = (props) => (
           cy="165"
           r="10"
           fill="#cc314b"
-          stroke="transparent" 
+          stroke="transparent"
           transform="rotate(240 200 200)"
         />
         <circle
@@ -158,7 +158,7 @@ const Mechanical = (props) => (
           cy="165"
           r="10"
           fill="#cc314b"
-          stroke="transparent" 
+          stroke="transparent"
           transform="rotate(300 200 200)"
         />
         <circle
