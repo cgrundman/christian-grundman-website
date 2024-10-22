@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import professional from '../avatars/professional.svg'
-import electricalLogo from '../logos/electrical.svg'
+import Electrical from "../logos/electrical.jsx";
 import mechanicalLogo from '../logos/mechanical.svg'
 import programmingLogo from '../logos/programming.svg'
 import projectManagementLogo from '../logos/project_management.svg'
@@ -34,7 +34,7 @@ function HomePage() {
                     <p>"I never make the same mistake twice. I make them three or four times just to be sure."</p>
                 </div>
                 <div>
-                    <img src={electricalLogo} className={classes.logo} onClick={() => toggleInfo(1) } alt="electricalLogo" />
+                    <Electrical className={classes.logo} onClick={() => toggleInfo(1) } alt="electricalLogo" />
                     <img src={mechanicalLogo} className={classes.logo} onClick={() => toggleInfo(2) } alt="mechanicalLogo" />
                     <img src={programmingLogo} className={classes.logo} onClick={() => toggleInfo(3) } alt="programmingLogo" />
                     <img src={projectManagementLogo} className={classes.logo} onClick={() => toggleInfo(4) } alt="projectManagementLogo" />
