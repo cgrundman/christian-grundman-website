@@ -24,3 +24,18 @@ button {
   font-weight: bold;
   font-size: large;
 }
+
+/* Highlight class for the SVG */
+.highlight {
+  fill: #324f52;
+  stroke: #00ABB3;
+  stroke-width: 5;
+}
+
+/* Default styling for the SVG */
+svg {
+  fill: #3C4048;
+  stroke: #aaa;
+  stroke-width: 2;
+  cursor: pointer;
+}
