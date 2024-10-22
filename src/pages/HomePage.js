@@ -5,7 +5,7 @@ import professional from '../avatars/professional.svg'
 import Electrical from "../logos/electrical.jsx";
 import Mechanical from "../logos/mechanical.jsx";
 import Programming from "../logos/programming.jsx";
-import projectManagementLogo from '../logos/project_management.svg'
+import ProjectManagement from "../logos/project_management.jsx";
 import PageContent from "../components/PageContent.js";
 import classes from "../components/PageContent.module.css"
 import content from "../content.json"
@@ -37,7 +37,7 @@ function HomePage() {
                     <Electrical className={classes.logo} onClick={() => toggleInfo(1) } alt="electricalLogo" />
                     <Mechanical className={classes.logo} onClick={() => toggleInfo(2) } alt="mechanicalLogo" />
                     <Programming className={classes.logo} onClick={() => toggleInfo(3) } alt="programmingLogo" />
-                    <img src={projectManagementLogo} className={classes.logo} onClick={() => toggleInfo(4) } alt="projectManagementLogo" />
+                    <ProjectManagement className={classes.logo} onClick={() => toggleInfo(4) } alt="projectManagementLogo" />
                 </div>
             </div>
             {/* Conditionally rendering information for Selected subject */}
