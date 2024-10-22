@@ -7,7 +7,7 @@ const Electrical = (props) => (
   >
     <defs>
       <circle r="10" fill="#fff" id="b" />
-      <g id="a">
+      <g id="nodes">
         <circle r="18" fill="#0e7eb5" stroke="transparent" />
         <circle r="14" fill="#fff" stroke="transparent" />
         <circle r="10" fill="#0e7eb5" stroke="transparent" />
@@ -37,10 +37,10 @@ const Electrical = (props) => (
       stroke-linecap="round"
       d="M200 105V20m-95 180H20m135 95v85m140-180h85"
     />
-    <use href="#a" x="200" y="120" />
-    <use href="#a" x="200" y="120" transform="rotate(90 200 200)" />
-    <use href="#a" x="200" y="280" />
-    <use href="#a" x="200" y="120" transform="rotate(270 200 200)" />
+    <use href="#nodes" x="200" y="120" />
+    <use href="#nodes" x="200" y="120" transform="rotate(90 200 200)" />
+    <use href="#nodes" x="200" y="280" />
+    <use href="#nodes" x="200" y="120" transform="rotate(270 200 200)" />
     <path
       stroke="#fff"
       fill="transparent"
