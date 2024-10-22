@@ -35,7 +35,7 @@ function ProjectsPage() {
     <PageContent title="Projects">
       <div>
         <img src={relaxed} className={classes.avatar} alt="relaxed" />
-        <p>Select a project icon to find out more.</p>
+        <p>Select a project icon to learn more.</p>
       </div>
       <div>
         <CVZ

@@ -1,45 +1,50 @@
 import { Link, useParams } from "react-router-dom";
 
-import content from '../content.json';
+import content from "../content.json";
 import PageContent from "../components/PageContent";
 import classes from "../components/PageContent.module.css";
 
-// import nmr1 from "../images/nmr_1.png"
-
 function ProjectPage() {
+  const { projectid } = useParams();
 
-    const { projectid } = useParams();
+  // Find the user based on the id from the URL
+  const project = content.projects.find((project) => project.id === projectid);
 
-    // Find the user based on the id from the URL
-    const project = content.projects.find(project => project.id === projectid)
-
-    return (
-        <PageContent title={project.title} >
-            <p className={classes.description}>{project.description}</p>
-            <div className={classes.content}>
-                <img src={project.logo} alt={project.id} className={classes.logoLarge} />
-                <ul>
-                    {project.subtitles.map((subtitle, index) => (
-                        <div key={index}>
-                            <h3>{subtitle}</h3>
-                            <p>{project.sections[index]}</p>
-                            {/* <img src={} alt={project.id + "_" + index} /> */}
-                            {project.images[index] !== "" && (
-                                <img src={project.images[index]} alt="Not Found" className={classes.projectImage} />
-                            )}
-                        </div>
-                    ))}
-                </ul>
-                <Link to={`/projects`}>
-                    <div>
-                        <button>
-                            <p>Back</p>
-                        </button>
-                    </div>
-                </Link>
+  return (
+    <PageContent title={project.title}>
+      <p className={classes.description}>{project.description}</p>
+      <div className={classes.content}>
+        <img
+          src={project.logo}
+          alt={project.id}
+          className={classes.logoLarge}
+        />
+        <ul>
+          {project.subtitles.map((subtitle, index) => (
+            <div key={index}>
+              <h3>{subtitle}</h3>
+              <p>{project.sections[index]}</p>
+              {/* <img src={} alt={project.id + "_" + index} /> */}
+              {project.images[index] !== "" && (
+                <img
+                  src={project.images[index]}
+                  alt="Not Found"
+                  className={classes.projectImage}
+                />
+              )}
             </div>
-        </PageContent>
-    )
+          ))}
+        </ul>
+        <Link to={`/projects`}>
+          <div>
+            <button>
+              <p>Back</p>
+            </button>
+          </div>
+        </Link>
+      </div>
+    </PageContent>
+  );
 }
 
 export default ProjectPage;
