@@ -1,12 +1,8 @@
 import * as React from "react";
 const Electrical = (props) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 400 400"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" {...props}>
     <defs>
-      <circle r="10" fill="#fff" id="b" />
+      <circle id="electron" r="10" fill="#fff" />
       <g id="nodes">
         <circle r="18" fill="#0e7eb5" stroke="transparent" />
         <circle r="14" fill="#fff" stroke="transparent" />
@@ -55,7 +51,7 @@ const Electrical = (props) => (
       stroke-linecap="round"
       d="M200 107V20m-95 180H20m135 93v87m138-180h87"
     />
-    <use href="#b" x="120" y="200">
+    <use href="#electron" x="120" y="200">
       <animate
         id="d"
         attributeName="x"

@@ -41,22 +41,22 @@ function HomePage() {
         </div>
         <div>
           <Electrical
-            className={classes.logo}
+            className={visibleInfo === 2 ? classes.logo : classes.logo}
             onClick={() => toggleInfo(1)}
             alt="electricalLogo"
           />
           <Mechanical
-            className={classes.logo}
+            className={visibleInfo === 1 ? classes.logo : classes.logo}
             onClick={() => toggleInfo(2)}
             alt="mechanicalLogo"
           />
           <Programming
-            className={classes.logo}
+            className={visibleInfo === 3 ? classes.logo : classes.logo}
             onClick={() => toggleInfo(3)}
             alt="programmingLogo"
           />
           <ProjectManagement
-            className={classes.logo}
+            className={visibleInfo === 4 ? classes.logo : classes.logo}
             onClick={() => toggleInfo(4)}
             alt="projectManagementLogo"
           />
