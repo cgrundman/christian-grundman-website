@@ -182,8 +182,8 @@
         },
         {
             "id": "mls",
-            "title": "Machine-Learned Stethoscope",
-            "description": "Medical application of machine learning.",
+            "title": "ML Stethoscope",
+            "description": "Medical application of machine learning to anaylze stethoscope audio.",
             "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/ml_stethoscope.svg",
             "subtitles": [
                 "Automated Medicine",
@@ -243,7 +243,7 @@
         {
             "id": "nmr",
             "title": "Nuclear Magnetic Resonance",
-            "description": "A digitalization project for a CW-NMR Machine.",
+            "description": "A digitalization and automation project for a CW-NMR Machine.",
             "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/nmr.svg",
             "subtitles": [
                 "Problem Statement",
