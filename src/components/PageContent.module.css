@@ -21,6 +21,11 @@
   margin-bottom: 20px;
 }
 
+.logoAnimated {
+  width: 25%;
+  stroke: #000;
+}
+
 .logoLarge {
   max-width: 50%;
   padding: 1rem;
