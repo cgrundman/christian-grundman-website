@@ -35,6 +35,7 @@ function ProjectsPage() {
     <PageContent title="Projects">
       <div>
         <img src={relaxed} className={classes.avatar} alt="relaxed" />
+        <p className={classes.quote}>"Do not underestimate your abilities. That is your boss's job."</p>
         <p>Select a project icon to learn more.</p>
       </div>
       <div>

@@ -38,7 +38,7 @@ function HomePage() {
             className={classes.avatar}
             alt="professional"
           />
-          <p>
+          <p className={classes.quote}>
             "I never make the same mistake twice. I make them three or four
             times just to be sure."
           </p>
