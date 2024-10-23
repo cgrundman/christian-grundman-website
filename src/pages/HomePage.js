@@ -72,29 +72,29 @@ function HomePage() {
           )}
           {visibleInfo === 3 ? (
             <Programming
-            className={classes.logoAnimated}
-            onClick={() => toggleInfo(3)}
-            alt="programmingLogo"
+              className={classes.logoAnimated}
+              onClick={() => toggleInfo(3)}
+              alt="programmingLogo"
             />
           ) : (
             <ProgrammingStatic
-            className={classes.logo}
-            onClick={() => toggleInfo(3)}
-            alt="programmingStaticLogo"
+              className={classes.logo}
+              onClick={() => toggleInfo(3)}
+              alt="programmingStaticLogo"
             />
           )}
           {visibleInfo === 4 ? (
             <ProjectManagement
-            className={classes.logoAnimated}
-            onClick={() => toggleInfo(4)}
-            alt="projectManagementLogo"
-          />
+              className={classes.logoAnimated}
+              onClick={() => toggleInfo(4)}
+              alt="projectManagementLogo"
+            />
           ) : (
             <ProjectManagementStatic
-            className={classes.logo}
-            onClick={() => toggleInfo(4)}
-            alt="projectManagementStaticLogo"
-          />
+              className={classes.logo}
+              onClick={() => toggleInfo(4)}
+              alt="projectManagementStaticLogo"
+            />
           )}
         </div>
       </div>

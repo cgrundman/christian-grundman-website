@@ -1,312 +1,312 @@
 {
-    "projects": [
-        {
-            "id": "cvz",
-            "title": "Computer Vision",
-            "description": "Computer Vision demostration through project-based work.",
-            "tags": ["Programming"],
-            "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/computer_vision.svg",
-            "subtitles": [
-                "OpenCV Basics",
-                "Image Processing",
-                "Video Basics",
-                "Object Detection",
-                "Deep Learning",
-                "Capstone Project"
-            ],
-            "sections": [
-                "A basic introduction to image handling using OpenCV. OpenCV can interface with python but has core functionality in C++, making it fast enough to process real time image data.",
-                "An introduction to image visualization and manipulation with techniques including: color mappings, blending and pasting, thresholding, blurring and smoothing, morphological operators, gradients, and histograms.",
-                "Introduction on how to open and use saved video files, and pull video feed from camera hardware.",
-                "Introduces and explains how to track objects in Python and OpenCV. Contained are instruction for what features the software detects and how the software can detect these features.",
-                "Introduction to automated computerized image processing. All deep learning is done within Keras. All models are contained within the .h5 files.",
-                "This is a finger counter program. With live video from the camera, a neural network counts the number of fingers being held up in a segment of the image."
-            ],
-            "images": [
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/cvz_1.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/cvz_2.png",
-                "",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/cvz_4.jpg",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/cvz_5.png",
-                ""
-            ]
-        },
-        {
-            "id": "ctr",
-            "title": "Computed Tomography",
-            "description": "CT scanner mathematical simulation with MATLAB.",
-            "tags": ["Programming"],
-            "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/ct.svg",
-            "subtitles": [
-                "CT Simulation - Initial Object to Scan",
-                "CT Simulation - CT Machine Configuration",
-                "CT Simulation - Sinogram - Single View",
-                "CT Simulation - Full Sinogram",
-                "CT Simulation - Full Simulation",
-                "Algebraic Reconstruction Technique",
-                "Metal Artifact Reduction",
-                "MAR - Creation of Metal Mask",
-                "MAR - Results of Removing Metalic Regions",
-                "MAR - Interpolation of Missing Information"
-            ],
-            "sections": [
-                "The goal of this project is to demonstrate how a CT Images are created. This is done in 3 subprojects: CT Simulation, The Algebraic Reconstruction Technique, and Metal Artifact Reduction. This project begins with the simulation. Since the machines are expensive, it is easier to being with a CT image and transform it into CT Data, called a sinogram, with software.",
-                "As is the case with any simulation, a physical approximation of the machine is needed. This image shows the manin components of a CT machine, the x-ray source, the detectors, and the locations of the beams themselves. In this simulation there are many more beams than pictured, but the overall visual effectively shows what the machine looks like in this simulation.",
-                "For any given position of the machine, this is a visualization of the values that the detector read. The higher the value, the more bone or harder material was present.",
-                "The individual views can be stacked on top of each other to create a sinogram. Points in real space are represented as sinusoidal waves. Sinograms are simply a collection of sine waves.",
-                "This is a full visualization of the process of collecting CT data. The .gif speaks for itself and shows the process of the simulation. THe virtual machine is rotated around the image and simulated detector data is collected.",
-                "The reconstruction is handled through 2 loops. The first loop iterates through every view in the CT data. THe second loop creates iterations of these complete view calculation. Another note to be made is that this is a different dataset as the one referred to at the beginning of this page. This is a chest CT. Lastly, there are many processing techniques and entirely other reconstruction methods that are possible. Namely, Fourier Transform is the industry standard. This is where Sinogram Data is transformed into Fourier Data and then computed into image data. I may explore this in another project, but not for the time being.",
-                "Metal in CT scans cause problems for how they affect the x-rays. The noise is pictured in this image.",
-                "Masks are commonly used in imaging to identify areas of interest. In this case, the metal is a structure of high attenuation. So the idea is to isolate these regions, transform it into sinogram space, and then apply this mask to the sinogram and reconstruct.",
-                "The results of the masked sinogram and masked reconstruction is pictured here. The metal data is gone, but so is much of the other relevant data. So more must be done.",
-                "A simple interpolation algorithm is performed on the sinogram data using the mask called regionfill(). This is an internal function within MATLAB and worked very well to showcase how this method works. There was another method shown in my git repo."
-            ],
-            "images": [
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_1.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_2.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_3.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_4.jpg",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_5.gif",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_6.gif",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_7.jpg",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_8.jpg",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_9.jpg",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_10.jpg"
-            ]
-        },
-        {
-            "id": "ecg",
-            "title": "ECG Device",
-            "description": "Design, Development, and Construction of a electrocardiogram device.",
-            "tags": ["Programming", "Electrical"],
-            "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/ecg.svg",
-            "subtitles": [
-                "Final System",
-                "Analog Design",
-                "Analog PCB",
-                "Analog Signal",
-                "System Display",
-                "Special Thanks:"
-            ],
-            "sections": [
-                "The total system together. Unseen are the sensor and arduino board. There was no casing designed for this project.",
-                "Analog Circuit Designed by Analog Team. The team had 2 weeks to design a board to fit all the filters, amplifiers, and signal connections together.",
-                "Final analog circuit board. This is a handmade PCB from the above design.",
-                "The signal received from the sensor, after analog processing, to the oscilloscope. This was used to tune the digital thresholding.",
-                "Sample readout of heart, with high Pressure alarm. The device also includes a buzzer to indicate heart beat (during the QRS-complex).",
-                "Paniz Izadi, Sevda Golkar, Andrea Rǎileanu, Akin Çaǧlayan. Also to the Professors and student tutors that provided insights and learning opportunities."
-            ],
-            "images": [
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ecg_1.jpg",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ecg_2.jpg",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ecg_3.jpg",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ecg_4.jpg",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ecg_5.jpg",
-                ""
-            ]
-        },
-        {
-            "id": "isp",
-            "title": "ISP Optimization",
-            "description": "Optimization of an image signal processor using a differentiable proxy.",
-            "tags": ["Programming", "Project Management"],
-            "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/isp.svg",
-            "subtitles": [
-                "The Problem: Part 1",
-                "The Problem: Part 2",
-                "The Solution",
-                "Step 1: Approximate the ISP",
-                "Step 2: Optimize the ISP",
-                "Data Used",
-                "Step 1 Results: COCO",
-                "Step 1 Results: HAM10000",
-                "Parameter Optimization Results",
-                "Cross Implementation Results",
-                "Recommendations and Special Thanks"
-            ],
-            "sections": [
-                "Cameras operate as a part of a very complicated system. Photons travel from an object, through an optics system, onto an image sensor. No object is the same. And both the optic systems and the image sensors are chosen based on application. Each of these components are variable to any application. We can see that this is already a complex system.",
-                "Finally, the image sensor filters these photons by color, and registers them by strikes. THe more strikes, the higher the intensity. This creates a bayer pattern, as seen on the left of the image. The image signal processor (ISP) has to compensate for all the components and produce an image. Further, it must do this for many different application, so they are parameterized. The parameters are then optimized manually by a team of engineers and a golden-eye expert.",
-                "ISP's are complex and are too complex and are considered black boxes. The inputs and outputs are known, but the processed are to complex to model mathematically to optimize the parameters. Therefor this research aimed to approximate an ISP in a model that was able to be optimized (differentiable). This is where the differentiable proxy comes in. A differentiable proxy would be a white box, in this case a U-Net neural network model.",
-                "The research requires 2 overall steps. The first step was to approximate the ISP using the U-Net. This step builds the differentiable proxy. The Rawpy ISP was chosen as a cheap and easy way to begin this research, as it is free and open sourced. ISP parameters were randomized and passed into both the Rawpy ISP and the U-Net model. The difference between the outputs was then used to improve the model and the process was repeated several thousand times.",
-                "The second step took these this developed model and Optimized the ISP parameters to produce more similar images. This was done by taking fixed ISP parameters (referred to ideal parameters), putting them into Rawpy, while taking random ISP parameters (referred to as tunable parameters) and putting them into the proxy. The difference between these would then be used to improve the tunable parameters to try to see if the tunable parameters would converge on the ideal parameters.",
-                "This experiment was conducted on two different data sets. The first being the COCO data set (https://cocodataset.org/), which is a collection of hundreds of thousand of images tagged for image segmentation, object detection, and captioning. The second of which being the HAM10000 data set (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), consisting of 10000 images of skin lesions. In both cases, this project used a small subset of randomly selected images of each dataset. The selected images were then transformed into RAW data, that contains bayer patterns of the original images.",
-                "Pictured are 4 random images from the data set. From left to right: the Rawpy ISP output, the differentiable proxy output, and the difference between these two images. If the differentiable proxy was perfect, the difference image would be completely black. Interesting insights were the errors at the lines and details as seen in images 637 and 1548. Also interesting are the inclusion of a hotspot in image 3215 not present in the rawpy image.",
-                "The differentiable proxy performed much better on the lower diversity HAM10000 data set. Still notable problems were at the lines. And even more interesting, the differentiable proxy had a greater problem with inclusion of structures not present in the image, as seen in the splotches of light or dark spots in all images. Overall performance was better for this data set, but the model introduced more artifacts in the process.",
-                "Finally, these are the results in the parameter tuning. Of the 12 parameters tested from Rawpy, 'No Auto Scaling' was fixed. Of the remaining parameters, only 'Four Color RGB' and 'Use Auto White Balance' converged on their ideal values. Though it is important to note that these are the only boolean (trie/false) parameters in the set.",
-                "Another insight was gained through cross implementation of the differentiable proxies. THe proxy trained on COCO images was fed HAM10000 images and vise versa. If the model was learning how to de-bayer and process raw data effectively, this would not be the case.",
-                "The results prompt the following recommendations:\nMore complex image signal processor\nDifferent approximations\nDifferent data sets\nChange Loss Calculations for Parameter Tuning\nFinally, A special thanks to the Research and Development team at Basler AG for giving the access to technology, hardware, and expertise to complete this research project. And Also thanks to the University of Applied Sciences of Lübeck to providing resources and education that made completing this project possible." 
-            ],
-            "images": [
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_1.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_2.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_3.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_4.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_5.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_6.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_7.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_8.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_9.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_10.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_11.png"
-            ]
-        },
-        {
-            "id": "ldd",
-            "title": "Leaf Disease Diagnosis",
-            "description": "Agriculture application of deep learning in detecting plant disease.",
-            "tags": ["Programming"],
-            "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/leaf_disease.svg",
-            "subtitles": [
-                "Motivation and Objective",
-                "The Data",
-                "The Dataset",
-                "The Models",
-                "Results",
-                "Further Work",
-                "Special Thanks:"
-            ],
-            "sections": [
-                "Early diagnosis of plant diseases allows preventative measures to reduce economic and production damage. Traditional methods are limited by available expertise. Plant surveillance by farmers is not always practical or cost-effective. Evaluate different databases and implement various neural network architectures for classifying plant diseases.",
-                "The data was taken from this dataset on Kaggle. These are a collection of 256x256 images containing leaves of many different species of plants. The leaves are also labeled with their disease status.",
-                "Pictured is the label count of all the data. There are thousands of images in the dataset.",
-                "As with every AI project, data preprocessing had to be performed to normalize the image data for training the models. However, the main experiment performed was on the model architecture. There were 5 different CNN models tested:\n\n3 Convolutional Layers and 3 FC Layers\n3 Convolutional Layers and 4 FC Layers\n4 Convolutional Layers and 3 FC Layers\n3 Convolutional Layers and 3 FC Layers and dropout in the dense layers\n3 Convolutional Layers and 3 FC Layers and dropout in the convolutional layers",
-                "The Results were promising, an accuracy of between 80-90% were the results for each model. The best results were for model 4, where dropout proved effective at improving model performance.",
-                "This is a confusion matrix of the classification for the validation data. This tests how effective the model was at classifying each case. The results suggested an improvement. By separating the classification into the different types of plants, the performance could be improved. The model could be having to learn too many features. So one solution could be creating a series of small models for classifying each disease based on plant type. THe plant type would already be known by farmers, as crops are planted deliberately. Most of the functionality of a system like this would be to check for diseases on a known crop. Th other improvement would be to implement a more complicated model, like ResNet-18. This could recognize enough features to be effective.",
-                "<a href='www.google.com'>Andrew Yu's Deep Learning Coursera Course and OpenCampus.SH<\/a>"
-            ],
-            "images": [
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_1.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_2.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_3.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_4.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_5.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_6.png",
-                ""
-            ]
-        },
-        {
-            "id": "mls",
-            "title": "ML Stethoscope",
-            "description": "Medical application of machine learning to anaylze stethoscope audio.",
-            "tags": ["Programming"],
-            "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/ml_stethoscope.svg",
-            "subtitles": [
-                "Automated Medicine",
-                "The Dataset",
-                "The Data",
-                "Data Processing - 1",
-                "Data Processing - 2",
-                "Data Processing - 3",
-                "Machine Learning",
-                "Special Thanks"
-            ],
-            "sections": [ 
-                "A big topic in AI is not just the automation of basic skills, but skills performed by highly trained professionals. Doctors have a lot of responsibilities and are very costly. Giving people access to diagnosis and reducing doctors workload are worthy goal for AI and ML research.",
-                "This project used the ICBHI Respiratory Sound Database. This is a collection of sound data from 126 different patients in Portugal and Greece. The project is a classification task, producing a model that guesses what disease, if any, a patient has based on the sound their lungs produce.",
-                "The Dataset contains data collected from different devices using different techniques. The data collection points can be seen here. Each of these different points create different sound data given the same patient. This is necessary as different diseases can be more easily detected in different collection spots. This is why a doctor checks multiple spots when they check your breath in a check-up.",
-                "As is the case with the majority of machine learning projects, data processing is a big part of this project. The first steps are to take the data, and filter it to fill gaps and smooth imperfections. It was chosen early on in this project to test a CNN-classification network on this data. CNNs handle structures in visual data. So the next step was to take this filtered data and transform it into 2D arrays.",
-                "From the visual data, the data is then segmented into individual breathing cycles. The data is further augmented to match frequency and breathing cycle times.",
-                "Lastly, the augmented data is padded to give it a consistent size. CNNs need the same size of data to function. This is why the data is padding into the same size. THe largest data is kept the same and the rest of the data is padded to match.",
-                "The final step is the implementation of the CNN model. This passes the data through a series of Convolutional Neural Networks (CNNs) and then through layers of dense neural networks. The CNNs act to find patters withing the visual data. The dense neural networks attempt to classify these patterns into a diagnosis. This project did not have high enough diagnosis to prototype a product for it. However, this was a valuable learning experience. And a great introduction into Machine Learning.",
-                "<a>Course: Machine Learning with TensorFlow and OpenCampus.SH</a>"    
-            ],
-            "images": [
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_1.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_2.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_3.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_4.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_5.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_6.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_7.png",
-                ""
-            ]
-        },
-        {
-            "id": "mct",
-            "title": "Morse Code Translator",
-            "description": "A simple dictionary-based Morse code translator.",
-            "tags": ["Programming"],
-            "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/morse.svg",
-            "subtitles": [
-                "Introduction",
-                "Code Function",
-                "Example Output",
-                "Code on Replit:"
-            ],
-            "sections": [   
-                "Wikipedia is a great resource for learning more about morse code. There is a long history in Morse code development. In this project I will only discuss the basics. If you want to learn more, click the link below.",
-                "This code is based on the ITU morse standard. There is no symbolic difference between long and short pulses, however the spaces in between words and characters are included.",
-                "",
-                "<a>Link to Replit</a>"      
-            ],
-            "images": [
-                "https://github.com/cgrundman/christian-grundman-website/blob/master/src/images/mct_1.jpg?raw=true",
-                "",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mct_3.png",
-                ""
-            ]
-        },
-        {
-            "id": "nmr",
-            "title": "Nuclear Magnetic Resonance",
-            "description": "A digitalization and automation project for a CW-NMR Machine.",
-            "tags": ["Programming", "Electrical", "Project Management", "Mechanical"],
-            "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/nmr.svg",
-            "subtitles": [
-                "Problem Statement",
-                "Starting Point",
-                "Overview",
-                "Sub Systems",
-                "Microcontroller and Analog-to-Digital Conversion",
-                "DDS/Amplification/Attenuation",
-                "NMR Hardware and Power Supply",
-                "Data Storage and Pattern Recognition",
-                "Next Steps",
-                "Special Thanks"
-            ],
-            "sections": [
-                "Nuclear Magnetic Resonance (NMR) is a method of material analysis that is currently costly and inaccurate. Mass Spectrometry is far preferred for its ability to analyze a material. However, Mass Spectrometry is time intensive and destructive to the material being sampled. Covid-19 showcased a use case for a faster method of material analysis. This project aimed to create fully designed architecture of a full, portable, low-cost NMR system based on the digitization on an existing analog NMR device.",
-                "This project started with the setup out lined here. The device used was a Leybold-Didactic NMR device . The device is powered by a lab-standard programmable power supply. The device has two components, one Electronic and one Mechanical. The user sets the settings and operates the device with the electronic component. The mechanical system handles the magnetic signals and the material being tested. Overall, this device operates as a Continuous-Wave NMR or CW-NMR device.",
-                "This initial device was then analyzed for its top-level components and very basic system identified. From this initial discovery, an initial architecture was described and requirements outlined for development. A key functional part this the microcontroller. This device sets the high frequency signal, sets the low frequency signal, sets the power output, accepts the digital return signal, and sends the digitized data to the land area network (LAN). The high frequency signal is generated by a direct digital synthesizer (DDS) module. The probe generates the analog signal. The analog-to-digital converter (ADC) converts this signal from digital to analog. The LAN handles the data between the hard drive disk (HDD) and the AI performing pattern recognition to identify material.",
-                "While I designed the system architecture and performed many of the tests for parts of the machine, other researchers and teams had responsibilities in other sections of the system. This meant that subsystem identification was important for clear project management between the different groups. Splitting the project along technical requirements yielded 4 subsystems: Data Storage and Pattern Recognition, Microcontroller and Analog-to-Digital Conversion, DDS/Amplification/Attenuation, and NMR Hardware and Power Supply. Each Sub System can be further described.",
-                "Initially, an Arduino DUE wa selected as a Microcontroller for this system. It was quickly discovered that the onboard ADC was much too slow to collect useful data. The change was made to implement an STM32 that uses C to program much faster without unnecessary subroutines present in arduino. The DDS selected for this project ( the AD9850 ) was only able to create one sinusoidal signal, so a second DDS was added to the system. Further, the pattern recognition and downstream signal analysis need the settings data (high frequency rate, voltage and current from the low frequency circuit). The overall triggers from the user were also passed into the microcontroller.",
-                "This sub system was the most technically complicated, as high frequency electronics are much more difficult to prototype. It was ultimately deemed out of scope for this project to build this circuit, however the circuit itself was identified and the requirement set for later development by a more specialized researcher. The B0 (low frequency signal had to be amplified cleanly using a power amplifier. The high frequency signal coming from the probe needed to be attenuated before going to the ADC. Another complication to this system is the shielding necessary for the high frequency circuit. The circuit operates around 20-30 MHz, which is within the range of ambient radio signals. This is a common issue with many NMR devices and presents a technical challenge to overcome.",
-                "The power supply received signal to alter its settings, and powered the B0 circuit. The probe was electrically isolated from the B0 circuit and is only connected to the amplification and attenuation circuit from previous sub system. Finally, the field generated by the B0 coils, was altered by the smaller coils powered by the low frequency signal from the second DDS. This sub system was not altered from the starting point. A group is developing a new boot to propagate the magnetic field induced by the B0 circuit. For the sake of this project, it was sufficient to understand on an electrical basis how this system works and assist that team in their development by providing key requirements.",
-                "Finally a Raspberry Pi was developed with a python kernel. This was done for 3 reasons: creating a user interface is easy in Python, AI frameworks are most commonly found in python, and the Raspberry pi removes cost but provides a fully functional computer. The data size was found to be small enough to fit hundred of samples onto a single SD card.",
-                "With the system architecture complete, future projects could be identified. Further developments were needed. Within the DDS/Amplification/Attenuation subsystem, all the components were prototyped seperately. A full integration of all the electronics is needed. For the Data Storage and Pattern Recognition subsystem, the Pattern Recognition (AI) system had to be developed now that the signal data is better known. Further integrating the communication pipeline between the STM32 and the Raspberry Pi and developing the user interface was another project to be completed.",
-                "<a>Insert Course Name,Link to course page</a>"
-            ],
-            "images":[
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_1.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_2.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_3.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_4.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_5.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_6.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_7.png",
-                "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_8.png",
-                "",
-                ""
-            ]
-        }
-    ],
-    "logos": [
-        {
-            "title": "Electrical Engineering",
-            "description": "From early in my education, I have had a passion for robotics and electronics. I first fell in love with electronics during college, when I had a bad professor in electricity and magnetism. After teaching myself the foundations, I always found enjoyment in the subject, competence be damned."
-        },
-        { 
-            "title": "Mechanical Engineering",
-            "description": "I have 6 years working experience designing custom machinery and product design. I have worked for years on improving my spacial recognition. I improve my designs by learning the manufacturing processes behind them, like welding and machining. No adays I mostly play with legos to stap sharp."
-        },
-        {
-            "title": "Programming",
-            "description": "I have discovered a passion for programming. I hated it in my undergraduate education. I started programming in Python after years away and have found a unique interest in it. I have experience in data science and AI in Python, web development in JavaScript and Python, and embedded systems in C/C++."
-        },
-        {
-            "title": "Project Management",
-            "description": "PM was never a goal of mine. I found early on in my career that proper project management can make or break a complex project. With that, I realized that no matter what I do in the future, PM knowledge would be very useful. I have held a Project Management Professional (PMP) certification since 2020."
-        }
-    ]
+  "projects": [
+    {
+      "id": "cvz",
+      "title": "Computer Vision",
+      "description": "Computer Vision demostration through project-based work.",
+      "tags": ["Programming"],
+      "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/computer_vision.svg",
+      "subtitles": [
+        "OpenCV Basics",
+        "Image Processing",
+        "Video Basics",
+        "Object Detection",
+        "Deep Learning",
+        "Capstone Project"
+      ],
+      "sections": [
+        "A basic introduction to image handling using OpenCV. OpenCV can interface with python but has core functionality in C++, making it fast enough to process real time image data.",
+        "An introduction to image visualization and manipulation with techniques including: color mappings, blending and pasting, thresholding, blurring and smoothing, morphological operators, gradients, and histograms.",
+        "Introduction on how to open and use saved video files, and pull video feed from camera hardware.",
+        "Introduces and explains how to track objects in Python and OpenCV. Contained are instruction for what features the software detects and how the software can detect these features.",
+        "Introduction to automated computerized image processing. All deep learning is done within Keras. All models are contained within the .h5 files.",
+        "This is a finger counter program. With live video from the camera, a neural network counts the number of fingers being held up in a segment of the image."
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/cvz_1.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/cvz_2.png",
+        "",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/cvz_4.jpg",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/cvz_5.png",
+        ""
+      ]
+    },
+    {
+      "id": "ctr",
+      "title": "Computed Tomography",
+      "description": "CT scanner mathematical simulation with MATLAB.",
+      "tags": ["Programming"],
+      "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/ct.svg",
+      "subtitles": [
+        "CT Simulation - Initial Object to Scan",
+        "CT Simulation - CT Machine Configuration",
+        "CT Simulation - Sinogram - Single View",
+        "CT Simulation - Full Sinogram",
+        "CT Simulation - Full Simulation",
+        "Algebraic Reconstruction Technique",
+        "Metal Artifact Reduction",
+        "MAR - Creation of Metal Mask",
+        "MAR - Results of Removing Metalic Regions",
+        "MAR - Interpolation of Missing Information"
+      ],
+      "sections": [
+        "The goal of this project is to demonstrate how a CT Images are created. This is done in 3 subprojects: CT Simulation, The Algebraic Reconstruction Technique, and Metal Artifact Reduction. This project begins with the simulation. Since the machines are expensive, it is easier to being with a CT image and transform it into CT Data, called a sinogram, with software.",
+        "As is the case with any simulation, a physical approximation of the machine is needed. This image shows the manin components of a CT machine, the x-ray source, the detectors, and the locations of the beams themselves. In this simulation there are many more beams than pictured, but the overall visual effectively shows what the machine looks like in this simulation.",
+        "For any given position of the machine, this is a visualization of the values that the detector read. The higher the value, the more bone or harder material was present.",
+        "The individual views can be stacked on top of each other to create a sinogram. Points in real space are represented as sinusoidal waves. Sinograms are simply a collection of sine waves.",
+        "This is a full visualization of the process of collecting CT data. The .gif speaks for itself and shows the process of the simulation. THe virtual machine is rotated around the image and simulated detector data is collected.",
+        "The reconstruction is handled through 2 loops. The first loop iterates through every view in the CT data. THe second loop creates iterations of these complete view calculation. Another note to be made is that this is a different dataset as the one referred to at the beginning of this page. This is a chest CT. Lastly, there are many processing techniques and entirely other reconstruction methods that are possible. Namely, Fourier Transform is the industry standard. This is where Sinogram Data is transformed into Fourier Data and then computed into image data. I may explore this in another project, but not for the time being.",
+        "Metal in CT scans cause problems for how they affect the x-rays. The noise is pictured in this image.",
+        "Masks are commonly used in imaging to identify areas of interest. In this case, the metal is a structure of high attenuation. So the idea is to isolate these regions, transform it into sinogram space, and then apply this mask to the sinogram and reconstruct.",
+        "The results of the masked sinogram and masked reconstruction is pictured here. The metal data is gone, but so is much of the other relevant data. So more must be done.",
+        "A simple interpolation algorithm is performed on the sinogram data using the mask called regionfill(). This is an internal function within MATLAB and worked very well to showcase how this method works. There was another method shown in my git repo."
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_1.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_2.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_3.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_4.jpg",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_5.gif",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_6.gif",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_7.jpg",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_8.jpg",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_9.jpg",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ctr_10.jpg"
+      ]
+    },
+    {
+      "id": "ecg",
+      "title": "ECG Device",
+      "description": "Design, Development, and Construction of a electrocardiogram device.",
+      "tags": ["Programming", "Electrical"],
+      "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/ecg.svg",
+      "subtitles": [
+        "Final System",
+        "Analog Design",
+        "Analog PCB",
+        "Analog Signal",
+        "System Display",
+        "Special Thanks:"
+      ],
+      "sections": [
+        "The total system together. Unseen are the sensor and arduino board. There was no casing designed for this project.",
+        "Analog Circuit Designed by Analog Team. The team had 2 weeks to design a board to fit all the filters, amplifiers, and signal connections together.",
+        "Final analog circuit board. This is a handmade PCB from the above design.",
+        "The signal received from the sensor, after analog processing, to the oscilloscope. This was used to tune the digital thresholding.",
+        "Sample readout of heart, with high Pressure alarm. The device also includes a buzzer to indicate heart beat (during the QRS-complex).",
+        "Paniz Izadi, Sevda Golkar, Andrea Rǎileanu, Akin Çaǧlayan. Also to the Professors and student tutors that provided insights and learning opportunities."
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ecg_1.jpg",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ecg_2.jpg",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ecg_3.jpg",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ecg_4.jpg",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ecg_5.jpg",
+        ""
+      ]
+    },
+    {
+      "id": "isp",
+      "title": "ISP Optimization",
+      "description": "Optimization of an image signal processor using a differentiable proxy.",
+      "tags": ["Programming", "Project Management"],
+      "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/isp.svg",
+      "subtitles": [
+        "The Problem: Part 1",
+        "The Problem: Part 2",
+        "The Solution",
+        "Step 1: Approximate the ISP",
+        "Step 2: Optimize the ISP",
+        "Data Used",
+        "Step 1 Results: COCO",
+        "Step 1 Results: HAM10000",
+        "Parameter Optimization Results",
+        "Cross Implementation Results",
+        "Recommendations and Special Thanks"
+      ],
+      "sections": [
+        "Cameras operate as a part of a very complicated system. Photons travel from an object, through an optics system, onto an image sensor. No object is the same. And both the optic systems and the image sensors are chosen based on application. Each of these components are variable to any application. We can see that this is already a complex system.",
+        "Finally, the image sensor filters these photons by color, and registers them by strikes. THe more strikes, the higher the intensity. This creates a bayer pattern, as seen on the left of the image. The image signal processor (ISP) has to compensate for all the components and produce an image. Further, it must do this for many different application, so they are parameterized. The parameters are then optimized manually by a team of engineers and a golden-eye expert.",
+        "ISP's are complex and are too complex and are considered black boxes. The inputs and outputs are known, but the processed are to complex to model mathematically to optimize the parameters. Therefor this research aimed to approximate an ISP in a model that was able to be optimized (differentiable). This is where the differentiable proxy comes in. A differentiable proxy would be a white box, in this case a U-Net neural network model.",
+        "The research requires 2 overall steps. The first step was to approximate the ISP using the U-Net. This step builds the differentiable proxy. The Rawpy ISP was chosen as a cheap and easy way to begin this research, as it is free and open sourced. ISP parameters were randomized and passed into both the Rawpy ISP and the U-Net model. The difference between the outputs was then used to improve the model and the process was repeated several thousand times.",
+        "The second step took these this developed model and Optimized the ISP parameters to produce more similar images. This was done by taking fixed ISP parameters (referred to ideal parameters), putting them into Rawpy, while taking random ISP parameters (referred to as tunable parameters) and putting them into the proxy. The difference between these would then be used to improve the tunable parameters to try to see if the tunable parameters would converge on the ideal parameters.",
+        "This experiment was conducted on two different data sets. The first being the COCO data set (https://cocodataset.org/), which is a collection of hundreds of thousand of images tagged for image segmentation, object detection, and captioning. The second of which being the HAM10000 data set (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000), consisting of 10000 images of skin lesions. In both cases, this project used a small subset of randomly selected images of each dataset. The selected images were then transformed into RAW data, that contains bayer patterns of the original images.",
+        "Pictured are 4 random images from the data set. From left to right: the Rawpy ISP output, the differentiable proxy output, and the difference between these two images. If the differentiable proxy was perfect, the difference image would be completely black. Interesting insights were the errors at the lines and details as seen in images 637 and 1548. Also interesting are the inclusion of a hotspot in image 3215 not present in the rawpy image.",
+        "The differentiable proxy performed much better on the lower diversity HAM10000 data set. Still notable problems were at the lines. And even more interesting, the differentiable proxy had a greater problem with inclusion of structures not present in the image, as seen in the splotches of light or dark spots in all images. Overall performance was better for this data set, but the model introduced more artifacts in the process.",
+        "Finally, these are the results in the parameter tuning. Of the 12 parameters tested from Rawpy, 'No Auto Scaling' was fixed. Of the remaining parameters, only 'Four Color RGB' and 'Use Auto White Balance' converged on their ideal values. Though it is important to note that these are the only boolean (trie/false) parameters in the set.",
+        "Another insight was gained through cross implementation of the differentiable proxies. THe proxy trained on COCO images was fed HAM10000 images and vise versa. If the model was learning how to de-bayer and process raw data effectively, this would not be the case.",
+        "The results prompt the following recommendations:\nMore complex image signal processor\nDifferent approximations\nDifferent data sets\nChange Loss Calculations for Parameter Tuning\nFinally, A special thanks to the Research and Development team at Basler AG for giving the access to technology, hardware, and expertise to complete this research project. And Also thanks to the University of Applied Sciences of Lübeck to providing resources and education that made completing this project possible."
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_1.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_2.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_3.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_4.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_5.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_6.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_7.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_8.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_9.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_10.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/isp_11.png"
+      ]
+    },
+    {
+      "id": "ldd",
+      "title": "Leaf Disease Diagnosis",
+      "description": "Agriculture application of deep learning in detecting plant disease.",
+      "tags": ["Programming"],
+      "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/leaf_disease.svg",
+      "subtitles": [
+        "Motivation and Objective",
+        "The Data",
+        "The Dataset",
+        "The Models",
+        "Results",
+        "Further Work",
+        "Special Thanks:"
+      ],
+      "sections": [
+        "Early diagnosis of plant diseases allows preventative measures to reduce economic and production damage. Traditional methods are limited by available expertise. Plant surveillance by farmers is not always practical or cost-effective. Evaluate different databases and implement various neural network architectures for classifying plant diseases.",
+        "The data was taken from this dataset on Kaggle. These are a collection of 256x256 images containing leaves of many different species of plants. The leaves are also labeled with their disease status.",
+        "Pictured is the label count of all the data. There are thousands of images in the dataset.",
+        "As with every AI project, data preprocessing had to be performed to normalize the image data for training the models. However, the main experiment performed was on the model architecture. There were 5 different CNN models tested:\n\n3 Convolutional Layers and 3 FC Layers\n3 Convolutional Layers and 4 FC Layers\n4 Convolutional Layers and 3 FC Layers\n3 Convolutional Layers and 3 FC Layers and dropout in the dense layers\n3 Convolutional Layers and 3 FC Layers and dropout in the convolutional layers",
+        "The Results were promising, an accuracy of between 80-90% were the results for each model. The best results were for model 4, where dropout proved effective at improving model performance.",
+        "This is a confusion matrix of the classification for the validation data. This tests how effective the model was at classifying each case. The results suggested an improvement. By separating the classification into the different types of plants, the performance could be improved. The model could be having to learn too many features. So one solution could be creating a series of small models for classifying each disease based on plant type. THe plant type would already be known by farmers, as crops are planted deliberately. Most of the functionality of a system like this would be to check for diseases on a known crop. Th other improvement would be to implement a more complicated model, like ResNet-18. This could recognize enough features to be effective.",
+        "<a href='www.google.com'>Andrew Yu's Deep Learning Coursera Course and OpenCampus.SH</a>"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_1.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_2.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_3.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_4.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_5.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_6.png",
+        ""
+      ]
+    },
+    {
+      "id": "mls",
+      "title": "ML Stethoscope",
+      "description": "Medical application of machine learning to anaylze stethoscope audio.",
+      "tags": ["Programming"],
+      "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/ml_stethoscope.svg",
+      "subtitles": [
+        "Automated Medicine",
+        "The Dataset",
+        "The Data",
+        "Data Processing - 1",
+        "Data Processing - 2",
+        "Data Processing - 3",
+        "Machine Learning",
+        "Special Thanks"
+      ],
+      "sections": [
+        "A big topic in AI is not just the automation of basic skills, but skills performed by highly trained professionals. Doctors have a lot of responsibilities and are very costly. Giving people access to diagnosis and reducing doctors workload are worthy goal for AI and ML research.",
+        "This project used the ICBHI Respiratory Sound Database. This is a collection of sound data from 126 different patients in Portugal and Greece. The project is a classification task, producing a model that guesses what disease, if any, a patient has based on the sound their lungs produce.",
+        "The Dataset contains data collected from different devices using different techniques. The data collection points can be seen here. Each of these different points create different sound data given the same patient. This is necessary as different diseases can be more easily detected in different collection spots. This is why a doctor checks multiple spots when they check your breath in a check-up.",
+        "As is the case with the majority of machine learning projects, data processing is a big part of this project. The first steps are to take the data, and filter it to fill gaps and smooth imperfections. It was chosen early on in this project to test a CNN-classification network on this data. CNNs handle structures in visual data. So the next step was to take this filtered data and transform it into 2D arrays.",
+        "From the visual data, the data is then segmented into individual breathing cycles. The data is further augmented to match frequency and breathing cycle times.",
+        "Lastly, the augmented data is padded to give it a consistent size. CNNs need the same size of data to function. This is why the data is padding into the same size. THe largest data is kept the same and the rest of the data is padded to match.",
+        "The final step is the implementation of the CNN model. This passes the data through a series of Convolutional Neural Networks (CNNs) and then through layers of dense neural networks. The CNNs act to find patters withing the visual data. The dense neural networks attempt to classify these patterns into a diagnosis. This project did not have high enough diagnosis to prototype a product for it. However, this was a valuable learning experience. And a great introduction into Machine Learning.",
+        "<a>Course: Machine Learning with TensorFlow and OpenCampus.SH</a>"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_1.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_2.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_3.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_4.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_5.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_6.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mls_7.png",
+        ""
+      ]
+    },
+    {
+      "id": "mct",
+      "title": "Morse Code Translator",
+      "description": "A simple dictionary-based Morse code translator.",
+      "tags": ["Programming"],
+      "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/morse.svg",
+      "subtitles": [
+        "Introduction",
+        "Code Function",
+        "Example Output",
+        "Code on Replit:"
+      ],
+      "sections": [
+        "Wikipedia is a great resource for learning more about morse code. There is a long history in Morse code development. In this project I will only discuss the basics. If you want to learn more, click the link below.",
+        "This code is based on the ITU morse standard. There is no symbolic difference between long and short pulses, however the spaces in between words and characters are included.",
+        "",
+        "<a>Link to Replit</a>"
+      ],
+      "images": [
+        "https://github.com/cgrundman/christian-grundman-website/blob/master/src/images/mct_1.jpg?raw=true",
+        "",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/mct_3.png",
+        ""
+      ]
+    },
+    {
+      "id": "nmr",
+      "title": "Nuclear Magnetic Resonance",
+      "description": "A digitalization and automation project for a CW-NMR Machine.",
+      "tags": ["Programming", "Electrical", "Project Management", "Mechanical"],
+      "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/nmr.svg",
+      "subtitles": [
+        "Problem Statement",
+        "Starting Point",
+        "Overview",
+        "Sub Systems",
+        "Microcontroller and Analog-to-Digital Conversion",
+        "DDS/Amplification/Attenuation",
+        "NMR Hardware and Power Supply",
+        "Data Storage and Pattern Recognition",
+        "Next Steps",
+        "Special Thanks"
+      ],
+      "sections": [
+        "Nuclear Magnetic Resonance (NMR) is a method of material analysis that is currently costly and inaccurate. Mass Spectrometry is far preferred for its ability to analyze a material. However, Mass Spectrometry is time intensive and destructive to the material being sampled. Covid-19 showcased a use case for a faster method of material analysis. This project aimed to create fully designed architecture of a full, portable, low-cost NMR system based on the digitization on an existing analog NMR device.",
+        "This project started with the setup out lined here. The device used was a Leybold-Didactic NMR device . The device is powered by a lab-standard programmable power supply. The device has two components, one Electronic and one Mechanical. The user sets the settings and operates the device with the electronic component. The mechanical system handles the magnetic signals and the material being tested. Overall, this device operates as a Continuous-Wave NMR or CW-NMR device.",
+        "This initial device was then analyzed for its top-level components and very basic system identified. From this initial discovery, an initial architecture was described and requirements outlined for development. A key functional part this the microcontroller. This device sets the high frequency signal, sets the low frequency signal, sets the power output, accepts the digital return signal, and sends the digitized data to the land area network (LAN). The high frequency signal is generated by a direct digital synthesizer (DDS) module. The probe generates the analog signal. The analog-to-digital converter (ADC) converts this signal from digital to analog. The LAN handles the data between the hard drive disk (HDD) and the AI performing pattern recognition to identify material.",
+        "While I designed the system architecture and performed many of the tests for parts of the machine, other researchers and teams had responsibilities in other sections of the system. This meant that subsystem identification was important for clear project management between the different groups. Splitting the project along technical requirements yielded 4 subsystems: Data Storage and Pattern Recognition, Microcontroller and Analog-to-Digital Conversion, DDS/Amplification/Attenuation, and NMR Hardware and Power Supply. Each Sub System can be further described.",
+        "Initially, an Arduino DUE wa selected as a Microcontroller for this system. It was quickly discovered that the onboard ADC was much too slow to collect useful data. The change was made to implement an STM32 that uses C to program much faster without unnecessary subroutines present in arduino. The DDS selected for this project ( the AD9850 ) was only able to create one sinusoidal signal, so a second DDS was added to the system. Further, the pattern recognition and downstream signal analysis need the settings data (high frequency rate, voltage and current from the low frequency circuit). The overall triggers from the user were also passed into the microcontroller.",
+        "This sub system was the most technically complicated, as high frequency electronics are much more difficult to prototype. It was ultimately deemed out of scope for this project to build this circuit, however the circuit itself was identified and the requirement set for later development by a more specialized researcher. The B0 (low frequency signal had to be amplified cleanly using a power amplifier. The high frequency signal coming from the probe needed to be attenuated before going to the ADC. Another complication to this system is the shielding necessary for the high frequency circuit. The circuit operates around 20-30 MHz, which is within the range of ambient radio signals. This is a common issue with many NMR devices and presents a technical challenge to overcome.",
+        "The power supply received signal to alter its settings, and powered the B0 circuit. The probe was electrically isolated from the B0 circuit and is only connected to the amplification and attenuation circuit from previous sub system. Finally, the field generated by the B0 coils, was altered by the smaller coils powered by the low frequency signal from the second DDS. This sub system was not altered from the starting point. A group is developing a new boot to propagate the magnetic field induced by the B0 circuit. For the sake of this project, it was sufficient to understand on an electrical basis how this system works and assist that team in their development by providing key requirements.",
+        "Finally a Raspberry Pi was developed with a python kernel. This was done for 3 reasons: creating a user interface is easy in Python, AI frameworks are most commonly found in python, and the Raspberry pi removes cost but provides a fully functional computer. The data size was found to be small enough to fit hundred of samples onto a single SD card.",
+        "With the system architecture complete, future projects could be identified. Further developments were needed. Within the DDS/Amplification/Attenuation subsystem, all the components were prototyped seperately. A full integration of all the electronics is needed. For the Data Storage and Pattern Recognition subsystem, the Pattern Recognition (AI) system had to be developed now that the signal data is better known. Further integrating the communication pipeline between the STM32 and the Raspberry Pi and developing the user interface was another project to be completed.",
+        "<a>Insert Course Name,Link to course page</a>"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_1.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_2.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_3.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_4.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_5.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_6.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_7.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/nmr_8.png",
+        "",
+        ""
+      ]
+    }
+  ],
+  "logos": [
+    {
+      "title": "Electrical Engineering",
+      "description": "From early in my education, I have had a passion for robotics and electronics. I first fell in love with electronics during college, when I had a bad professor in electricity and magnetism. After teaching myself the foundations, I always found enjoyment in the subject, competence be damned."
+    },
+    {
+      "title": "Mechanical Engineering",
+      "description": "I have 6 years working experience designing custom machinery and product design. I have worked for years on improving my spacial recognition. I improve my designs by learning the manufacturing processes behind them, like welding and machining. No adays I mostly play with legos to stap sharp."
+    },
+    {
+      "title": "Programming",
+      "description": "I have discovered a passion for programming. I hated it in my undergraduate education. I started programming in Python after years away and have found a unique interest in it. I have experience in data science and AI in Python, web development in JavaScript and Python, and embedded systems in C/C++."
+    },
+    {
+      "title": "Project Management",
+      "description": "PM was never a goal of mine. I found early on in my career that proper project management can make or break a complex project. With that, I realized that no matter what I do in the future, PM knowledge would be very useful. I have held a Project Management Professional (PMP) certification since 2020."
+    }
+  ]
 }
