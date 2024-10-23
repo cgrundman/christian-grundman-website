@@ -21,6 +21,10 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.pTag {
+  background-color: #a749ba;
+}
+
 .logo {
   width: 20%;
   max-width: 300px;

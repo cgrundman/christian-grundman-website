@@ -28,14 +28,18 @@ function ProjectsPage() {
     setVisibleInfo((prevVisibleInfo) =>
       prevVisibleInfo === imageIndex ? null : imageIndex
     );
-    setHighlighted((prevIndex) => (prevIndex === imageIndex ? null : imageIndex));
+    setHighlighted((prevIndex) =>
+      prevIndex === imageIndex ? null : imageIndex
+    );
   };
 
   return (
     <PageContent title="Projects">
       <div>
         <img src={relaxed} className={classes.avatar} alt="relaxed" />
-        <p className={classes.quote}>"Do not underestimate your abilities. That is your boss's job."</p>
+        <p className={classes.quote}>
+          "Do not underestimate your abilities. That is your boss's job."
+        </p>
         <p>Select a project icon to learn more.</p>
       </div>
       <div>
@@ -95,6 +99,13 @@ function ProjectsPage() {
         <div className={classes.content}>
           <h2>{projects[visibleInfo - 1].title}</h2>
           <p>{projects[visibleInfo - 1].description}</p>
+          <div>
+            {projects[visibleInfo - 1].tags.map((tag, index) => (
+              <button key={index}  className={classes.pTag}>
+                <p>{tag}</p>
+              </button>
+            ))}
+          </div>
           <Link to={`/projects/${projects[visibleInfo - 1].id}`}>
             <button>
               <p>Project Page</p>
