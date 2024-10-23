@@ -2,7 +2,7 @@ import * as React from "react";
 const Electrical = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" {...props}>
     <defs>
-      <circle id="electron" r="10" fill="#fff" />
+      <circle id="electron" r="10" fill="#fff" stroke="transparent" />
       <g id="nodes">
         <circle r="18" fill="#0e7eb5" stroke="transparent" />
         <circle r="14" fill="#fff" stroke="transparent" />
