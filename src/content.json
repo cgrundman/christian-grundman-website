@@ -105,7 +105,7 @@
         {
             "id": "isp",
             "title": "ISP Optimization",
-            "description": "Optimization of an image signal processor using a differentiable proxy.\n\nFiles are owned by Basler AG",
+            "description": "Optimization of an image signal processor using a differentiable proxy.",
             "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/isp.svg",
             "subtitles": [
                 "The Problem: Part 1",
