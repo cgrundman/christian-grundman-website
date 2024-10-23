@@ -1,0 +1,25 @@
+.tagspace {
+  padding: 0;
+}
+
+.eTag {
+  background-color: #0e7eb5;
+  color: #eaeaea;
+  width: 115px;
+}
+
+.mTag {
+  background-color: #cc314b;
+  color: #eaeaea;
+  width: 125px;
+}
+
+.pTag {
+  background-color: #a749ba;
+  color: #eaeaea;
+  width: 135px;
+}
+
+.pmTag {
+  background-color: #ed9e49;
+}

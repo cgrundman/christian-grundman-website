@@ -12,6 +12,7 @@ import MCT from "../logos/MCT.jsx";
 import NMR from "../logos/NMR.jsx";
 import relaxed from "../avatars/relaxed.svg";
 import PageContent from "../components/PageContent.js";
+import Tag from "../components/Tags.js";
 import classes from "../components/PageContent.module.css";
 
 function ProjectsPage() {
@@ -101,23 +102,7 @@ function ProjectsPage() {
           <p>{projects[visibleInfo - 1].description}</p>
           <div className={classes.tagspace}>
             {projects[visibleInfo - 1].tags.map((tag, index) =>
-              tag === "Programming" ? (
-                <button key={index} className={classes.pTag}>
-                  <p>{tag}</p>
-                </button>
-              ) : tag === "Project Management" ? (
-                <button key={index} className={classes.pmTag}>
-                  <p>{tag}</p>
-                </button>
-              ) : tag === "Mechanical" ? (
-                <button key={index} className={classes.mTag}>
-                  <p>{tag}</p>
-                </button>
-              ) : (
-                <button key={index} className={classes.eTag}>
-                  <p>{tag}</p>
-                </button>
-              )
+              <Tag name={tag} index={index} />
             )}
           </div>
           <Link to={`/projects/${projects[visibleInfo - 1].id}`}>

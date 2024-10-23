@@ -21,32 +21,6 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.tagspace {
-  padding: 0;
-}
-
-.eTag {
-  background-color: #0e7eb5;
-  color: #EAEAEA;
-  width: 115px;
-}
-
-.mTag {
-  background-color: #cc314b;
-  color: #EAEAEA;
-  width: 125px;
-}
-
-.pTag {
-  background-color: #a749ba;
-  color: #EAEAEA;
-  width: 135px;
-}
-
-.pmTag {
-  background-color: #ed9e49;
-}
-
 .logo {
   width: 20%;
   max-width: 300px;
