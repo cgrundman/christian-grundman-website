@@ -100,11 +100,7 @@ function ProjectsPage() {
         <div className={classes.content}>
           <h2>{projects[visibleInfo - 1].title}</h2>
           <p>{projects[visibleInfo - 1].description}</p>
-          <div className={classes.tagspace}>
-            {projects[visibleInfo - 1].tags.map((tag, index) =>
-              <Tag name={tag} index={index} />
-            )}
-          </div>
+          <Tag tagList={projects[visibleInfo - 1].tags} />
           <Link to={`/projects/${projects[visibleInfo - 1].id}`}>
             <button>
               <p>Project Page</p>
