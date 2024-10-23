@@ -6,6 +6,7 @@ import Electrical from "../logos/electrical.jsx";
 import Mechanical from "../logos/mechanical.jsx";
 import Programming from "../logos/programming.jsx";
 import ProjectManagement from "../logos/project_management.jsx";
+import ProjectManagement from "../logos/projectManagement.jsx";
 import PageContent from "../components/PageContent.js";
 import classes from "../components/PageContent.module.css";
 import content from "../content.json";
