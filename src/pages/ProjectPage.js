@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router-dom";
 
 import content from "../content.json";
 import PageContent from "../components/PageContent";
+import Tag from "../components/Tags";
 import classes from "../components/PageContent.module.css";
 
 function ProjectPage() {
@@ -19,6 +20,7 @@ function ProjectPage() {
           alt={project.id}
           className={classes.logoLarge}
         />
+        <Tag tagList={project.tags}/>
         <ul>
           {project.subtitles.map((subtitle, index) => (
             <div key={index}>
