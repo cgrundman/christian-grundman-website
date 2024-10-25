@@ -5,7 +5,7 @@
       "title": "Computer Vision",
       "description": "Computer Vision demostration through project-based work.",
       "tags": ["Programming"],
-      "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/computer_vision.svg",
+      "logo": "../logos/CVZ.jsx",
       "subtitles": [
         "OpenCV Basics",
         "Image Processing",
@@ -36,7 +36,7 @@
       "title": "Computed Tomography",
       "description": "CT scanner mathematical simulation with MATLAB.",
       "tags": ["Programming"],
-      "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/ct.svg",
+      "logo": "../logos/CTR.jsx",
       "subtitles": [
         "CT Simulation - Initial Object to Scan",
         "CT Simulation - CT Machine Configuration",
@@ -79,7 +79,7 @@
       "title": "ECG Device",
       "description": "Design, Development, and Construction of a electrocardiogram device.",
       "tags": ["Programming", "Electrical"],
-      "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/ecg.svg",
+      "logo": "../logos/ECG.jsx",
       "subtitles": [
         "Final System",
         "Analog Design",
@@ -110,7 +110,7 @@
       "title": "ISP Optimization",
       "description": "Optimization of an image signal processor using a differentiable proxy.",
       "tags": ["Programming", "Project Management"],
-      "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/isp.svg",
+      "logo": "../logos/ISP.jsx",
       "subtitles": [
         "The Problem: Part 1",
         "The Problem: Part 2",
@@ -156,7 +156,7 @@
       "title": "Leaf Disease Diagnosis",
       "description": "Agriculture application of deep learning in detecting plant disease.",
       "tags": ["Programming"],
-      "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/leaf_disease.svg",
+      "logo": "../logos/LDD.jsx",
       "subtitles": [
         "Motivation and Objective",
         "The Data",
@@ -190,7 +190,7 @@
       "title": "ML Stethoscope",
       "description": "Medical application of machine learning to anaylze stethoscope audio.",
       "tags": ["Programming"],
-      "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/ml_stethoscope.svg",
+      "logo": "../logos/MLS.jsx",
       "subtitles": [
         "Automated Medicine",
         "The Dataset",
@@ -227,7 +227,7 @@
       "title": "Morse Code Translator",
       "description": "A simple dictionary-based Morse code translator.",
       "tags": ["Programming"],
-      "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/morse.svg",
+      "logo": "../logos/MCT.jsx",
       "subtitles": [
         "Introduction",
         "Code Function",
@@ -252,7 +252,7 @@
       "title": "Nuclear Magnetic Resonance",
       "description": "A digitalization and automation project for a CW-NMR Machine.",
       "tags": ["Programming", "Electrical", "Project Management", "Mechanical"],
-      "logo": "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/10800422944438b5d37f7eb8ce976c5d25704987/src/logos/nmr.svg",
+      "logo": "../logos/NMR",
       "subtitles": [
         "Problem Statement",
         "Starting Point",
