@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router-dom";
+import { lazy, Suspense } from "react";
 
 import content from "../content.json";
 import PageContent from "../components/PageContent";
@@ -11,16 +12,24 @@ function ProjectPage() {
   // Find the user based on the id from the URL
   const project = content.projects.find((project) => project.id === projectid);
 
+  // Load the logo component
+  var logo = "../logos/NMR";
+  console.log(typeof logo)
+  console.log(typeof "../logos/CTR")
+  // const LogoComponent = lazy(() => import (JSON.stringify(logo)));
+  if (logo === "../logos/NMR") {
+    console.log("Match!")
+  }
+  const LogoComponent = lazy(() => import ("../logos/NMR"));
+
   return (
     <PageContent title={project.title}>
       <p className={classes.description}>{project.description}</p>
       <div className={classes.content}>
-        <img
-          src={project.logo}
-          alt={project.id}
-          className={classes.logoLarge}
-        />
-        <Tag tagList={project.tags}/>
+        <Suspense>
+          <LogoComponent className={classes.logoLarge} />
+        </Suspense>
+        <Tag tagList={project.tags} />
         <ul>
           {project.subtitles.map((subtitle, index) => (
             <div key={index}>
