@@ -1,10 +1,6 @@
 import * as React from "react";
 const CT = (props) => (
-  <svg
-    viewBox="0 0 400 400"
-    xmlns="http://www.w3.org/2000/svg"
-    {...props}
-  >
+  <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" {...props}>
     <circle cx="200" cy="200" r="200" stroke="transparent" />
     <circle cx="200" cy="200" r="75" stroke-width="12" fill="none" />
     <circle cx="200" cy="200" r="125" stroke-width="12" fill="none" />

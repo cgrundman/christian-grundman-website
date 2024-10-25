@@ -9,7 +9,7 @@ const MCT = (props) => (
     <defs>
       <g id="short">
         <circle stroke-width="12" r="15" />
-        <circle stroke="#fff" stroke-width="5" r="15" fill="transparent"/>
+        <circle stroke="#fff" stroke-width="5" r="15" fill="transparent" />
       </g>
       <g id="long">
         <rect
