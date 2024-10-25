@@ -5,7 +5,7 @@
       "title": "Computer Vision",
       "description": "Computer Vision demostration through project-based work.",
       "tags": ["Programming"],
-      "logo": "../logos/CVZ.jsx",
+      "logo": 1,
       "subtitles": [
         "OpenCV Basics",
         "Image Processing",
@@ -36,7 +36,7 @@
       "title": "Computed Tomography",
       "description": "CT scanner mathematical simulation with MATLAB.",
       "tags": ["Programming"],
-      "logo": "../logos/CTR.jsx",
+      "logo": 2,
       "subtitles": [
         "CT Simulation - Initial Object to Scan",
         "CT Simulation - CT Machine Configuration",
@@ -79,7 +79,7 @@
       "title": "ECG Device",
       "description": "Design, Development, and Construction of a electrocardiogram device.",
       "tags": ["Programming", "Electrical"],
-      "logo": "../logos/ECG.jsx",
+      "logo": 3,
       "subtitles": [
         "Final System",
         "Analog Design",
@@ -110,7 +110,7 @@
       "title": "ISP Optimization",
       "description": "Optimization of an image signal processor using a differentiable proxy.",
       "tags": ["Programming", "Project Management"],
-      "logo": "../logos/ISP.jsx",
+      "logo": 4,
       "subtitles": [
         "The Problem: Part 1",
         "The Problem: Part 2",
@@ -156,7 +156,7 @@
       "title": "Leaf Disease Diagnosis",
       "description": "Agriculture application of deep learning in detecting plant disease.",
       "tags": ["Programming"],
-      "logo": "../logos/LDD.jsx",
+      "logo": 5,
       "subtitles": [
         "Motivation and Objective",
         "The Data",
@@ -190,7 +190,7 @@
       "title": "ML Stethoscope",
       "description": "Medical application of machine learning to anaylze stethoscope audio.",
       "tags": ["Programming"],
-      "logo": "../logos/MLS.jsx",
+      "logo": 6,
       "subtitles": [
         "Automated Medicine",
         "The Dataset",
@@ -227,7 +227,7 @@
       "title": "Morse Code Translator",
       "description": "A simple dictionary-based Morse code translator.",
       "tags": ["Programming"],
-      "logo": "../logos/MCT.jsx",
+      "logo": 7,
       "subtitles": [
         "Introduction",
         "Code Function",
@@ -252,7 +252,7 @@
       "title": "Nuclear Magnetic Resonance",
       "description": "A digitalization and automation project for a CW-NMR Machine.",
       "tags": ["Programming", "Electrical", "Project Management", "Mechanical"],
-      "logo": "../logos/NMR",
+      "logo": 8,
       "subtitles": [
         "Problem Statement",
         "Starting Point",
