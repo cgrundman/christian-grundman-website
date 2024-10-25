@@ -2,14 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import content from "../content.json";
-import CVZ from "../logos/CVZ.jsx";
-import CTR from "../logos/CTR.jsx";
-import ECG from "../logos/ECG.jsx";
-import ISP from "../logos/ISP.jsx";
-import LDD from "../logos/LDD.jsx";
-import MLS from "../logos/MLS.jsx";
-import MCT from "../logos/MCT.jsx";
-import NMR from "../logos/NMR.jsx";
+import ProjectLogoMap from "../components/ProjectLogoMap.js";
 import relaxed from "../avatars/relaxed.svg";
 import PageContent from "../components/PageContent.js";
 import Tag from "../components/Tags.js";
@@ -44,56 +37,14 @@ function ProjectsPage() {
         <p>Select a project icon to learn more.</p>
       </div>
       <div>
-        <CVZ
-          onClick={() => toggleInfo(1)}
-          className={highlighted === 1 ? "highlight" : ""}
-          alt="Computer Vision"
-          width="20%"
-        />
-        <CTR
-          onClick={() => toggleInfo(2)}
-          className={highlighted === 2 ? "highlight" : ""}
-          alt="Computed Tomography Reconstruction"
-          width="20%"
-        />
-        <ECG
-          onClick={() => toggleInfo(3)}
-          className={highlighted === 3 ? "highlight" : ""}
-          alt="Electrocardiogram"
-          width="20%"
-        />
-        <ISP
-          onClick={() => toggleInfo(4)}
-          className={highlighted === 4 ? "highlight" : ""}
-          alt="IMG Signal Processor"
-          width="20%"
-        />
-      </div>
-      <div>
-        <LDD
-          onClick={() => toggleInfo(5)}
-          className={highlighted === 5 ? "highlight" : ""}
-          alt="Leaf Disease Detection"
-          width="20%"
-        />
-        <MLS
-          onClick={() => toggleInfo(6)}
-          className={highlighted === 6 ? "highlight" : ""}
-          alt="ML Stethoscope"
-          width="20%"
-        />
-        <MCT
-          onClick={() => toggleInfo(7)}
-          className={highlighted === 7 ? "highlight" : ""}
-          alt="Morse Code Translator"
-          width="20%"
-        />
-        <NMR
-          onClick={() => toggleInfo(8)}
-          className={highlighted === 8 ? "highlight" : ""}
-          alt="Nuclear Magnetic Resonance"
-          width="20%"
-        />
+        {Object.entries(ProjectLogoMap).map(([id, Logo]) => (
+          <Logo 
+            key={id}
+            onClick={() => toggleInfo(id)}
+            className={highlighted === id ? "highlight" : ""}
+            width="21%"
+          />
+        ))}
       </div>
       {/* Conditionally rendering information for Selected project */}
       {visibleInfo && (
