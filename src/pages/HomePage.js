@@ -18,6 +18,10 @@ function HomePage() {
   // Extract logo information
   const logos = content.logos;
 
+  // Extract Quote
+  const quotes = content.quotes[0]["work"];
+  var quote = quotes[Math.floor(Math.random() * quotes.length)];
+
   // State to track which logos's information is visible (null means no info is visible)
   const [visibleInfo, setVisibleInfo] = useState(null);
 
@@ -39,8 +43,7 @@ function HomePage() {
             alt="professional"
           />
           <p className={classes.quote}>
-            "I never make the same mistake twice. I make them three or four
-            times just to be sure."
+            "{quote}"
           </p>
         </div>
         <div>
