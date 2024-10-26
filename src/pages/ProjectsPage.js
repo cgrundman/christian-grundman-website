@@ -12,6 +12,10 @@ function ProjectsPage() {
   // Extract project information
   const projects = content.projects;
 
+  // Extract Quote
+  const quotes = content.quotes[0]["work"];
+  var quote = quotes[Math.floor(Math.random() * quotes.length)];
+
   // State to track which image's information is visible (null means no info is visible)
   const [visibleInfo, setVisibleInfo] = useState(null);
   const [highlighted, setHighlighted] = useState(null);
@@ -32,7 +36,7 @@ function ProjectsPage() {
       <div>
         <img src={relaxed} className={classes.avatar} alt="relaxed" />
         <p className={classes.quote}>
-          "Do not underestimate your abilities. That is your boss's job."
+          "{quote}"
         </p>
         <p>Select a project icon to learn more.</p>
       </div>
