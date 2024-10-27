@@ -34,15 +34,15 @@ function ProjectsPage() {
   return (
     <PageContent title="Projects">
       <div>
-        <img src={relaxed} className={classes.avatar} alt="relaxed" />
-        <p className={classes.quote}>
-          "{quote}"
-        </p>
+        <div className={classes.container}>
+          <img src={relaxed} className={classes.avatar} alt="relaxed" />
+          <p className={classes.quote}>"{quote}"</p>
+        </div>
         <p>Select a project icon to learn more.</p>
       </div>
       <div>
         {Object.entries(ProjectLogoMap).map(([id, Logo]) => (
-          <Logo 
+          <Logo
             key={id}
             onClick={() => toggleInfo(id)}
             className={highlighted === id ? "highlight" : ""}

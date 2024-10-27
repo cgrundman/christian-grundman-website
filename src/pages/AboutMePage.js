@@ -11,11 +11,16 @@ function AboutMePage() {
   return (
     <PageContent title="About Me">
       <div>
-        <img src={casual} className={classes.avatar} alt="casual" width="200" />
+        <div className={classes.container}>
+          <img
+            src={casual}
+            className={classes.avatar}
+            alt="casual"
+            width="200"
+          />
+          <p className={classes.quote}>"{quote}"</p>
+        </div>
       </div>
-      <p className={classes.quote}>
-        "{quote}"
-      </p>
       <img
         src="https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/travel.jpg"
         alt="travel"
