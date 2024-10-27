@@ -7,6 +7,7 @@ import LEG from "../logos/LEG"
 import MLS from "../logos/MLS";
 import MCT from "../logos/MCT";
 import NMR from "../logos/NMR";
+import STA from "../logos/STA";
 import TMV from "../logos/TMV";
 
 const ProjectLogoMap = {
@@ -19,7 +20,8 @@ const ProjectLogoMap = {
     7: MLS,
     8: MCT,
     9: NMR,
-    10: TMV,
+    10: STA,
+    11: TMV,
 }
 
 export default ProjectLogoMap;

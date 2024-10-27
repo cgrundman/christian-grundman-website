@@ -307,11 +307,27 @@
       ]
     },
     {
+      "id": "sta",
+      "title": "Smart Transcribe API",
+      "description": "Coming soon...",
+      "tags": ["Programming"],
+      "logo": 10,
+      "subtitles": [
+        ""
+      ],
+      "sections": [
+        ""
+      ],
+      "images": [
+        ""
+      ]
+    },
+    {
       "id": "tmv",
       "title": "Travel Map Vizualization",
       "description": "Coming soon...",
       "tags": ["Programming"],
-      "logo": 10,
+      "logo": 11,
       "subtitles": [
         ""
       ],
