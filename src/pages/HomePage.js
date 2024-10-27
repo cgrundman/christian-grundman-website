@@ -36,15 +36,13 @@ function HomePage() {
   return (
     <PageContent>
       <div>
-        <div>
+        <div className={classes.container}>
           <img
             src={professional}
             className={classes.avatar}
             alt="professional"
           />
-          <p className={classes.quote}>
-            "{quote}"
-          </p>
+          <p className={classes.quote}>"{quote}"</p>
         </div>
         <div>
           {visibleInfo === 1 ? (

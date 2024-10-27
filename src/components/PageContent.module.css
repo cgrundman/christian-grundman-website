@@ -14,8 +14,14 @@
   margin: 1rem 0 0 0;
 }
 
+.container {
+  display: flex;
+  align-items: flex-end;
+}
+
 .quote {
-  padding: 0 6rem 0 6rem;
+  padding: 0 0.5rem 0 0.5rem;
+  /* margin-top: auto; */
   font-style: italic;
   font-size: larger;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -24,7 +30,7 @@
 .logo {
   width: 20%;
   max-width: 300px;
-  padding: .5rem;
+  padding: 2rem .5rem 0rem .5rem;
   margin-bottom: 20px;
 }
 
@@ -56,7 +62,7 @@
 
 .avatar {
   width: 41%;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .interests {
