@@ -186,11 +186,27 @@
       ]
     },
     {
+      "id": "leg",
+      "title": "Lego Projects",
+      "description": "Coming soon...",
+      "tags": ["Mechanical"],
+      "logo": 6,
+      "subtitles": [
+        ""
+      ],
+      "sections": [
+        ""
+      ],
+      "images": [
+        ""
+      ]
+    },
+    {
       "id": "mls",
       "title": "ML Stethoscope",
       "description": "Medical application of machine learning to anaylze stethoscope audio.",
       "tags": ["Programming"],
-      "logo": 6,
+      "logo": 7,
       "subtitles": [
         "Automated Medicine",
         "The Dataset",
@@ -227,7 +243,7 @@
       "title": "Morse Code Translator",
       "description": "A simple dictionary-based Morse code translator.",
       "tags": ["Programming"],
-      "logo": 7,
+      "logo": 8,
       "subtitles": [
         "Introduction",
         "Code Function",
@@ -252,7 +268,7 @@
       "title": "Nuclear Magnetic Resonance",
       "description": "A digitalization and automation project for a CW-NMR Machine.",
       "tags": ["Programming", "Electrical", "Project Management", "Mechanical"],
-      "logo": 8,
+      "logo": 9,
       "subtitles": [
         "Problem Statement",
         "Starting Point",

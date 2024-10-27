@@ -3,6 +3,7 @@ import CTR from "../logos/CTR";
 import ECG from "../logos/ECG";
 import ISP from "../logos/ISP";
 import LDD from "../logos/LDD";
+import LEG from "../logos/LEG"
 import MLS from "../logos/MLS";
 import MCT from "../logos/MCT";
 import NMR from "../logos/NMR";
@@ -13,9 +14,10 @@ const ProjectLogoMap = {
     3: ECG,
     4: ISP,
     5: LDD,
-    6: MLS,
-    7: MCT,
-    8: NMR,
+    6: LEG,
+    7: MLS,
+    8: MCT,
+    9: NMR,
 }
 
 export default ProjectLogoMap;
