@@ -1,73 +1,153 @@
 import * as React from "react";
-const CT = (props) => (
-  <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" {...props}>
-    <circle cx="200" cy="200" r="200" stroke="transparent" />
-    <circle cx="200" cy="200" r="75" stroke-width="12" fill="none" />
-    <circle cx="200" cy="200" r="125" stroke-width="12" fill="none" />
-    <path stroke="transparent" d="M60 155.7h100v85H60z" />
-    <circle
-      cx="200"
-      cy="200"
-      r="75"
-      stroke="#fff"
-      stroke-width="5"
-      fill="none"
-    />
-    <circle
-      cx="200"
-      cy="200"
-      r="125"
-      stroke="#fff"
-      stroke-width="5"
-      fill="none"
-    />
-    <path d="M60 157.5h100v85H60z" stroke="transparent" />
-    <path stroke-linecap="round" stroke-width="12" d="M83.2 155h57.7" />
-    <circle cx="175" cy="190" r="18" stroke-width="12" fill="none" />
-    <path
-      d="M40 240h145l15-15H40z"
-      stroke-linejoin="round"
-      stroke-linecap="round"
+const STA = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" {...props}>
+    <defs>
+      <g id="Microphone">
+        <path
+          d="M -20 0 l 40 0 M 0 0 l 0 -20 M -30 -50 A 20 20 0 0 0 30 -50 M -15 -50 A 15 15 0 0 0 15 -50 l 0 -30 A 15 15 0 0 0 -15 -80 l 0 30"
+          stroke="#aaa"
+          stroke-width="12"
+          fill="transparent"
+          stroke-linecap="round"
+        />
+        <path
+          d="M -20 0 l 40 0 M 0 0 l 0 -20 M -30 -50 A 20 20 0 0 0 30 -50 M -15 -50 A 15 15 0 0 0 15 -50 l 0 -30 A 15 15 0 0 0 -15 -80 l 0 30"
+          stroke="#fff"
+          stroke-width="5"
+          fill="transparent"
+          stroke-linecap="round"
+        />
+      </g>
+      <g id="Sound">
+        <path
+          d="M -80 -20 l 0 40 M -70 -30 l 0 60 M -60 -10 l 0 20 M -50 -5 l 0 10 M -40 -40 l 0 80 M -30 -15 l 0 30 M -20 -20 l 0 40 M -10 -15 l 0 30 M 0 -5 l 0 10 M 10 -35 l 0 70 M 20 -25 l 0 50 M 30 -10 l 0 20"
+          stroke="#aaa"
+          stroke-width="12"
+          fill="transparent"
+          stroke-linecap="round"
+        />
+        <path
+          d="M -80 -20 l 0 40 M -70 -30 l 0 60 M -60 -10 l 0 20 M -50 -5 l 0 10 M -40 -40 l 0 80 M -30 -15 l 0 30 M -20 -20 l 0 40 M -10 -15 l 0 30 M 0 -5 l 0 10 M 10 -35 l 0 70 M 20 -25 l 0 50 M 30 -10 l 0 20"
+          stroke="#fff"
+          stroke-width="5"
+          fill="transparent"
+          stroke-linecap="round"
+        />
+      </g>
+      <g id="Smile">
+        <circle
+          x="0"
+          y="0"
+          r="50"
+          stroke="#aaa"
+          stroke-width="12"
+          fill="transparent"
+          stroke-linecap="round"
+        />
+        <path
+          d="M -20 0 A 20 20 0 0 0 20 0"
+          stroke="#aaa"
+          stroke-width="12"
+          fill="transparent"
+          stroke-linecap="round"
+        />
+        <circle
+          x="0"
+          y="0"
+          r="50"
+          stroke="#fff"
+          stroke-width="5"
+          fill="transparent"
+          stroke-linecap="round"
+        />
+        <path
+          d="M -20 0 A 20 20 0 0 0 20 0"
+          stroke="#fff"
+          stroke-width="5"
+          fill="transparent"
+          stroke-linecap="round"
+        />
+      </g>
+      <g id="Frown">
+        <circle
+          x="0"
+          y="0"
+          r="50"
+          stroke="#aaa"
+          stroke-width="12"
+          fill="transparent"
+          stroke-linecap="round"
+        />
+        <path
+          d="M 20 20 A 20 20 0 0 0 -20 20"
+          stroke="#aaa"
+          stroke-width="12"
+          fill="transparent"
+          stroke-linecap="round"
+        />
+        <circle
+          x="0"
+          y="0"
+          r="50"
+          stroke="#fff"
+          stroke-width="5"
+          fill="transparent"
+          stroke-linecap="round"
+        />
+        <path
+          d="M 20 20 A 20 20 0 0 0 -20 20"
+          stroke="#fff"
+          stroke-width="5"
+          fill="transparent"
+          stroke-linecap="round"
+        />
+      </g>
+    </defs>
+    <circle id="background" cx="200" cy="200" r="200" fill="#384247" />
+    <use href="#Microphone" x="180" y="250" />
+    <use href="#Sound" x="105" y="200" />
+    <use href="#Smile" x="320" y="125" />
+    <use href="#Frown" x="320" y="275" />
+    <line
+      x1="225"
+      y1="180"
+      x2="260"
+      y2="150"
+      stroke="#aaa"
       stroke-width="12"
       fill="transparent"
-    />
-    <circle
-      cx="175"
-      cy="190"
-      r="18"
-      stroke="#fff"
-      stroke-width="5"
-      fill="none"
-    />
-    <path
-      d="M50 175h80a10 10 0 0 1 10 10v15a10 10 0 0 1-10 10H50a10 10 0 0 1-10-10v-15a10 10 0 0 1 10-10"
-      stroke-linejoin="round"
       stroke-linecap="round"
+    />
+    <line
+      x1="225"
+      y1="220"
+      x2="260"
+      y2="250"
+      stroke="#aaa"
       stroke-width="12"
-      fill="none"
-    />
-    <path
-      d="M40 240h145l15-15H40z"
-      stroke-linejoin="round"
+      fill="transparent"
       stroke-linecap="round"
+    />
+    <line
+      x1="225"
+      y1="180"
+      x2="260"
+      y2="150"
       stroke="#fff"
       stroke-width="5"
-      fill="none"
-    />
-    <path
+      fill="transparent"
       stroke-linecap="round"
+    />
+    <line
+      x1="225"
+      y1="220"
+      x2="260"
+      y2="250"
       stroke="#fff"
       stroke-width="5"
-      d="M85 155h55"
-    />
-    <path
-      d="M50 175h80a10 10 0 0 1 10 10v15a10 10 0 0 1-10 10H50a10 10 0 0 1-10-10v-15a10 10 0 0 1 10-10"
-      stroke-linejoin="round"
+      fill="transparent"
       stroke-linecap="round"
-      stroke="#fff"
-      stroke-width="5"
-      fill="none"
     />
   </svg>
 );
-export default CT;
+export default STA;
