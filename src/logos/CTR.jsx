@@ -68,6 +68,10 @@ const CT = (props) => (
       stroke-width="5"
       fill="none"
     />
+    <line x1="140" y1="155" x2="144" y2="150" stroke="#fff" stroke-width="5" stroke-linecap="round" />
+  <line x1="84" y1="155" x2="87" y2="146" stroke="#fff" stroke-width="5" stroke-linecap="round" />
+  <line x1="141" y1="246" x2="137" y2="241" stroke="#fff" stroke-width="5" stroke-linecap="round" />
+  <line x1="83.5" y1="245" x2="82" y2="241" stroke="#fff" stroke-width="5" stroke-linecap="round" />
   </svg>
 );
 export default CT;
