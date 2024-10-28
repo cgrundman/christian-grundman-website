@@ -21,9 +21,9 @@
 
 .quote {
   padding: 0 0.5rem 0 0.5rem;
-  /* margin-top: auto; */
   font-style: italic;
-  font-size: larger;
+  font-weight: bold;
+  font-size: 1.25rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -63,6 +63,7 @@
 .avatar {
   display: block;
   width: 41%;
+  max-height: 400px;
 }
 
 .interests {
