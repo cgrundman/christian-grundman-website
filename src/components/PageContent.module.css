@@ -61,8 +61,8 @@
 }
 
 .avatar {
+  display: block;
   width: 41%;
-  /* padding: 1rem; */
 }
 
 .interests {
