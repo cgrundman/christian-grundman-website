@@ -1,11 +1,10 @@
 import * as React from "react";
-const ProjectManagementStatic = (props) => (
+const SiteLogo = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="800"
-    height="800"
     viewBox="0 0 400 400"
     fill="none"
+    {...props}
   >
     <defs>
       <g id="G">
@@ -64,4 +63,4 @@ const ProjectManagementStatic = (props) => (
     <use href="#BOX" x="200" y="200" />
   </svg>
 );
-export default ProjectManagementStatic;
+export default SiteLogo;
