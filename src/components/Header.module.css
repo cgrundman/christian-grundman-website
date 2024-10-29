@@ -28,29 +28,34 @@
 }
 
 /* Responsive styling for small screens */
-@media (max-width: 500px) {
+@media (max-width: 475px) {
   .header {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     padding: 1rem;
   }
 
   .list {
+    display: flex;
     flex-direction: column;
-    width: 100%;
-    gap: 1rem;
-    margin-top: 1rem;
+    /* width: 100%; */
+    padding-top: 0%;
+    gap: 0rem;
+    /* margin-top: 1rem; */
+    align-items: flex-end;
+    margin: 0;
+    /* flex-grow: 1; */
   }
 
   .item {
-    width: 100%;
+    width: auto;
   }
 
   .item a {
-    display: inline;
+    display: block;
     padding: 0.5rem 0;
     width: 100%;
     color: #EAEAEA;
-    text-align: left;
+    text-align: right;
   }
 }
