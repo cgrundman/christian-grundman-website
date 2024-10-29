@@ -14,7 +14,7 @@
   text-align: center;
   background-color: #3C4048;
   color: #EAEAEA;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   padding-bottom: 1rem;
 }
 
@@ -79,10 +79,11 @@
 
 .avatar {
   display: block;
-  width: 41%;
+  width: 35%;
   max-height: 400px;
   z-index: 1;
   margin-right: auto;
+  margin-top: auto;
 }
 
 .interests {
