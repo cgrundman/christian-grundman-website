@@ -22,6 +22,19 @@
   align-items: center;
 }
 
+.cityscape {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://media.architecturaldigest.com/photos/65df7c0d05482f22fe702c2c/16:9/w_2560%2Cc_limit/schoenste-staedte-europas-florenz.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .banner {
   text-align: center;
   background-color: #3C4048;
