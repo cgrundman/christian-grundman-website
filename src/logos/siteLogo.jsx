@@ -20,7 +20,7 @@ const SiteLogo = (props) => (
           d="M 175 0 L 0 0 L 100 -100 L 175 0 "
           stroke="transparent"
           stroke-width="1"
-          fill="#aaa"
+          fill="#EAEAEA"
         />
         <line
           x1="0"
@@ -44,7 +44,7 @@ const SiteLogo = (props) => (
           d="M 125 67 L 0 0 L 125 -75 L 125 75 "
           stroke="transparent"
           stroke-width="1"
-          fill="#aaa"
+          fill="#EAEAEA"
         />
       </g>
       <g id="BOX">
@@ -57,7 +57,7 @@ const SiteLogo = (props) => (
         />
       </g>
     </defs>
-    <circle cx="200" cy="200" r="300" fill="#aaa" />
+    <circle cx="200" cy="200" r="300" fill="#EAEAEA" />
     <use href="#C" x="158" y="175" />
     <use href="#G" x="242" y="225" />
     <use href="#BOX" x="200" y="200" />
