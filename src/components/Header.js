@@ -6,7 +6,7 @@ import classes from "./Header.module.css";
 function Header() {
   return (
     <header className={classes.header}>
-      <SiteLogo height="90" margin-top="auto" margin-bottom="auto" />
+      <SiteLogo height="110" margin-top="auto" margin-bottom="auto" />
       <nav className={classes.nav}>
         <ul className={classes.list}>
           <li className={classes.item}>
