@@ -9,7 +9,7 @@ function AboutMePage() {
   var quote = quotes[Math.floor(Math.random() * quotes.length)];
 
   return (
-    <PageContent title="About Me">
+    <PageContent>
       <div>
         <div className={classes.background}>
           <img
@@ -21,6 +21,7 @@ function AboutMePage() {
           <p className={classes.quote}>"{quote}"</p>
         </div>
       </div>
+      <h1>About Me</h1>
       <img
         src="https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/travel.jpg"
         alt="travel"

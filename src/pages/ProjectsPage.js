@@ -32,12 +32,13 @@ function ProjectsPage() {
   };
 
   return (
-    <PageContent title="Projects">
+    <PageContent>
       <div>
         <div className={classes.background}>
           <img src={relaxed} className={classes.avatar} alt="relaxed" />
           <p className={classes.quote}>"{quote}"</p>
         </div>
+        <h1>Projects</h1>
         <p>Select a project icon to learn more.</p>
       </div>
       <div>
