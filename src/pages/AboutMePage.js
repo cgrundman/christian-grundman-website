@@ -1,4 +1,5 @@
 import casual from "../avatars/casual.svg";
+// import Mountains from "../backgrounds/mountains.svg"
 import PageContent from "../components/PageContent";
 import content from "../content.json";
 import classes from "../components/PageContent.module.css";
@@ -11,6 +12,7 @@ function AboutMePage() {
   return (
     <PageContent>
       <div>
+        {/* <img src={Mountains} alt="mountains" width="400" /> */}
         <div className={classes.background}>
           <img
             src={casual}
