@@ -6,11 +6,9 @@ import classes from "./Header.module.css";
 function Header() {
   return (
     <header className={classes.header}>
-      <nav>
+      <SiteLogo height="90" margin-top="auto" margin-bottom="auto" />
+      <nav className={classes.nav}>
         <ul className={classes.list}>
-          {/* <li>
-            <SiteLogo height="90" margin-top="auto" margin-bottom="auto" />
-          </li> */}
           <li>
             <NavLink
               to="/"
