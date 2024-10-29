@@ -34,7 +34,7 @@ function ProjectsPage() {
   return (
     <PageContent>
       <div>
-        <div className={classes.background}>
+        <div className={classes.desk}>
           <img src={relaxed} className={classes.avatar} alt="relaxed" />
           <p className={classes.quote}>"{quote}"</p>
         </div>
