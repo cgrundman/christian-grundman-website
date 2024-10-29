@@ -9,7 +9,7 @@ function Header() {
       <SiteLogo height="90" margin-top="auto" margin-bottom="auto" />
       <nav className={classes.nav}>
         <ul className={classes.list}>
-          <li>
+          <li className={classes.item}>
             <NavLink
               to="/"
               className={({ isActive }) =>
@@ -20,7 +20,7 @@ function Header() {
               <b>Home</b>
             </NavLink>
           </li>
-          <li>
+          <li className={classes.item}>
             <NavLink
               to="/projects"
               className={({ isActive }) =>
@@ -31,7 +31,7 @@ function Header() {
               <b>Projects</b>
             </NavLink>
           </li>
-          <li>
+          <li className={classes.item}>
             <NavLink
               to="/aboutme"
               className={({ isActive }) =>
