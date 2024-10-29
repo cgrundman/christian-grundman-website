@@ -36,7 +36,7 @@ function HomePage() {
   return (
     <PageContent>
       <div>
-        <div className={classes.container}>
+        <div className={classes.background}>
           <img
             src={professional}
             className={classes.avatar}

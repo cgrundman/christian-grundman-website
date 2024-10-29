@@ -11,7 +11,7 @@ function AboutMePage() {
   return (
     <PageContent title="About Me">
       <div>
-        <div className={classes.container}>
+        <div className={classes.background}>
           <img
             src={casual}
             className={classes.avatar}

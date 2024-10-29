@@ -1,3 +1,15 @@
+.background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://64.media.tumblr.com/baae5aab7e56ea21e9e3428e52fffa9e/87e0a69a5c434e0e-cb/s2048x3072/58254f1842aec64bf1dc3c2aab0640b38cb56835.jpg"); /* Example background image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .banner {
   text-align: center;
   background-color: #3C4048;
@@ -25,6 +37,8 @@
   font-weight: bold;
   font-size: 1.25rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {
@@ -67,6 +81,8 @@
   display: block;
   width: 41%;
   max-height: 400px;
+  z-index: 1;
+  margin-right: auto;
 }
 
 .interests {
