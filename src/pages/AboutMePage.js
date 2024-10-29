@@ -1,5 +1,4 @@
 import casual from "../avatars/casual.svg";
-import Background from "../backgrounds/background.jsx"
 import PageContent from "../components/PageContent";
 import content from "../content.json";
 import classes from "../components/PageContent.module.css";
