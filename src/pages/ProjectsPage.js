@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import content from "../content.json";
+import desk from "../backgrounds/desk.svg";
 import ProjectLogoMap from "../components/ProjectLogoMap.js";
 import relaxed from "../avatars/relaxed.svg";
 import PageContent from "../components/PageContent.js";
@@ -34,9 +35,12 @@ function ProjectsPage() {
   return (
     <PageContent>
       <div>
-        <div className={classes.desk}>
-          <img src={relaxed} className={classes.avatar} alt="relaxed" />
-          <p className={classes.quote}>"{quote}"</p>
+        <div className={classes.background}>
+          <img src={desk} alt="desk" />
+          <div className={classes.foreground}>
+            <img src={relaxed} className={classes.avatar} alt="relaxed" />
+            <p className={classes.quote}>"{quote}"</p>
+          </div>
         </div>
         <h1>Projects</h1>
         <p>Select a project icon to learn more.</p>
