@@ -1,90 +1,605 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="210mm" height="110mm" viewBox="0 0 210 110" version="1.1" id="svg1">
-  <defs>
-    <linearGradient id="linearGradient10">
-      <stop style="stop-color:#fbefe4;stop-opacity:1;" offset="0" id="stop11"/>
-      <stop style="stop-color:#fbefe4;stop-opacity:0;" offset="1" id="stop12"/>
-    </linearGradient>
-    <linearGradient id="linearGradient8">
-      <stop style="stop-color:#62500e;stop-opacity:1;" offset="0" id="stop10"/>
-      <stop style="stop-color:#e3c03e;stop-opacity:1;" offset="0.22082019" id="stop8"/>
-      <stop style="stop-color:#62500e;stop-opacity:1;" offset="1" id="stop9"/>
-    </linearGradient>
-    <linearGradient xlink:href="#linearGradient8" id="linearGradient9" x1="225.57423" y1="72.519017" x2="232.49816" y2="72.519017" gradientUnits="userSpaceOnUse" gradientTransform="translate(-40.814724,-18.220859)"/>
-    <radialGradient xlink:href="#linearGradient10" id="radialGradient12" cx="254.68217" cy="52.828896" fx="254.68217" fy="52.828896" r="5.1018405" gradientTransform="matrix(3.1076049,0,0,2.9637965,-609.72828,-94.817917)" gradientUnits="userSpaceOnUse"/>
-    <g id="screen">
-      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.226239" id="rect12" width="48.103062" height="31.339876" x="76.163177" y="16.763191"/>
-      <rect style="fill:#3b3b3b;fill-opacity:1;stroke-width:0.234348" id="rect13" width="44.458897" height="26.238035" x="77.62085" y="18.220856"/>
-      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.264999" id="rect14" width="22.593864" height="4.0085888" x="87.824539" y="53.204906"/>
-      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.264999" id="rect15" width="3.6441717" height="9.1104298" x="97.299362" y="46.645397"/>
-    </g>
-    <g id="bookshelf">
-      <rect style="fill:#a18965;fill-opacity:1;stroke-width:0.290974" id="rect16" width="4.8473516" height="62.757591" x="58.925659" y="40.372471"/>
-      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.290974" id="rect17" width="61.561367" height="2.3121216" x="-2.1509819" y="55.236111"/>
-      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.290974" id="rect17-0" width="61.561367" height="2.3121216" x="-1.8427153" y="97.35881"/>
-      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.290974" id="rect17-4" width="61.561367" height="2.3121216" x="-2.2940941" y="75.626549"/>
-      <rect style="fill:#a16580;fill-opacity:1;stroke-width:0.178394" id="rect18" width="6.3075414" height="17.842266" x="53.102848" y="79.510445"/>
-      <rect style="fill:#624d3c;fill-opacity:1;stroke-width:0.178394" id="rect19" width="7.4206371" height="12.165182" x="46.424274" y="85.187531"/>
-      <rect style="fill:#65a199;fill-opacity:1;stroke-width:0.119441" id="rect20" width="4.8234143" height="11.840777" x="41.971897" y="85.349731"/>
-      <rect style="fill:#a19d65;fill-opacity:1;stroke-width:0.178394" id="rect21" width="13.728179" height="18.004471" x="28.243715" y="79.348236"/>
-      <rect style="fill:#a16575;fill-opacity:1;stroke-width:0.178394" id="rect22" width="4.4523821" height="15.247029" x="24.533396" y="82.105675"/>
-      <rect style="fill:#657ba1;fill-opacity:1;stroke-width:0.178394" id="rect23" width="8.9047642" height="10.218753" x="15.99966" y="87.296143"/>
-      <rect style="fill:#a19765;fill-opacity:1;stroke-width:0.241404" id="rect24" width="8.9047642" height="14.553981" x="7.094893" y="82.96093"/>
-      <rect style="fill:#a18965;fill-opacity:1;stroke-width:0.178394" id="rect25" width="9.6468287" height="17.51786" x="-0.69677287" y="79.99704"/>
-      <path style="fill:#eceae4;fill-opacity:1;stroke-width:0.161716" id="path25" d="m 22.804219,68.541969 a 5.8039007,6.4440937 0 0 1 -5.697461,6.44301 5.8039007,6.4440937 0 0 1 -5.906436,-6.206688 l 5.799997,-0.236322 z"/>
-      <path style="fill:#ad0a0a;fill-opacity:1;stroke-width:0.145575" id="path26" d="m 11.622504,67.744937 a 5.1707635,5.2083602 0 0 1 2.42919,-4.622874 5.1707635,5.2083602 0 0 1 5.190097,-0.166732 5.1707635,5.2083602 0 0 1 2.716704,4.457561 l -5.169209,0.127681 z"/>
-      <ellipse style="fill:#000000;fill-opacity:1;stroke-width:0.161716" id="path27" cx="16.894796" cy="68.541969" rx="1.2663057" ry="1.2888187"/>
-      <rect style="fill:#14134b;fill-opacity:1;stroke-width:0.150921" id="rect27" width="2.6608484" height="19.101839" x="1.2421825" y="36.24649"/>
-      <rect style="fill:#13289f;fill-opacity:1;stroke-width:0.203701" id="rect27-7" width="4.8473516" height="19.101839" x="9.3273697" y="36.090458"/>
-      <rect style="fill:#114311;fill-opacity:1;stroke-width:0.170341" id="rect27-60" width="3.3896828" height="19.101839" x="5.0695148" y="36.718773"/>
-      <rect style="fill:#2a7aa7;fill-opacity:1;stroke-width:0.203701" id="rect27-75" width="4.8473516" height="19.101839" x="16.017075" y="35.463646"/>
-      <rect style="fill:#6c411b;fill-opacity:1;stroke-width:0.203701" id="rect27-0" width="4.8473516" height="19.101839" x="27.072474" y="36.192482"/>
-      <rect style="fill:#8a1117;fill-opacity:1;stroke-width:0.203701" id="rect27-607" width="4.8473516" height="19.101839" x="21.740395" y="36.354355"/>
-      <rect style="fill:#3c1671;fill-opacity:1;stroke-width:0.203701" id="rect27-607-6" width="4.8473516" height="19.101839" x="32.12426" y="36.772163"/>
-      <path style="fill:#d9a423;fill-opacity:1;stroke-width:0.264999" id="path28" d="M -78.714113,62.679754 -99.615773,63.085983 -89.516748,44.7815 Z" transform="matrix(0.32296743,0,0,0.34875751,74.564687,25.883861)"/>
-      <path style="fill:#d9a423;fill-opacity:1;stroke-width:0.264999" id="path28-7" d="M -78.714113,62.679754 -99.615773,63.085983 -89.516748,44.7815 Z" transform="matrix(0.32296743,0,0,0.34875751,71.033094,32.904675)"/>
-      <path style="fill:#d9a423;fill-opacity:1;stroke-width:0.264999" id="path28-5" d="M -78.714113,62.679754 -99.615773,63.085983 -89.516748,44.7815 Z" transform="matrix(0.32296743,0,0,0.34875751,77.940081,32.96573)"/>
-      <path style="fill:#d9a423;fill-opacity:1;stroke-width:0.264999" id="path28-1" d="M -78.714113,62.679754 -99.615773,63.085983 -89.516748,44.7815 Z" transform="matrix(0.32296743,0,0,0.34875751,78.015845,32.573989)"/>
-    </g>
-    <g id="cellbright">
-      <path d="M 0 0 l 5 -8 l 9 0 l 5 8 l -5 8 l -9 0 l -5 -8" fill="#02a6a7" stroke="#02343a" stroke-width="0.5"/>
-    </g>
-    <g id="celldark">
-      <path d="M 0 0 l 5 -8 l 9 0 l 5 8 l -5 8 l -9 0 l -5 -8" fill="#066b6c" stroke="#02343a" stroke-width="0.5"/>
-    </g>
-    <g id="walllight">
-      <use href="#cellbright"/>
-      <use href="#celldark" x="0" y="-16"/>
-      <use href="#cellbright" x="14" y="-8"/>
-      <use href="#celldark" x="14" y="-24"/>
-      <use href="#cellbright" x="28" y="-16"/>
-      <use href="#cellbright" x="28" y="-32"/>
-      <use href="#cellbright" x="42" y="-24"/>
-      <use href="#celldark" x="56" y="-16"/>
-      <use href="#cellbright" x="56" y="-32"/>
-      <use href="#celldark" x="70" y="-8"/>
-      <use href="#cellbright" x="70" y="-24"/>
-    </g>
-    <g id="desk">
-      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.264999" width="2" height="40" x="8" y="3"/>
-      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.264999" width="2" height="40" x="119" y="3"/>
-      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.264999" width="1.5" height="32" x="18" y="3"/>
-      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.264999" width="1.5" height="32" x="109" y="3"/>
-      <rect style="fill:#a18965;fill-opacity:1;stroke-width:0.264999" width="128" height="3" x="0" y="0"/>
-    </g>
-    <g id="lamp">
-      <rect style="fill:#af7e64;fill-opacity:1;stroke-width:0.126953" id="rect6" width="1.8220859" height="10.203679" x="186.94601" y="45.552147"/>
-      <rect style="fill:#af7e64;fill-opacity:1;stroke-width:0.105009" id="rect7" width="13.847852" height="1.8220855" x="181.11533" y="55.755825"/>
-      <rect style="fill:url(#linearGradient9);stroke-width:0.264999" id="rect8" width="6.9239264" height="2.9153376" x="184.75951" y="52.840488"/>
-      <ellipse style="fill:#fbefe4;fill-opacity:1;stroke-width:0.264999" id="path5" cx="187.67485" cy="41.725765" rx="5.1018405" ry="4.9196315"/>
-      <ellipse style="fill:url(#radialGradient12);stroke-width:0.818992" id="path5-1" cx="181.72328" cy="61.756184" rx="15.854504" ry="15.120816" transform="matrix(0.99423352,-0.10723667,0.10965407,0.99396981,0,0)"/>
-    </g>
-  </defs>
-  <rect style="fill:#02343a;stroke-width:0.264999;fill-opacity:1" id="rect1" width="219.01471" height="90.375458" x="-4.3730059" y="-3.2797544"/>
-  <rect style="fill:#1a1917;fill-opacity:1;stroke-width:0.264999" id="rect2" width="217.19264" height="27.695705" x="-2.9153376" y="86.731285"/>
-  <use href="#desk" x="75" y="57"/>
-  <use href="#lamp"/>
-  <use href="#walllight" x="87" y="26"/>
-  <use href="#screen"/>
-  <use href="#screen" x="50" y="0"/>
-  <use href="#bookshelf"/>
-</svg>
+<svg
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    width="210mm"
+    height="110mm"
+    viewBox="0 0 210 110"
+    id="svg1"
+    {...props}
+  >
+    <defs>
+      <linearGradient id="linearGradient10">
+        <stop
+          style={{
+            stopColor: "#fbefe4",
+            stopOpacity: 1,
+          }}
+          offset={0}
+          id="stop11"
+        />
+        <stop
+          style={{
+            stopColor: "#fbefe4",
+            stopOpacity: 0,
+          }}
+          offset={1}
+          id="stop12"
+        />
+      </linearGradient>
+      <linearGradient id="linearGradient8">
+        <stop
+          style={{
+            stopColor: "#62500e",
+            stopOpacity: 1,
+          }}
+          offset={0}
+          id="stop10"
+        />
+        <stop
+          style={{
+            stopColor: "#e3c03e",
+            stopOpacity: 1,
+          }}
+          offset={0.22082019}
+          id="stop8"
+        />
+        <stop
+          style={{
+            stopColor: "#62500e",
+            stopOpacity: 1,
+          }}
+          offset={1}
+          id="stop9"
+        />
+      </linearGradient>
+      <linearGradient
+        xlinkHref="#linearGradient8"
+        id="linearGradient9"
+        x1={225.57423}
+        y1={72.519017}
+        x2={232.49816}
+        y2={72.519017}
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(-40.814724,-18.220859)"
+      />
+      <radialGradient
+        xlinkHref="#linearGradient10"
+        id="radialGradient12"
+        cx={254.68217}
+        cy={52.828896}
+        fx={254.68217}
+        fy={52.828896}
+        r={5.1018405}
+        gradientTransform="matrix(3.1076049,0,0,2.9637965,-609.72828,-94.817917)"
+        gradientUnits="userSpaceOnUse"
+      />
+      <g id="screen">
+        <rect
+          style={{
+            fill: "#000000",
+            fillOpacity: 1,
+            strokeWidth: 0.264999,
+          }}
+          id="rect14"
+          width={22}
+          height={3}
+          x={0}
+          y={-3}
+        />
+        <rect
+          style={{
+            fill: "#000000",
+            fillOpacity: 1,
+            strokeWidth: 0.264999,
+          }}
+          id="rect15"
+          width={3}
+          height={10}
+          x={9}
+          y={-10}
+        />
+        <rect
+          style={{
+            fill: "#000000",
+            fillOpacity: 1,
+            strokeWidth: 0.226239,
+          }}
+          id="rect12"
+          width={48}
+          height={32}
+          x={-14}
+          y={-42}
+        />
+        <rect
+          style={{
+            fill: "#3b3b3b",
+            fillOpacity: 1,
+            strokeWidth: 0.234348,
+          }}
+          id="rect13"
+          width={46}
+          height={29}
+          x={-13}
+          y={-41}
+        />
+      </g>
+      <g id="bookshelf">
+        <rect
+          style={{
+            fill: "#a18965",
+            fillOpacity: 1,
+            strokeWidth: 0.290974,
+          }}
+          id="rect16"
+          width={4.8473516}
+          height={62.757591}
+          x={58.925659}
+          y={40.372471}
+        />
+        <rect
+          style={{
+            fill: "#000000",
+            fillOpacity: 1,
+            strokeWidth: 0.290974,
+          }}
+          id="rect17"
+          width={61.561367}
+          height={2.3121216}
+          x={-2.1509819}
+          y={55.236111}
+        />
+        <rect
+          style={{
+            fill: "#000000",
+            fillOpacity: 1,
+            strokeWidth: 0.290974,
+          }}
+          id="rect17-0"
+          width={61.561367}
+          height={2.3121216}
+          x={-1.8427153}
+          y={97.35881}
+        />
+        <rect
+          style={{
+            fill: "#000000",
+            fillOpacity: 1,
+            strokeWidth: 0.290974,
+          }}
+          id="rect17-4"
+          width={61.561367}
+          height={2.3121216}
+          x={-2.2940941}
+          y={75.626549}
+        />
+        <rect
+          style={{
+            fill: "#a16580",
+            fillOpacity: 1,
+            strokeWidth: 0.178394,
+          }}
+          id="rect18"
+          width={6.3075414}
+          height={17.842266}
+          x={53.102848}
+          y={79.510445}
+        />
+        <rect
+          style={{
+            fill: "#624d3c",
+            fillOpacity: 1,
+            strokeWidth: 0.178394,
+          }}
+          id="rect19"
+          width={7.4206371}
+          height={12.165182}
+          x={46.424274}
+          y={85.187531}
+        />
+        <rect
+          style={{
+            fill: "#65a199",
+            fillOpacity: 1,
+            strokeWidth: 0.119441,
+          }}
+          id="rect20"
+          width={4.8234143}
+          height={11.840777}
+          x={41.971897}
+          y={85.349731}
+        />
+        <rect
+          style={{
+            fill: "#a19d65",
+            fillOpacity: 1,
+            strokeWidth: 0.178394,
+          }}
+          id="rect21"
+          width={13.728179}
+          height={18.004471}
+          x={28.243715}
+          y={79.348236}
+        />
+        <rect
+          style={{
+            fill: "#a16575",
+            fillOpacity: 1,
+            strokeWidth: 0.178394,
+          }}
+          id="rect22"
+          width={4.4523821}
+          height={15.247029}
+          x={24.533396}
+          y={82.105675}
+        />
+        <rect
+          style={{
+            fill: "#657ba1",
+            fillOpacity: 1,
+            strokeWidth: 0.178394,
+          }}
+          id="rect23"
+          width={8.9047642}
+          height={10.218753}
+          x={15.99966}
+          y={87.296143}
+        />
+        <rect
+          style={{
+            fill: "#a19765",
+            fillOpacity: 1,
+            strokeWidth: 0.241404,
+          }}
+          id="rect24"
+          width={8.9047642}
+          height={14.553981}
+          x={7.094893}
+          y={82.96093}
+        />
+        <rect
+          style={{
+            fill: "#a18965",
+            fillOpacity: 1,
+            strokeWidth: 0.178394,
+          }}
+          id="rect25"
+          width={9.6468287}
+          height={17.51786}
+          x={-0.69677287}
+          y={79.99704}
+        />
+        <path
+          style={{
+            fill: "#eceae4",
+            fillOpacity: 1,
+            strokeWidth: 0.161716,
+          }}
+          id="path25"
+          d="m 22.804219,68.541969 a 5.8039007,6.4440937 0 0 1 -5.697461,6.44301 5.8039007,6.4440937 0 0 1 -5.906436,-6.206688 l 5.799997,-0.236322 z"
+        />
+        <path
+          style={{
+            fill: "#ad0a0a",
+            fillOpacity: 1,
+            strokeWidth: 0.145575,
+          }}
+          id="path26"
+          d="m 11.622504,67.744937 a 5.1707635,5.2083602 0 0 1 2.42919,-4.622874 5.1707635,5.2083602 0 0 1 5.190097,-0.166732 5.1707635,5.2083602 0 0 1 2.716704,4.457561 l -5.169209,0.127681 z"
+        />
+        <ellipse
+          style={{
+            fill: "#000000",
+            fillOpacity: 1,
+            strokeWidth: 0.161716,
+          }}
+          id="path27"
+          cx={16.894796}
+          cy={68.541969}
+          rx={1.2663057}
+          ry={1.2888187}
+        />
+        <rect
+          style={{
+            fill: "#14134b",
+            fillOpacity: 1,
+            strokeWidth: 0.150921,
+          }}
+          id="rect27"
+          width={2.6608484}
+          height={19.101839}
+          x={1.2421825}
+          y={36.24649}
+        />
+        <rect
+          style={{
+            fill: "#13289f",
+            fillOpacity: 1,
+            strokeWidth: 0.203701,
+          }}
+          id="rect27-7"
+          width={4.8473516}
+          height={19.101839}
+          x={9.3273697}
+          y={36.090458}
+        />
+        <rect
+          style={{
+            fill: "#114311",
+            fillOpacity: 1,
+            strokeWidth: 0.170341,
+          }}
+          id="rect27-60"
+          width={3.3896828}
+          height={19.101839}
+          x={5.0695148}
+          y={36.718773}
+        />
+        <rect
+          style={{
+            fill: "#2a7aa7",
+            fillOpacity: 1,
+            strokeWidth: 0.203701,
+          }}
+          id="rect27-75"
+          width={4.8473516}
+          height={19.101839}
+          x={16.017075}
+          y={35.463646}
+        />
+        <rect
+          style={{
+            fill: "#6c411b",
+            fillOpacity: 1,
+            strokeWidth: 0.203701,
+          }}
+          id="rect27-0"
+          width={4.8473516}
+          height={19.101839}
+          x={27.072474}
+          y={36.192482}
+        />
+        <rect
+          style={{
+            fill: "#8a1117",
+            fillOpacity: 1,
+            strokeWidth: 0.203701,
+          }}
+          id="rect27-607"
+          width={4.8473516}
+          height={19.101839}
+          x={21.740395}
+          y={36.354355}
+        />
+        <rect
+          style={{
+            fill: "#3c1671",
+            fillOpacity: 1,
+            strokeWidth: 0.203701,
+          }}
+          id="rect27-607-6"
+          width={4.8473516}
+          height={19.101839}
+          x={32.12426}
+          y={36.772163}
+        />
+        <path
+          style={{
+            fill: "#d9a423",
+            fillOpacity: 1,
+            strokeWidth: 0.264999,
+          }}
+          id="path28"
+          d="M -78.714113,62.679754 -99.615773,63.085983 -89.516748,44.7815 Z"
+          transform="matrix(0.32296743,0,0,0.34875751,74.564687,25.883861)"
+        />
+        <path
+          style={{
+            fill: "#d9a423",
+            fillOpacity: 1,
+            strokeWidth: 0.264999,
+          }}
+          id="path28-7"
+          d="M -78.714113,62.679754 -99.615773,63.085983 -89.516748,44.7815 Z"
+          transform="matrix(0.32296743,0,0,0.34875751,71.033094,32.904675)"
+        />
+        <path
+          style={{
+            fill: "#d9a423",
+            fillOpacity: 1,
+            strokeWidth: 0.264999,
+          }}
+          id="path28-5"
+          d="M -78.714113,62.679754 -99.615773,63.085983 -89.516748,44.7815 Z"
+          transform="matrix(0.32296743,0,0,0.34875751,77.940081,32.96573)"
+        />
+        <path
+          style={{
+            fill: "#d9a423",
+            fillOpacity: 1,
+            strokeWidth: 0.264999,
+          }}
+          id="path28-1"
+          d="M -78.714113,62.679754 -99.615773,63.085983 -89.516748,44.7815 Z"
+          transform="matrix(0.32296743,0,0,0.34875751,78.015845,32.573989)"
+        />
+      </g>
+      <g id="cellbright">
+        <path
+          d="M 0 0 l 5 -8 l 9 0 l 5 8 l -5 8 l -9 0 l -5 -8"
+          fill="#02a6a7"
+          stroke="#02343a"
+          strokeWidth={0.5}
+        />
+      </g>
+      <g id="celldark">
+        <path
+          d="M 0 0 l 5 -8 l 9 0 l 5 8 l -5 8 l -9 0 l -5 -8"
+          fill="#066b6c"
+          stroke="#02343a"
+          strokeWidth={0.5}
+        />
+      </g>
+      <g id="walllight">
+        <use href="#cellbright" />
+        <use href="#celldark" x={0} y={-16} />
+        <use href="#cellbright" x={14} y={-8} />
+        <use href="#celldark" x={14} y={-24} />
+        <use href="#cellbright" x={28} y={-16} />
+        <use href="#cellbright" x={28} y={-32} />
+        <use href="#cellbright" x={42} y={-24} />
+        <use href="#celldark" x={56} y={-16} />
+        <use href="#cellbright" x={56} y={-32} />
+        <use href="#celldark" x={70} y={-8} />
+        <use href="#cellbright" x={70} y={-24} />
+      </g>
+      <g id="desk">
+        <rect
+          style={{
+            fill: "#000000",
+            fillOpacity: 1,
+            strokeWidth: 0.264999,
+          }}
+          width={2}
+          height={40}
+          x={8}
+          y={3}
+        />
+        <rect
+          style={{
+            fill: "#000000",
+            fillOpacity: 1,
+            strokeWidth: 0.264999,
+          }}
+          width={2}
+          height={40}
+          x={119}
+          y={3}
+        />
+        <rect
+          style={{
+            fill: "#000000",
+            fillOpacity: 1,
+            strokeWidth: 0.264999,
+          }}
+          width={1.5}
+          height={32}
+          x={18}
+          y={3}
+        />
+        <rect
+          style={{
+            fill: "#000000",
+            fillOpacity: 1,
+            strokeWidth: 0.264999,
+          }}
+          width={1.5}
+          height={32}
+          x={109}
+          y={3}
+        />
+        <rect
+          style={{
+            fill: "#a18965",
+            fillOpacity: 1,
+            strokeWidth: 0.264999,
+          }}
+          width={128}
+          height={3}
+          x={0}
+          y={0}
+        />
+      </g>
+      <g id="lamp">
+        <rect
+          style={{
+            fill: "#af7e64",
+            fillOpacity: 1,
+            strokeWidth: 0.126953,
+          }}
+          id="rect6"
+          width={1.8220859}
+          height={10.203679}
+          x={186.94601}
+          y={45.552147}
+        />
+        <rect
+          style={{
+            fill: "#af7e64",
+            fillOpacity: 1,
+            strokeWidth: 0.105009,
+          }}
+          id="rect7"
+          width={13.847852}
+          height={1.8220855}
+          x={181.11533}
+          y={55.755825}
+        />
+        <rect
+          style={{
+            fill: "url(#linearGradient9)",
+            strokeWidth: 0.264999,
+          }}
+          id="rect8"
+          width={6.9239264}
+          height={2.9153376}
+          x={184.75951}
+          y={52.840488}
+        />
+        <ellipse
+          style={{
+            fill: "#fbefe4",
+            fillOpacity: 1,
+            strokeWidth: 0.264999,
+          }}
+          id="path5"
+          cx={187.67485}
+          cy={41.725765}
+          rx={5.1018405}
+          ry={4.9196315}
+        />
+        <ellipse
+          style={{
+            fill: "url(#radialGradient12)",
+            strokeWidth: 0.818992,
+          }}
+          id="path5-1"
+          cx={181.72328}
+          cy={61.756184}
+          rx={15.854504}
+          ry={15.120816}
+          transform="matrix(0.99423352,-0.10723667,0.10965407,0.99396981,0,0)"
+        />
+      </g>
+    </defs>
+    <rect
+      style={{
+        fill: "#02343a",
+        strokeWidth: 0.264999,
+        fillOpacity: 1,
+      }}
+      id="rect1"
+      width={219.01471}
+      height={90.375458}
+      x={-4.3730059}
+      y={-3.2797544}
+    />
+    <rect
+      style={{
+        fill: "#1a1917",
+        fillOpacity: 1,
+        strokeWidth: 0.264999,
+      }}
+      id="rect2"
+      width={217.19264}
+      height={27.695705}
+      x={-2.9153376}
+      y={86.731285}
+    />
+    <use href="#desk" x={75} y={57} />
+    <use href="#lamp" />
+    <use href="#walllight" x={87} y={26} />
+    <use href="#screen" x={146} y={57} />
+    <use href="#screen" x={97} y={57} />
+    <use href="#bookshelf" />
+  </svg>
