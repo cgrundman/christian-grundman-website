@@ -26,7 +26,7 @@ const CT = (props) => (
     <circle cx="175" cy="190" r="18" stroke-width="12" fill="none" />
     <path
       d="M40 240h145l15-15H40z"
-      stroke-linejoin="round"
+      strokeLinejoin="round"
       strokeLinecap="round"
       stroke-width="12"
       fill="transparent"
@@ -41,14 +41,14 @@ const CT = (props) => (
     />
     <path
       d="M50 175h80a10 10 0 0 1 10 10v15a10 10 0 0 1-10 10H50a10 10 0 0 1-10-10v-15a10 10 0 0 1 10-10"
-      stroke-linejoin="round"
+      strokeLinejoin="round"
       strokeLinecap="round"
       stroke-width="12"
       fill="none"
     />
     <path
       d="M40 240h145l15-15H40z"
-      stroke-linejoin="round"
+      strokeLinejoin="round"
       strokeLinecap="round"
       stroke="#fff"
       stroke-width="5"
@@ -62,7 +62,7 @@ const CT = (props) => (
     />
     <path
       d="M50 175h80a10 10 0 0 1 10 10v15a10 10 0 0 1-10 10H50a10 10 0 0 1-10-10v-15a10 10 0 0 1 10-10"
-      stroke-linejoin="round"
+      strokeLinejoin="round"
       strokeLinecap="round"
       stroke="#fff"
       stroke-width="5"

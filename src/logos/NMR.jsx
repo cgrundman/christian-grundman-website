@@ -7,7 +7,7 @@ const NMR = (props) => (
     {...props}
   >
     <defs>
-      <g id="signal" stroke-linejoin="round" strokeLinecap="round">
+      <g id="signal" strokeLinejoin="round" strokeLinecap="round">
         <path
           d="M0 200h75l2-75 2 40h4l2-40 2 75h50l2-150 2 150h50l1-50 3 40 3-100 3 100 3-40 3 50h75"
           stroke-width="12"

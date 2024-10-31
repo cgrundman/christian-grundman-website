@@ -24,7 +24,7 @@ const CVZ = (props) => (
         id="computer"
         fill="transparent"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       >
         <path stroke-width="12" d="M50 270V100h300v170zm55 30h195" />
         <path

@@ -23,7 +23,7 @@ const ElectricalStatic = (props) => (
       fill="transparent"
       stroke-width="12"
       strokeLinecap="round"
-      stroke-linejoin="round"
+      strokeLinejoin="round"
       d="M245 105V60l95 95h-45m-140-50V80l21-24V20m-71 135H80l-24 21H20m85 69H80l-24-21H20m180 71v15l-24 30v40m69-85v15l-48 60v10m98-135h15l50 50"
     />
     <path
@@ -41,7 +41,7 @@ const ElectricalStatic = (props) => (
       fill="transparent"
       stroke-width="5"
       strokeLinecap="round"
-      stroke-linejoin="round"
+      strokeLinejoin="round"
       d="M245 107V60l95 95h-47m-138-48V80l21-24V20m-69 135H80l-24 21H20m87 69H80l-24-21H20m180 69v17l-24 30v40m69-87v17l-48 60v10m96-135h17l50 50"
     />
     <path

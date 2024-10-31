@@ -20,7 +20,7 @@ const LDD = (props) => (
         />
         <circle stroke="#fff" stroke-width="5" cx="128" cy="128" r="28" />
       </g>
-      <g id="leaf" fill="none" strokeLinecap="round" stroke-linejoin="round">
+      <g id="leaf" fill="none" strokeLinecap="round" strokeLinejoin="round">
         <path
           d="M64 144c96 0 106-80 106-120 0-4-10-8-10-8C24 20 24 84 24 144v32"
           stroke-width="12"

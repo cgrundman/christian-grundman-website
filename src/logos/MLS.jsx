@@ -21,7 +21,7 @@ const MLS = (props) => (
         <path
           d="M75 150q30 0 45-15 15 15 45 15"
           stroke-width="12"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
           fill="transparent"
         />
         <path
@@ -40,7 +40,7 @@ const MLS = (props) => (
           d="M75 150q30 0 45-15 15 15 45 15"
           stroke="#fff"
           stroke-width="5"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
           fill="transparent"
         />
       </g>
@@ -49,7 +49,7 @@ const MLS = (props) => (
           d="m0 0 60 30M0 0l60-30M0-60l60 30M0-60l60-30M0 0l60-90M0-60l60 90m0 0 60-60m-60 0h60M60-90l60 60"
           stroke-width="12"
           strokeLinecap="round"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <circle cx="60" cy="-30" r="15" stroke-width="12" />
         <circle cx="60" cy="30" r="15" stroke-width="12" />
@@ -62,7 +62,7 @@ const MLS = (props) => (
           stroke="#fff"
           stroke-width="5"
           strokeLinecap="round"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <circle cx="60" cy="-30" r="15" stroke="#fff" stroke-width="5" />
         <circle cx="60" cy="30" r="15" stroke="#fff" stroke-width="5" />

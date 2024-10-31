@@ -53,7 +53,7 @@ const SiteLogo = (props) => (
           stroke="black"
           stroke-width="10"
           fill="transparent"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
       </g>
     </defs>

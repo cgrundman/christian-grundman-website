@@ -6,7 +6,7 @@ const Programming = (props) => (
     {...props}
   >
     <circle cx="200" cy="200" r="200" fill="#554b57" stroke="transparent" />
-    <g fill="transparent" strokeLinecap="round" stroke-linejoin="round">
+    <g fill="transparent" strokeLinecap="round" strokeLinejoin="round">
       <path
         stroke="#a749ba"
         stroke-width="12"
