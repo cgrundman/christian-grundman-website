@@ -60,6 +60,15 @@
         <path style="fill:#d9a423;fill-opacity:1;stroke-width:0.264999" id="path28" d="M -3 1.5 0 -3.5 3 1.5 Z" transform="translate(-3 5)"/>
         <path style="fill:#d9a423;fill-opacity:1;stroke-width:0.264999" id="path28" d="M -3 1.5 0 -3.5 3 1.5 Z" transform="translate(3 5)"/>
       </g>
+      <g id="hpbooks">
+        <rect style="fill:#14134b;fill-opacity:1;stroke-width:0.150921" width="2" height="18" x="0" y="0"/>
+        <rect style="fill:#114311;fill-opacity:1;stroke-width:0.170341" width="2.3" height="18" x="2.2" y="0"/>
+        <rect style="fill:#13289f;fill-opacity:1;stroke-width:0.203701" width="2.7" height="18" x="4.7" y="0"/>
+        <rect style="fill:#2a7aa7;fill-opacity:1;stroke-width:0.203701" width="4.7" height="18" x="7.6" y="0"/>
+        <rect style="fill:#8a1117;fill-opacity:1;stroke-width:0.203701" width="5.6" height="18" x="12.5" y="0"/>
+        <rect style="fill:#6c411b;fill-opacity:1;stroke-width:0.203701" width="4.1" height="18" x="18.3" y="0"/>
+        <rect style="fill:#3c1671;fill-opacity:1;stroke-width:0.203701" width="4.8" height="18" x="22.6" y="0"/>
+      </g>
     </g>
   </defs>
   <rect style="fill:#02343a;stroke-width:0.264999;fill-opacity:1" id="rect1" width="219.01471" height="90.375458" x="-4.3730059" y="-3.2797544"/>
@@ -71,6 +80,7 @@
   <use href="#screen" x="97" y="57"/>
   <use href="#bookshelf" x="60" y="32"/>
   <use href="#triforce" x="50" y="30"/>
+  <use href="#hpbooks" x="5" y="19"/>
   <rect style="fill:#a16580;fill-opacity:1;stroke-width:0.178394" id="rect18" width="6.3075414" height="17.842266" x="53.102848" y="79.510445"/>
   <rect style="fill:#624d3c;fill-opacity:1;stroke-width:0.178394" id="rect19" width="7.4206371" height="12.165182" x="46.424274" y="85.187531"/>
   <rect style="fill:#65a199;fill-opacity:1;stroke-width:0.119441" id="rect20" width="4.8234143" height="11.840777" x="41.971897" y="85.349731"/>
@@ -82,11 +92,4 @@
   <path style="fill:#eceae4;fill-opacity:1;stroke-width:0.161716" id="path25" d="m 22.804219,68.541969 a 5.8039007,6.4440937 0 0 1 -5.697461,6.44301 5.8039007,6.4440937 0 0 1 -5.906436,-6.206688 l 5.799997,-0.236322 z"/>
   <path style="fill:#ad0a0a;fill-opacity:1;stroke-width:0.145575" id="path26" d="m 11.622504,67.744937 a 5.1707635,5.2083602 0 0 1 2.42919,-4.622874 5.1707635,5.2083602 0 0 1 5.190097,-0.166732 5.1707635,5.2083602 0 0 1 2.716704,4.457561 l -5.169209,0.127681 z"/>
   <ellipse style="fill:#000000;fill-opacity:1;stroke-width:0.161716" id="path27" cx="16.894796" cy="68.541969" rx="1.2663057" ry="1.2888187"/>
-  <rect style="fill:#14134b;fill-opacity:1;stroke-width:0.150921" id="rect27" width="2.6608484" height="19.101839" x="1.2421825" y="36.24649"/>
-  <rect style="fill:#13289f;fill-opacity:1;stroke-width:0.203701" id="rect27-7" width="4.8473516" height="19.101839" x="9.3273697" y="36.090458"/>
-  <rect style="fill:#114311;fill-opacity:1;stroke-width:0.170341" id="rect27-60" width="3.3896828" height="19.101839" x="5.0695148" y="36.718773"/>
-  <rect style="fill:#2a7aa7;fill-opacity:1;stroke-width:0.203701" id="rect27-75" width="4.8473516" height="19.101839" x="16.017075" y="35.463646"/>
-  <rect style="fill:#6c411b;fill-opacity:1;stroke-width:0.203701" id="rect27-0" width="4.8473516" height="19.101839" x="27.072474" y="36.192482"/>
-  <rect style="fill:#8a1117;fill-opacity:1;stroke-width:0.203701" id="rect27-607" width="4.8473516" height="19.101839" x="21.740395" y="36.354355"/>
-  <rect style="fill:#3c1671;fill-opacity:1;stroke-width:0.203701" id="rect27-607-6" width="4.8473516" height="19.101839" x="32.12426" y="36.772163"/>
 </svg>
