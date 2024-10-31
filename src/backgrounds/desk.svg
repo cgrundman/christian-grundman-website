@@ -69,13 +69,23 @@
         <rect style="fill:#6c411b;fill-opacity:1;stroke-width:0.203701" width="4.1" height="18" x="18.3" y="0"/>
         <rect style="fill:#3c1671;fill-opacity:1;stroke-width:0.203701" width="4.8" height="18" x="22.6" y="0"/>
       </g>
-      <g id="pokeball" >
-        <circle fill="#fff" stroke="#000" stroke-width=".4"  cx="0" cy="0" r="5"/>
-        <path style="fill:#ad0a0a;fill-opacity:1;stroke-width:0.145575"  stroke="#000" stroke-width=".4"  d="m -5 0 a 5 5 180 0 1 10,0 0 0 1 5,-0.166732 5,5 0 0 1 2.716704,4.457561 l -5.169209,0.127681 z"/>
+      <g id="pokeball">
+        <circle fill="#fff" stroke="#000" stroke-width=".4" cx="0" cy="0" r="5"/>
+        <path style="fill:#ad0a0a;fill-opacity:1;stroke-width:0.145575" stroke="#000" stroke-width=".4" d="m -5 0 a 5 5 180 0 1 10,0 0 0 1 5,-0.166732 5,5 0 0 1 2.716704,4.457561 l -5.169209,0.127681 z"/>
         <path stroke="#000" stroke-width=".4" d="m -5 0 l 10 0"/>
         <circle fill="#000" cx="0" cy="0" r="1.5"/>
-        <circle fill="#fff" cx="0" cy="0" r="1"/>  
-        </g>
+        <circle fill="#fff" cx="0" cy="0" r="1"/>
+      </g>
+      <g id="books">
+        <rect style="fill:#a16580;fill-opacity:1;stroke-width:0.178394" width="6.5" height="18" x="43" y="-6"/>
+        <rect style="fill:#624d3c;fill-opacity:1;stroke-width:0.178394" width="7" height="13" x="36" y="-1"/>
+        <rect style="fill:#65a199;fill-opacity:1;stroke-width:0.119441" width="5" height="12" x="31" y="0"/>
+        <rect style="fill:#a19d65;fill-opacity:1;stroke-width:0.178394" width="3.5" height="18" x="27.5" y="-6"/>
+        <rect style="fill:#a16575;fill-opacity:1;stroke-width:0.178394" width="4.5" height="15" x="23" y="-3"/>
+        <rect style="fill:#657ba1;fill-opacity:1;stroke-width:0.178394" width="7" height="10" x="16" y="2"/>
+        <rect style="fill:#a19765;fill-opacity:1;stroke-width:0.241404" width="9" height="14.5" x="7" y="-2.5"/>
+        <rect style="fill:#a18965;fill-opacity:1;stroke-width:0.178394" width="7" height="17" x="0" y="-5"/>
+      </g>
     </g>
   </defs>
   <rect style="fill:#02343a;stroke-width:0.264999;fill-opacity:1" id="rect1" width="219.01471" height="90.375458" x="-4.3730059" y="-3.2797544"/>
@@ -88,13 +98,6 @@
   <use href="#bookshelf" x="60" y="32"/>
   <use href="#triforce" x="50" y="30"/>
   <use href="#hpbooks" x="5" y="19"/>
-  <use href="#pokeball" x="20" y="57" transform="rotate(40,20,57)" />
-  <rect style="fill:#a16580;fill-opacity:1;stroke-width:0.178394" id="rect18" width="6.3075414" height="17.842266" x="53.102848" y="79.510445"/>
-  <rect style="fill:#624d3c;fill-opacity:1;stroke-width:0.178394" id="rect19" width="7.4206371" height="12.165182" x="46.424274" y="85.187531"/>
-  <rect style="fill:#65a199;fill-opacity:1;stroke-width:0.119441" id="rect20" width="4.8234143" height="11.840777" x="41.971897" y="85.349731"/>
-  <rect style="fill:#a19d65;fill-opacity:1;stroke-width:0.178394" id="rect21" width="13.728179" height="18.004471" x="28.243715" y="79.348236"/>
-  <rect style="fill:#a16575;fill-opacity:1;stroke-width:0.178394" id="rect22" width="4.4523821" height="15.247029" x="24.533396" y="82.105675"/>
-  <rect style="fill:#657ba1;fill-opacity:1;stroke-width:0.178394" id="rect23" width="8.9047642" height="10.218753" x="15.99966" y="87.296143"/>
-  <rect style="fill:#a19765;fill-opacity:1;stroke-width:0.241404" id="rect24" width="8.9047642" height="14.553981" x="7.094893" y="82.96093"/>
-  <rect style="fill:#a18965;fill-opacity:1;stroke-width:0.178394" id="rect25" width="9.6468287" height="17.51786" x="-0.69677287" y="79.99704"/>
+  <use href="#pokeball" x="20" y="57" transform="rotate(40,20,57)"/>
+  <use href="#books" x="0" y="75"/>
 </svg>
