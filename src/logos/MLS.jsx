@@ -7,7 +7,7 @@ const MLS = (props) => (
     {...props}
   >
     <defs>
-      <g id="lungs" stroke-linecap="round">
+      <g id="lungs" strokeLinecap="round">
         <path
           d="M100 25v75c0 10-5 15-25 15m65-90v75c0 10 5 15 25 15"
           stroke-width="12"
@@ -48,7 +48,7 @@ const MLS = (props) => (
         <path
           d="m0 0 60 30M0 0l60-30M0-60l60 30M0-60l60-30M0 0l60-90M0-60l60 90m0 0 60-60m-60 0h60M60-90l60 60"
           stroke-width="12"
-          stroke-linecap="round"
+          strokeLinecap="round"
           stroke-linejoin="round"
         />
         <circle cx="60" cy="-30" r="15" stroke-width="12" />
@@ -61,7 +61,7 @@ const MLS = (props) => (
           d="m0 0 60 30M0 0l60-30M0-60l60 30M0-60l60-30M0 0l60-90M0-60l60 90m0 0 60-60m-60 0h60M60-90l60 60"
           stroke="#fff"
           stroke-width="5"
-          stroke-linecap="round"
+          strokeLinecap="round"
           stroke-linejoin="round"
         />
         <circle cx="60" cy="-30" r="15" stroke="#fff" stroke-width="5" />

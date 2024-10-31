@@ -23,14 +23,14 @@ const Electrical = (props) => (
       stroke="#0e7eb5"
       fill="transparent"
       stroke-width="12"
-      stroke-linecap="round"
+      strokeLinecap="round"
       stroke-linejoin="round"
       d="M245 105V60l95 95h-45m-140-50V80l21-24V20m-71 135H80l-24 21H20m85 69H80l-24-21H20m180 71v15l-24 30v40m69-85v15l-48 60v10m98-135h15l50 50"
     />
     <path
       stroke="#0e7eb5"
       stroke-width="12"
-      stroke-linecap="round"
+      strokeLinecap="round"
       d="M200 105V20m-95 180H20m135 95v85m140-180h85"
     />
     <use href="#nodes" x="200" y="120" />
@@ -41,14 +41,14 @@ const Electrical = (props) => (
       stroke="#fff"
       fill="transparent"
       stroke-width="5"
-      stroke-linecap="round"
+      strokeLinecap="round"
       stroke-linejoin="round"
       d="M245 107V60l95 95h-47m-138-48V80l21-24V20m-69 135H80l-24 21H20m87 69H80l-24-21H20m180 69v17l-24 30v40m69-87v17l-48 60v10m96-135h17l50 50"
     />
     <path
       stroke="#fff"
       stroke-width="5"
-      stroke-linecap="round"
+      strokeLinecap="round"
       d="M200 107V20m-95 180H20m135 93v87m138-180h87"
     />
     <use href="#electron" x="120" y="200">

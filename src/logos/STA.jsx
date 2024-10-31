@@ -7,14 +7,14 @@ const STA = (props) => (
           d="M -20 0 l 40 0 M 0 0 l 0 -20 M -30 -50 A 20 20 0 0 0 30 -50 M -15 -50 A 15 15 0 0 0 15 -50 l 0 -30 A 15 15 0 0 0 -15 -80 l 0 30"
           stroke-width="12"
           fill="transparent"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M -20 0 l 40 0 M 0 0 l 0 -20 M -30 -50 A 20 20 0 0 0 30 -50 M -15 -50 A 15 15 0 0 0 15 -50 l 0 -30 A 15 15 0 0 0 -15 -80 l 0 30"
           stroke="#fff"
           stroke-width="5"
           fill="transparent"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
       </g>
       <g id="Sound">
@@ -22,14 +22,14 @@ const STA = (props) => (
           d="M -80 -20 l 0 40 M -70 -30 l 0 60 M -60 -10 l 0 20 M -50 -5 l 0 10 M -40 -40 l 0 80 M -30 -15 l 0 30 M -20 -20 l 0 40 M -10 -15 l 0 30 M 0 -5 l 0 10 M 10 -35 l 0 70 M 20 -25 l 0 50 M 30 -10 l 0 20"
           stroke-width="12"
           fill="transparent"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M -80 -20 l 0 40 M -70 -30 l 0 60 M -60 -10 l 0 20 M -50 -5 l 0 10 M -40 -40 l 0 80 M -30 -15 l 0 30 M -20 -20 l 0 40 M -10 -15 l 0 30 M 0 -5 l 0 10 M 10 -35 l 0 70 M 20 -25 l 0 50 M 30 -10 l 0 20"
           stroke="#fff"
           stroke-width="5"
           fill="transparent"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
       </g>
       <g id="Smile">
@@ -39,13 +39,13 @@ const STA = (props) => (
           r="50"
           stroke-width="12"
           fill="transparent"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M -20 0 A 20 20 0 0 0 20 0"
           stroke-width="12"
           fill="transparent"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <circle
           x="0"
@@ -54,14 +54,14 @@ const STA = (props) => (
           stroke="#fff"
           stroke-width="5"
           fill="transparent"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M -20 0 A 20 20 0 0 0 20 0"
           stroke="#fff"
           stroke-width="5"
           fill="transparent"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
       </g>
       <g id="Frown">
@@ -71,13 +71,13 @@ const STA = (props) => (
           r="50"
           stroke-width="12"
           fill="transparent"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M 20 20 A 20 20 0 0 0 -20 20"
           stroke-width="12"
           fill="transparent"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <circle
           x="0"
@@ -86,14 +86,14 @@ const STA = (props) => (
           stroke="#fff"
           stroke-width="5"
           fill="transparent"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M 20 20 A 20 20 0 0 0 -20 20"
           stroke="#fff"
           stroke-width="5"
           fill="transparent"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
       </g>
     </defs>
@@ -109,7 +109,7 @@ const STA = (props) => (
       y2="150"
       stroke-width="12"
       fill="transparent"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <line
       x1="225"
@@ -118,7 +118,7 @@ const STA = (props) => (
       y2="250"
       stroke-width="12"
       fill="transparent"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <line
       x1="225"
@@ -128,7 +128,7 @@ const STA = (props) => (
       stroke="#fff"
       stroke-width="5"
       fill="transparent"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <line
       x1="225"
@@ -138,7 +138,7 @@ const STA = (props) => (
       stroke="#fff"
       stroke-width="5"
       fill="transparent"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
   </svg>
 );

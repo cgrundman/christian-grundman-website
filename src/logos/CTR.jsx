@@ -22,12 +22,12 @@ const CT = (props) => (
       fill="none"
     />
     <path d="M60 157.5h100v85H60z" stroke="transparent" />
-    <path stroke-linecap="round" stroke-width="12" d="M83.2 155h57.7" />
+    <path strokeLinecap="round" stroke-width="12" d="M83.2 155h57.7" />
     <circle cx="175" cy="190" r="18" stroke-width="12" fill="none" />
     <path
       d="M40 240h145l15-15H40z"
       stroke-linejoin="round"
-      stroke-linecap="round"
+      strokeLinecap="round"
       stroke-width="12"
       fill="transparent"
     />
@@ -42,20 +42,20 @@ const CT = (props) => (
     <path
       d="M50 175h80a10 10 0 0 1 10 10v15a10 10 0 0 1-10 10H50a10 10 0 0 1-10-10v-15a10 10 0 0 1 10-10"
       stroke-linejoin="round"
-      stroke-linecap="round"
+      strokeLinecap="round"
       stroke-width="12"
       fill="none"
     />
     <path
       d="M40 240h145l15-15H40z"
       stroke-linejoin="round"
-      stroke-linecap="round"
+      strokeLinecap="round"
       stroke="#fff"
       stroke-width="5"
       fill="none"
     />
     <path
-      stroke-linecap="round"
+      strokeLinecap="round"
       stroke="#fff"
       stroke-width="5"
       d="M85 155h55"
@@ -63,15 +63,15 @@ const CT = (props) => (
     <path
       d="M50 175h80a10 10 0 0 1 10 10v15a10 10 0 0 1-10 10H50a10 10 0 0 1-10-10v-15a10 10 0 0 1 10-10"
       stroke-linejoin="round"
-      stroke-linecap="round"
+      strokeLinecap="round"
       stroke="#fff"
       stroke-width="5"
       fill="none"
     />
-    <line x1="140" y1="155" x2="144" y2="150" stroke="#fff" stroke-width="5" stroke-linecap="round" />
-  <line x1="84" y1="155" x2="87" y2="146" stroke="#fff" stroke-width="5" stroke-linecap="round" />
-  <line x1="141" y1="246" x2="137" y2="241" stroke="#fff" stroke-width="5" stroke-linecap="round" />
-  <line x1="83.5" y1="245" x2="82" y2="241" stroke="#fff" stroke-width="5" stroke-linecap="round" />
+    <line x1="140" y1="155" x2="144" y2="150" stroke="#fff" stroke-width="5" strokeLinecap="round" />
+  <line x1="84" y1="155" x2="87" y2="146" stroke="#fff" stroke-width="5" strokeLinecap="round" />
+  <line x1="141" y1="246" x2="137" y2="241" stroke="#fff" stroke-width="5" strokeLinecap="round" />
+  <line x1="83.5" y1="245" x2="82" y2="241" stroke="#fff" stroke-width="5" strokeLinecap="round" />
   </svg>
 );
 export default CT;

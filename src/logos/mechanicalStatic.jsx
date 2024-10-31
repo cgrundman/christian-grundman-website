@@ -115,7 +115,7 @@ const MechanicalStatic = (props) => (
         <path
           stroke="#cc314b"
           stroke-width="12"
-          stroke-linecap="round"
+          strokeLinecap="round"
           d="M200 125v1m37.5 9.048-.5.866m27.952 26.586-.866.5M275 200h-1m-9.048 37.5-.866-.5M237.5 264.952l-.5-.866M200 275v-1m-37.5-9.048.5-.866M135.048 237.5l.866-.5M125 200h1m9.048-37.5.866.5m26.586-27.952.5.866"
         />
       </g>
@@ -180,7 +180,7 @@ const MechanicalStatic = (props) => (
         <path
           stroke="#cc314b"
           stroke-width="12"
-          stroke-linecap="round"
+          strokeLinecap="round"
           d="M200 165v1m30.31 16.5-.865.5m.865 34.5-.865-.5M200 235v-1m-30.31-16.5.865-.5m-.865-34.5.865.5"
         />
       </g>
