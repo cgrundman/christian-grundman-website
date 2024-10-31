@@ -101,7 +101,7 @@ const Mechanical = (props) => (
           cy="200"
           r="70"
           stroke="#cc314b"
-          stroke-width="12"
+          strokeWidth="12"
           fill="#59474a"
         />
         <circle
@@ -109,12 +109,12 @@ const Mechanical = (props) => (
           cy="200"
           r="70"
           stroke="#fff"
-          stroke-width="5"
+          strokeWidth="5"
           fill="transparent"
         />
         <path
           stroke="#fff"
-          stroke-width="12"
+          strokeWidth="12"
           strokeLinecap="round"
           d="M200 125v1m37.5 9.048-.5.866m27.952 26.586-.866.5M275 200h-1m-9.048 37.5-.866-.5M237.5 264.952l-.5-.866M200 275v-1m-37.5-9.048.5-.866M135.048 237.5l.866-.5M125 200h1m9.048-37.5.866.5m26.586-27.952.5.866"
         />
@@ -166,7 +166,7 @@ const Mechanical = (props) => (
           cy="200"
           r="30"
           stroke="#cc314b"
-          stroke-width="12"
+          strokeWidth="12"
           fill="#59474a"
         />
         <circle
@@ -174,12 +174,12 @@ const Mechanical = (props) => (
           cy="200"
           r="30"
           stroke="#fff"
-          stroke-width="5"
+          strokeWidth="5"
           fill="transparent"
         />
         <path
           stroke="#fff"
-          stroke-width="12"
+          strokeWidth="12"
           strokeLinecap="round"
           d="M200 165v1m30.31 16.5-.865.5m.865 34.5-.865-.5M200 235v-1m-30.31-16.5.865-.5m-.865-34.5.865.5"
         />

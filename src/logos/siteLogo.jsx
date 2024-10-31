@@ -14,12 +14,12 @@ const SiteLogo = (props) => (
           r="100"
           fill="transparent"
           stroke="#265583"
-          stroke-width="10"
+          strokeWidth="10"
         />
         <path
           d="M 175 0 L 0 0 L 100 -100 L 175 0 "
           stroke="transparent"
-          stroke-width="1"
+          strokeWidth="1"
           fill="#EAEAEA"
         />
         <line
@@ -28,7 +28,7 @@ const SiteLogo = (props) => (
           y1="0"
           y2="0"
           stroke="#265583"
-          stroke-width="10"
+          strokeWidth="10"
         />
       </g>
       <g id="C">
@@ -38,12 +38,12 @@ const SiteLogo = (props) => (
           r="100"
           fill="transparent"
           stroke="#316b9c"
-          stroke-width="10"
+          strokeWidth="10"
         />
         <path
           d="M 125 67 L 0 0 L 125 -75 L 125 75 "
           stroke="transparent"
-          stroke-width="1"
+          strokeWidth="1"
           fill="#EAEAEA"
         />
       </g>
@@ -51,7 +51,7 @@ const SiteLogo = (props) => (
         <path
           d="M 160 20 L 160 160 L -160 160 L -160 -160 L 0 -160"
           stroke="black"
-          stroke-width="10"
+          strokeWidth="10"
           fill="transparent"
           strokeLinejoin="round"
         />

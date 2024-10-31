@@ -9,22 +9,22 @@ const ProgrammingStatic = (props) => (
     <g fill="transparent" strokeLinecap="round" strokeLinejoin="round">
       <path
         stroke="#554b57"
-        stroke-width="12"
+        strokeWidth="12"
         d="M50 270V100h300v170zm55 30h195"
       />
       <path
         stroke="#554b57"
-        stroke-width="12"
+        strokeWidth="12"
         d="m120 220-50-30 50-30m20 80 45-110m25 90 50-30-50-30"
       />
-      <path stroke="#a749ba" stroke-width="5" d="M50 270V100h300v170zm55 30h195" />
+      <path stroke="#a749ba" strokeWidth="5" d="M50 270V100h300v170zm55 30h195" />
       <path
         stroke="#a749ba"
-        stroke-width="5"
+        strokeWidth="5"
         d="m120 220-50-30 50-30m20 80 45-110m25 90 50-30-50-30"
       />
-      <path stroke="#554b57" stroke-width="12" d="M280 240h50" />
-      <path stroke="#a749ba" stroke-width="5" d="M280 240h50" />
+      <path stroke="#554b57" strokeWidth="12" d="M280 240h50" />
+      <path stroke="#a749ba" strokeWidth="5" d="M280 240h50" />
     </g>
   </svg>
 );

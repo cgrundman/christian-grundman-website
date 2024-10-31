@@ -8,8 +8,8 @@ const MCT = (props) => (
   >
     <defs>
       <g id="short">
-        <circle stroke-width="12" r="15" />
-        <circle stroke="#fff" stroke-width="5" r="15" fill="transparent" />
+        <circle strokeWidth="12" r="15" />
+        <circle stroke="#fff" strokeWidth="5" r="15" fill="transparent" />
       </g>
       <g id="long">
         <rect
@@ -19,7 +19,7 @@ const MCT = (props) => (
           y="-15"
           rx="15"
           ry="15"
-          stroke-width="12"
+          strokeWidth="12"
         />
         <rect
           width="170"
@@ -29,7 +29,7 @@ const MCT = (props) => (
           rx="15"
           ry="15"
           stroke="#fff"
-          stroke-width="5"
+          strokeWidth="5"
           fill="transparent"
         />
       </g>

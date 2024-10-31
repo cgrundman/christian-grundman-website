@@ -9,21 +9,21 @@ const Programming = (props) => (
     <g fill="transparent" strokeLinecap="round" strokeLinejoin="round">
       <path
         stroke="#a749ba"
-        stroke-width="12"
+        strokeWidth="12"
         d="M50 270V100h300v170zm55 30h195"
       />
       <path
         stroke="#a749ba"
-        stroke-width="12"
+        strokeWidth="12"
         d="m120 220-50-30 50-30m20 80 45-110m25 90 50-30-50-30"
       />
-      <path stroke="#fff" stroke-width="5" d="M50 270V100h300v170zm55 30h195" />
+      <path stroke="#fff" strokeWidth="5" d="M50 270V100h300v170zm55 30h195" />
       <path
         stroke="#fff"
-        stroke-width="5"
+        strokeWidth="5"
         d="m120 220-50-30 50-30m20 80 45-110m25 90 50-30-50-30"
       />
-      <path stroke="#a749ba" stroke-width="12" d="M280 240h50">
+      <path stroke="#a749ba" strokeWidth="12" d="M280 240h50">
         <animate
           id="on"
           attributeName="opacity"
@@ -57,7 +57,7 @@ const Programming = (props) => (
           begin="off.end"
         />
       </path>
-      <path stroke="#fff" stroke-width="5" d="M280 240h50">
+      <path stroke="#fff" strokeWidth="5" d="M280 240h50">
         <animate
           attributeName="opacity"
           from="0"
