@@ -65,11 +65,11 @@
       <use href="#cellbright" x="70" y="-24"/>
     </g>
     <g id="desk">
-      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.264999" id="rect4" width="2.9153376" height="48.103065" x="80.90062" y="59.764416"/>
-      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.264999" id="rect4-8" width="2.9153376" height="48.103065" x="187.72783" y="59.871059"/>
-      <rect style="fill:#a18965;fill-opacity:1;stroke-width:0.264999" id="rect3" width="127.91043" height="3.2797544" x="71.425766" y="57.213497"/>
-      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.264999" id="rect5" width="2.5509202" height="33.890797" x="87.824539" y="60.493252"/>
-      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.264999" id="rect5-5" width="2.5509202" height="33.890797" x="180.45378" y="60.63974"/>
+      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.264999" width="2" height="40" x="8" y="3"/>
+      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.264999" width="2" height="40" x="119" y="3"/>
+      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.264999" width="1.5" height="32" x="18" y="3"/>
+      <rect style="fill:#000000;fill-opacity:1;stroke-width:0.264999" width="1.5" height="32" x="109" y="3"/>
+      <rect style="fill:#a18965;fill-opacity:1;stroke-width:0.264999" width="128" height="3" x="0" y="0"/>
     </g>
     <g id="lamp">
       <rect style="fill:#af7e64;fill-opacity:1;stroke-width:0.126953" id="rect6" width="1.8220859" height="10.203679" x="186.94601" y="45.552147"/>
@@ -81,10 +81,10 @@
   </defs>
   <rect style="fill:#02343a;stroke-width:0.264999;fill-opacity:1" id="rect1" width="219.01471" height="90.375458" x="-4.3730059" y="-3.2797544"/>
   <rect style="fill:#1a1917;fill-opacity:1;stroke-width:0.264999" id="rect2" width="217.19264" height="27.695705" x="-2.9153376" y="86.731285"/>
-  <use href="#desk"/>
+  <use href="#desk" x="75" y="57"/>
   <use href="#lamp"/>
   <use href="#walllight" x="87" y="26"/>
-<!--<use href="#screen"/>-->
-<!--<use href="#screen" x="50" y="0"/>-->
+  <use href="#screen"/>
+  <use href="#screen" x="50" y="0"/>
   <use href="#bookshelf"/>
 </svg>
