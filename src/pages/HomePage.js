@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import professional from "../avatars/professional.svg";
+import city from "../backgrounds/city.svg";
 import Electrical from "../logos/electrical.jsx";
 import ElectricalStatic from "../logos/electricalStatic.jsx";
 import MechanicalStatic from "../logos/mechanicalStatic.jsx";
@@ -36,13 +37,16 @@ function HomePage() {
   return (
     <PageContent>
       <div>
-        <div className={classes.cityscape}>
-          <img
-            src={professional}
-            className={classes.avatar}
-            alt="professional"
-          />
-          <p className={classes.quote}>"{quote}"</p>
+        <div className={classes.background}>
+          <img src={city} alt="city" />
+          <div className={classes.foreground}>
+            <img
+              src={professional}
+              className={classes.avatar}
+              alt="professional"
+            />
+            <p className={classes.quote}>"{quote}"</p>
+          </div>
         </div>
         <div>
           {visibleInfo === 1 ? (

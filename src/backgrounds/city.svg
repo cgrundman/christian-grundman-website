@@ -1,15 +1,14 @@
-<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 110" version="1.1" id="svg1" inkscape:version="1.4 (86a8ad7, 2024-10-11)" sodipodi:docname="city.svg">
-  <sodipodi:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#111111" borderopacity="1" inkscape:showpageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="1" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="0.72604517" inkscape:cx="397.3582" inkscape:cy="340.88788" inkscape:window-width="1920" inkscape:window-height="1017" inkscape:window-x="1912" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="layer1"/>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 110" version="1.1" id="svg1">
   <defs id="defs1">
-    <linearGradient id="linearGradient1" inkscape:collect="always">
+    <linearGradient id="linearGradient1">
       <stop stop-color="#05222a" stop-opacity="1" offset="0.18927445" id="stop1"/>
       <stop stop-color="#003853" stop-opacity="1" offset="0.53943217" id="stop3"/>
       <stop stop-color="#035f8e" stop-opacity="1" offset="1" id="stop2"/>
     </linearGradient>
-    <linearGradient inkscape:collect="always" xlink:href="#linearGradient1" id="linearGradient2" x1="106.95644" y1="-56.302448" x2="106.95644" y2="82.540482" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#linearGradient1" id="linearGradient2" x1="106.95644" y1="-56.302448" x2="106.95644" y2="82.540482" gradientUnits="userSpaceOnUse"/>
   </defs>
-  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
-    <rect style="fill:url(#linearGradient2);stroke-width:0.264999" id="rect1" width="221.56564" height="94.748459" x="-4.3730059" y="-2.5509202"/>
-    <rect style="fill:#1a1917;stroke-width:0.264999" id="rect3" width="233.5914" height="24.415951" x="-7.6527605" y="88.917786"/>
+  <g id="layer1">
+    <rect fill="url(#linearGradient2)" stroke-width="0.264999" id="rect1" width="221.56564" height="94.748459" x="-4.3730059" y="-2.5509202"/>
+    <rect fill="#1a1917" stroke-width="0.264999" id="rect3" width="233.5914" height="24.415951" x="-7.6527605" y="88.917786"/>
   </g>
 </svg>
