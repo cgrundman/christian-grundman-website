@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-// import professional from "../avatars/professional.svg";
+import professional from "../avatars/professional.svg";
 import city from "../backgrounds/city.svg";
 import Electrical from "../logos/electrical.jsx";
 import ElectricalStatic from "../logos/electricalStatic.jsx";
@@ -20,8 +20,8 @@ function HomePage() {
   const logos = content.logos;
 
   // Extract Quote
-  // const quotes = content.quotes[0]["work"];
-  // var quote = quotes[Math.floor(Math.random() * quotes.length)];
+  const quotes = content.quotes[0]["work"];
+  var quote = quotes[Math.floor(Math.random() * quotes.length)];
 
   // State to track which logos's information is visible (null means no info is visible)
   const [visibleInfo, setVisibleInfo] = useState(null);
@@ -39,14 +39,14 @@ function HomePage() {
       <div>
         <div className={classes.background}>
           <img src={city} alt="city" />
-          {/* <div className={classes.foreground}>
+          <div className={classes.foreground}>
             <img
               src={professional}
               className={classes.avatar}
               alt="professional"
             />
             <p className={classes.quote}>"{quote}"</p>
-          </div> */}
+          </div>
         </div>
         <div>
           {visibleInfo === 1 ? (
