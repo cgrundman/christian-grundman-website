@@ -23,26 +23,30 @@ b {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+ul {
+  padding: 0px;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 button {
-  color: #3C4048;
-  background-color: #00ABB3;
+  color: #3c4048;
+  background-color: #00abb3;
   margin: 1rem;
   border-radius: 10px;
-  border: #00ABB3;
+  border: #00abb3;
   width: 200px;
   font-weight: bold;
   font-size: large;
@@ -51,14 +55,42 @@ button {
 /* Highlight class for the SVG */
 .highlight {
   fill: #324f52;
-  stroke: #00ABB3;
+  stroke: #00abb3;
   stroke-width: 5;
 }
 
 /* Default styling for the SVG */
 svg {
-  fill: #3C4048;
+  fill: #3c4048;
   stroke: #aaa;
   stroke-width: 2;
   cursor: pointer;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 475px) {
+  h1 {
+    font-size: 37px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h2 {
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  p {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  b {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 }
