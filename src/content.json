@@ -188,17 +188,23 @@
     {
       "id": "leg",
       "title": "Lego Projects",
-      "description": "Coming soon...",
+      "description": "I am no master builder, but I enjoy creating with Lego.",
       "tags": ["Mechanical"],
       "logo": 6,
       "subtitles": [
+        "Scenes of the Infinity Stones",
+        "",
         ""
       ],
       "sections": [
+        "These are my designs for Marvel's Infinity Saga. I picked each scene based on humor or impact to the movies. It's still a work in progress, but so far three are done. The first is titled 'Puny God' featuring Loki's beatdown at the hands of the Hulk in Avenger's 1. The second is titled 'Dance Off, Bro' featuring Starlord and Ronan from Guardians of the Galaxy. The third is titled 'Endgame' and features Thanos meeting a young Gamora after his Infinity Wars' snap.",
+        "",
         ""
       ],
       "images": [
-        ""
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/lego_mind_stone_render.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/lego_power_stone_render.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/lego_soul_stone_render.png"
       ]
     },
     {
