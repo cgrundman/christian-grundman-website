@@ -1,9 +1,10 @@
 .background {
   position: relative;
-  width: 100%;
-  height: 100%;
-  /* background-size: cover; */
+  width: 100vw;
+  /* min-height: 100vh; */
+  background-size: cover;
   background-position: center;
+  background-repeat: repeat-x;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,30 +16,6 @@
   height: 100%;
   z-index: 1;
   display: flex;
-}
-
-.desk {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background-image: url("https://bigcreative.education/wp-content/uploads/2023/04/zachary-nelson-9856jObeogs-unsplash-scaled.jpg");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.cityscape {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background-image: url("https://media.architecturaldigest.com/photos/65df7c0d05482f22fe702c2c/16:9/w_2560%2Cc_limit/schoenste-staedte-europas-florenz.jpg");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .banner {

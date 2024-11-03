@@ -38,7 +38,7 @@ function HomePage() {
     <PageContent>
       <div>
         <div className={classes.background}>
-          <img src={city} alt="city" />
+          <img src={city} alt="city" style={{width: 100 + "vw"}}/>
           <div className={classes.foreground}>
             <img
               src={professional}

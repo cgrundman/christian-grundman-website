@@ -13,7 +13,7 @@ function AboutMePage() {
     <PageContent>
       <div>
         <div className={classes.background}>
-          <img src={Mountains} alt="mountains" />
+          <img src={Mountains} alt="mountains" style={{width: 100 + "vw"}}/>
           <div className={classes.foreground}>
             <img src={casual} className={classes.avatar} alt="casual" />
             <p className={classes.quote}>"{quote}"</p>
