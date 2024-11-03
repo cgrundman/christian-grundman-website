@@ -11,12 +11,12 @@ function ProjectPage() {
 
   // Find the user based on the id from the URL
   const project = content.projects.find((project) => project.id === projectid);
-  console.log(typeof project.id);
   // Load the logo component
   const LogoComponent = ProjectLogoMap[project.logo];
 
   return (
-    <PageContent title={project.title}>
+    <PageContent>
+      <h1>{project.title}</h1>
       <p className={classes.description}>{project.description}</p>
       <div className={classes.content}>
         <LogoComponent className={classes.logoLarge} />
