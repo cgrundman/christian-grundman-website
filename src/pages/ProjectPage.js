@@ -25,7 +25,7 @@ function ProjectPage() {
           {project.subtitles.map((subtitle, index) => (
             <div key={index}>
               <h3>{subtitle}</h3>
-              <p>{project.sections[index]}</p>
+              <p className={classes.projectText}>{project.sections[index]}</p>
               {/* <img src={} alt={project.id + "_" + index} /> */}
               {project.images[index] !== "" && (
                 <img
