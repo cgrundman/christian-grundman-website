@@ -66,7 +66,7 @@
   padding: 0 0.5rem 0 0.5rem;
   font-style: italic;
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 45px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: auto auto 20px auto;
 }
@@ -123,4 +123,11 @@
 
 .description {
   padding: 0px 2rem 2rem 2rem;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 475px) {
+  .quote {
+      font-size: 16px;
+    }
 }
