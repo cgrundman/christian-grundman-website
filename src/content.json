@@ -331,17 +331,32 @@
     {
       "id": "tmv",
       "title": "Travel Map Vizualization",
-      "description": "Coming soon...",
+      "description": "Project to visualize long term travels.",
       "tags": ["Programming"],
       "logo": 11,
       "subtitles": [
-        ""
+        "Problem Statement",
+        "Concept",
+        "GeoPandas",
+        "Data Engineering",
+        "Map - National Parks",
+        "Map - Germany"
       ],
       "sections": [
-        ""
+        "Traveling for me means adventure. When you travel like I do, you value the places between the destinations. However, when I try to explain the lengths I go to or the effort it takes for me to do it, it is lost with out some kind of visualization. I made this project to better explain that.",
+        "The idea was to make a travel map visualization that shows regions covered by travels to show the extent of one's exposure to the area. One simple solution to this was to create a voronoi diagram. A voronoi diagram takes a series of points and divides a space by the area of the closest point. An example of this is shown below.",
+        "The next step is to implement the idea. Luckily there already exists a python library that can create voronoi diagrams from geospatial data called GeoPandas. The map is made by inputing the geographic boraders for the map outline, the coordinates for the different points of the destinations, and the overall borders for the plot.",
+        "In order to have a proper map, the data had to be structured correctly. This was a simple, albeit lengthy, process of collecting site names and coordinates. Because the first goal to do this was for the US National Parks, that was the data I worked with first. I compiled all of my datapoints, added coordinates, and added sections as needed in the development process. The data lies in .csv format.",
+        "Short of color formatting and styling, the map was simple to make from here. The code goes by order of date and then alphabettical (there is no sub division below day to make this more accurate) and fills in the regions for each destination one by one. The regions are stateful, they are classed as unvisited, active, and visited. The code loops through and change the states one by one to create a series of images in order more or less of places traveled. Those images are then compiled into a gif.",
+        "The next step was to make a map of Germany for my time spent travling here. This vizualize the travels, but also served to further generalize the code for further uses. The full gifs, can be seen on my About Me page."
       ],
       "images": [
-        ""
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/hiking.JPG",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/tmv_1.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/tmv_2.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/tmv_3.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/tmv_4.gif",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/tmv_5.gif"
       ]
     }
   ],
