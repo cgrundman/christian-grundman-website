@@ -315,17 +315,26 @@
     {
       "id": "sta",
       "title": "Smart Transcribe API",
-      "description": "Coming soon...",
+      "description": "Project to transcribe audio data with a REST API.",
       "tags": ["Programming"],
       "logo": 10,
       "subtitles": [
-        ""
+        "Concept",
+        "Interface",
+        "Transcription",
+        "Sentiment Analysis"
       ],
       "sections": [
-        ""
+        "The idea behind this project was to do the least amount of work to create software to transcribe audio data and perform sentimate analysis. That sounds like laziness was a core component, however the desire was to start testing my ability to link already available code together to perform defines tasks. The workflow consists of inputing audio data and transcribing the audio with the WhisperAPI from OpenAI. The resulting text was input into a sentimate analysis model from Hugging Face. All of the interaction with the API is done through Python's tkinter UI library.",
+        "The tkinter interface is built will no frills or special formating. It simply ask the user to select an audio file from the list of audios available.",
+        "The transcription of Whisper API is then called, and the audio is then transcribed and displayed.",
+        "Finally the option to translate using a hugging face model is displayed. The model is fed sentence by sentence and performs analysis on them."
       ],
       "images": [
-        ""
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/sta_1.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/sta_2.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/sta_3.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/sta_4.png"
       ]
     },
     {
