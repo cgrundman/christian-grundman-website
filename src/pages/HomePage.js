@@ -109,10 +109,15 @@ function HomePage() {
         </div>
       </div>
       {/* Conditionally rendering information for Selected subject */}
-      {visibleInfo && (
+      {visibleInfo ? (
         <div className={classes.logoContent}>
           <h2>{logos[visibleInfo - 1].title}</h2>
           <p>{logos[visibleInfo - 1].description}</p>
+        </div>
+      ) : (
+        <div className={classes.logoContent}>
+          <h2>Select a logo to learn more...</h2>
+          <p></p>
         </div>
       )}
       <div>
