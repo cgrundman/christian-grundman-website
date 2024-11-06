@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import professional from "../avatars/professional.svg";
@@ -18,10 +18,15 @@ import content from "../content.json";
 function HomePage() {
   // Extract logo information
   const logos = content.logos;
-
-  // Extract Quote
   const quotes = content.quotes[0]["work"];
-  var quote = quotes[Math.floor(Math.random() * quotes.length)];
+
+  // State to hold the chosen quote
+  const [quote, setQuote] = useState('');
+
+  // Function to pick a random quote
+  useEffect(() => {
+      setQuote(() => quotes[Math.floor(Math.random() * quotes.length)]);
+  }, [quotes]);
 
   // State to track which logos's information is visible (null means no info is visible)
   const [visibleInfo, setVisibleInfo] = useState(null);
@@ -38,7 +43,7 @@ function HomePage() {
     <PageContent>
       <div>
         <div className={classes.background}>
-          <img src={city} alt="city" style={{width: 100 + "vw"}}/>
+          <img src={city} alt="city" style={{ width: 100 + "vw" }} />
           <div className={classes.foreground}>
             <img
               src={professional}
