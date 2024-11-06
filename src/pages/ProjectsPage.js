@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import content from "../content.json";
@@ -12,10 +12,15 @@ import classes from "../components/PageContent.module.css";
 function ProjectsPage() {
   // Extract project information
   const projects = content.projects;
-
-  // Extract Quote
   const quotes = content.quotes[0]["work"];
-  var quote = quotes[Math.floor(Math.random() * quotes.length)];
+
+  // State to hold the chosen quote
+  const [quote, setQuote] = useState('');
+
+  // useEffect to pick a random quote
+  useEffect(() => {
+      setQuote(() => quotes[Math.floor(Math.random() * quotes.length)]);
+  }, [quotes]);
 
   // State to track which image's information is visible (null means no info is visible)
   const [visibleInfo, setVisibleInfo] = useState(null);

@@ -23,7 +23,7 @@ function HomePage() {
   // State to hold the chosen quote
   const [quote, setQuote] = useState('');
 
-  // Function to pick a random quote
+  // useEffect to pick a random quote
   useEffect(() => {
       setQuote(() => quotes[Math.floor(Math.random() * quotes.length)]);
   }, [quotes]);
