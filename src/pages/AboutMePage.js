@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+
 import casual from "../avatars/casual.svg";
 import Mountains from "../backgrounds/mountains.svg";
 import PageContent from "../components/PageContent";
@@ -7,7 +9,14 @@ import classes from "../components/PageContent.module.css";
 function AboutMePage() {
   // Extract Quote
   const quotes = content.quotes[0]["life"];
-  var quote = quotes[Math.floor(Math.random() * quotes.length)];
+
+  // State to hold the chosen quote
+  const [quote, setQuote] = useState('');
+
+  // useEffect to pick a random quote
+  useEffect(() => {
+      setQuote(() => quotes[Math.floor(Math.random() * quotes.length)]);
+  }, [quotes]);
 
   return (
     <PageContent>
