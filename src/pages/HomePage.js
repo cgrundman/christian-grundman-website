@@ -21,11 +21,11 @@ function HomePage() {
   const quotes = content.quotes[0]["work"];
 
   // State to hold the chosen quote
-  const [quote, setQuote] = useState('');
+  const [quote, setQuote] = useState("");
 
   // useEffect to pick a random quote
   useEffect(() => {
-      setQuote(() => quotes[Math.floor(Math.random() * quotes.length)]);
+    setQuote(() => quotes[Math.floor(Math.random() * quotes.length)]);
   }, [quotes]);
 
   // State to track which logos's information is visible (null means no info is visible)
@@ -53,7 +53,7 @@ function HomePage() {
             <p className={classes.quote}>"{quote}"</p>
           </div>
         </div>
-        <div>
+        <div className={classes.logoContainer}>
           {visibleInfo === 1 ? (
             <Electrical
               className={classes.logoAnimated}

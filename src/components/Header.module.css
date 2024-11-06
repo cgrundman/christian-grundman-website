@@ -38,13 +38,10 @@
   .list {
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
     padding-top: 0%;
     gap: 0rem;
-    /* margin-top: 1rem; */
     align-items: flex-end;
     margin: 0;
-    /* flex-grow: 1; */
   }
 
   .item {

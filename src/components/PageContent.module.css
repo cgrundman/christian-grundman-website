@@ -48,11 +48,24 @@
   margin: auto auto 20px auto;
 }
 
+.logoContainer {
+  height: 15rem;
+  display: flex;
+  justify-content: space-around;
+  /* overflow: hidden; Prevent container from resizing */
+}
+
 .logo {
   width: 20%;
-  max-width: 400px;
+  height: auto;
+  /* max-width: 400px; */
   padding: 0rem .5rem 0rem .5rem;
   margin-bottom: 20px;
+  transition: width 0.3s ease; /* Smooth transition */
+}
+
+.logo:hover {
+  width: 25%;
 }
 
 .logoAnimated {
