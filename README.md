@@ -32,9 +32,11 @@ This is a Multi-Page Application (MPA) site is structured as follows:
   
 --ProjectsPage (Provide basic information of all of my past work)
 
-<img src="https://github.com/cgrundman/christian-grundman-website/blob/master/IMG_3190.jpeg" width="200" />
+<img src="https://github.com/cgrundman/christian-grundman-website/blob/master/IMG_3194.jpeg" width="200" />
 
 ----Project Page (dynamic routing based on project ID)
+
+<img src="https://github.com/cgrundman/christian-grundman-website/blob/master/IMG_3193.jpeg" width="200" />
 
 --About Me Page (personal information)
 
