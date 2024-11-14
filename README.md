@@ -47,3 +47,8 @@ Contains dynamic routing based on project ID
 personal information
 
 <img src="https://github.com/cgrundman/christian-grundman-website/blob/master/IMG_3191.jpeg" width="200" />
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
