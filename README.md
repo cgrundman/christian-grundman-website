@@ -30,7 +30,7 @@ This is a Multi-Page Application (MPA) site is structured as follows:
 
 <img src="https://github.com/cgrundman/christian-grundman-website/blob/master/IMG_3189.jpeg" width="200" />
   
-### ProjectsPage 
+### Projects Page
 
 Provides basic information of all of my past work
 
