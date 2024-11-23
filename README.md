@@ -50,6 +50,12 @@ personal information
 
 <img src="https://github.com/cgrundman/christian-grundman-website/blob/master/readme-images/about-me-page.jpeg" width="200" />
 
+### SVG graphics in React
+
+This website uses SVG graphics mainly. Suport vector graphics are mathematically defined rather than defined by pixels as traditional raster images (.jpg, .png, etc). THe project and subject logos are all made in a similar style. However this is also the case with the back ground images. Examples can be seen below:
+
+<img src="https://github.com/cgrundman/christian-grundman-website/blob/master/readme-images/svg-logos.png" width="200" />
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
