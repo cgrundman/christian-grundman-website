@@ -30,25 +30,25 @@ This is a Multi-Page Application (MPA) site is structured as follows:
 
 ### HomePage
 
-<img src="https://github.com/cgrundman/christian-grundman-website/blob/master/IMG_3189.jpeg" width="200" />
+<img src="https://github.com/cgrundman/christian-grundman-website/blob/master/readme-images/homepage.jpeg" width="200" />
   
 ### Projects Page
 
 Provides basic information of all of my past work
 
-<img src="https://github.com/cgrundman/christian-grundman-website/blob/master/IMG_3194.jpeg" width="200" />
+<img src="https://github.com/cgrundman/christian-grundman-website/blob/master/readme-images/projects-page.jpeg" width="200" />
 
 ### Project Page 
 
 Contains dynamic routing based on project ID
 
-<img src="https://github.com/cgrundman/christian-grundman-website/blob/master/IMG_3193.jpeg" width="200" />
+<img src="https://github.com/cgrundman/christian-grundman-website/blob/master/readme-images/project-page.jpeg" width="200" />
 
 ### About Me Page 
 
 personal information
 
-<img src="https://github.com/cgrundman/christian-grundman-website/blob/master/IMG_3191.jpeg" width="200" />
+<img src="https://github.com/cgrundman/christian-grundman-website/blob/master/readme-images/about-me-page.jpeg" width="200" />
 
 ## License
 
