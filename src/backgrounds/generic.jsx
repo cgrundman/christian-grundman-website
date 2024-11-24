@@ -3,7 +3,7 @@ const Generic = (props) => (
     <svg
     xmlnsXlink="http://www.w3.org/1999/xlink"
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 210 50"
+    viewBox="0 0 410 50"
     id="svg1"
     {...props}
   >
@@ -28,7 +28,7 @@ const Generic = (props) => (
         fill="url(#linearGradient2)"
         strokeWidth={0.264999}
         id="rect1"
-        width={210}
+        width={410}
         height={60}
         x={-5}
         y={-5}
