@@ -108,14 +108,23 @@
     {
       "id": "esp",
       "title": "ESP32 Camera System",
-      "description": "Coming soon...",
+      "description": "Project implementing computer vision algorithms on an ESP32 board.",
       "tags": ["Programming", "Electronics"],
       "logo": 3,
       "subtitles": [
+        "ESP32 Board Introduction",
+        "ESP32 Camera Module",
+        "Under Construction"
       ],
       "sections": [
+        "The ESP32 is a series of low-cost, low-power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth. The idea behind this project is to show examples of computer vision applications on a more professional platform using modern coding. The base board features an interface with the camera module, a basic ESP32 chip, and developer pins for prototyping with the chip.",
+        "The camera module incorporated the camera, and passes the image signal through the developer pins.",
+        "More information coming soon."
       ],
       "images": [
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/esp_1.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/esp_2.png",
+        "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/esp_3.png"
       ]
     },
     {
