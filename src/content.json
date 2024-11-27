@@ -202,7 +202,7 @@
       "id": "leg",
       "title": "Lego Projects",
       "description": "I am no master builder, but I enjoy creating with Lego.",
-      "tags": ["Mechanical"],
+      "tags": ["Mechanics"],
       "logo": 6,
       "subtitles": [
         "Scenes of the Infinity Stones",
@@ -286,7 +286,7 @@
       "id": "nmr",
       "title": "Nuclear Magnetic Resonance",
       "description": "A digitalization and automation project for a CW-NMR Machine.",
-      "tags": ["Programming", "Electronics", "Project Management", "Mechanical"],
+      "tags": ["Programming", "Electronics", "Project Management", "Mechanics"],
       "logo": 9,
       "subtitles": [
         "Problem Statement",

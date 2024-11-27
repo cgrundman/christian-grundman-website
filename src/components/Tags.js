@@ -13,7 +13,7 @@ function Tag({ tagList }) {
             <button key={index} className={classes.pmTag}>
               {tag}
             </button>
-          ) : tag === "Mechanical" ? (
+          ) : tag === "Mechanics" ? (
             <button key={index} className={classes.mTag}>
               {tag}
             </button>
