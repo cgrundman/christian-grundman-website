@@ -15,7 +15,7 @@
 .foreground {
   position: absolute; /* Allows precise positioning */
   left: 10%;
-  bottom: 0px;
+  bottom: 4px;
   z-index: 2; /* Higher z-index to appear on top */
   display: inline-flex;
 }
