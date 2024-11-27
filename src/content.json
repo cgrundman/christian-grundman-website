@@ -78,7 +78,7 @@
       "id": "ecg",
       "title": "ECG Device",
       "description": "Design, Development, and Construction of a electrocardiogram device.",
-      "tags": ["Programming", "Electrical"],
+      "tags": ["Programming", "Electronics"],
       "logo": 3,
       "subtitles": [
         "Final System",
@@ -109,7 +109,7 @@
       "id": "esp",
       "title": "ESP32 Camera System",
       "description": "Coming soon...",
-      "tags": ["Programming", "Electrical"],
+      "tags": ["Programming", "Electronics"],
       "logo": 3,
       "subtitles": [
       ],
@@ -286,7 +286,7 @@
       "id": "nmr",
       "title": "Nuclear Magnetic Resonance",
       "description": "A digitalization and automation project for a CW-NMR Machine.",
-      "tags": ["Programming", "Electrical", "Project Management", "Mechanical"],
+      "tags": ["Programming", "Electronics", "Project Management", "Mechanical"],
       "logo": 9,
       "subtitles": [
         "Problem Statement",
