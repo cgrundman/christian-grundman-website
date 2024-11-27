@@ -17,6 +17,7 @@
   left: 10%;
   bottom: 0px;
   z-index: 2; /* Higher z-index to appear on top */
+  display: inline-flex;
 }
 
 .banner {
@@ -42,6 +43,7 @@
 
 .quote {
   padding: 0 0.5rem 0 0.5rem;
+  margin-top: auto;
   font-style: italic;
   font-weight: bold;
   font-size: 45px;
@@ -126,6 +128,14 @@
 }
 
 @media (max-width: 600px) {
+  .foreground {
+    bottom: 4px;
+  }
+
+  .avatar {
+    width: 150px;
+  }
+
   .quote {
       font-size: 16px;
     }

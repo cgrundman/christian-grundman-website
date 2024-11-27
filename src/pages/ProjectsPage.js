@@ -44,7 +44,7 @@ function ProjectsPage() {
           <img src={desk} alt="desk" />
           <div className={classes.foreground}>
             <img src={relaxed} className={classes.avatar} alt="relaxed" />
-            {/* <p className={classes.quote}>"{quote}"</p> */}
+            <p className={classes.quote}>"{quote}"</p>
           </div>
         </div>
         <h1>Projects</h1>

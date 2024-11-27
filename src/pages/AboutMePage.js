@@ -25,7 +25,7 @@ function AboutMePage() {
           <img src={Mountains} alt="mountains" />
           <div className={classes.foreground}>
             <img src={casual} className={classes.avatar} alt="casual" />
-            {/* <p className={classes.quote}>"{quote}"</p> */}
+            <p className={classes.quote}>"{quote}"</p>
           </div>
         </div>
       </div>
