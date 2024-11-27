@@ -52,11 +52,15 @@
   display: flex;
   justify-content: space-around;
   overflow: hidden;
+  max-width: 1500px;
+  margin-top: 2rem;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .logo {
   width: 20%;
-  /* max-width: 400px; */
+  /* max-width: 300px; */
   padding: 0rem .5rem 0rem .5rem;
   margin-bottom: 20px;
   transition: width 0.3s ease; /* Smooth transition */
@@ -64,10 +68,12 @@
 
 .logo:hover {
   width: 25%;
+  /* max-width: 350px; */
 }
 
 .logoAnimated {
   width: 25%;
+  /* max-width: 350px; */
   stroke: #000;
 }
 
@@ -115,7 +121,15 @@
 }
 
 /* Responsive styling for small screens */
-@media (max-width: 475px) {
+@media (max-width: 600px) {
+  /* .background {
+    margin: auto;
+    margin-bottom: 2rem;
+    height: 250px;
+    width: fit-content;
+    overflow: hidden;
+  } */
+
   .quote {
       font-size: 16px;
     }
