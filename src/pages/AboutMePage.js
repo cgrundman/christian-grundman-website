@@ -23,10 +23,10 @@ function AboutMePage() {
       <div>
         <div className={classes.background}>
           <img src={Mountains} alt="mountains" />
-          {/* <div className={classes.foreground}>
+          <div className={classes.foreground}>
             <img src={casual} className={classes.avatar} alt="casual" />
-            <p className={classes.quote}>"{quote}"</p>
-          </div> */}
+            {/* <p className={classes.quote}>"{quote}"</p> */}
+          </div>
         </div>
       </div>
       <h1>About Me</h1>

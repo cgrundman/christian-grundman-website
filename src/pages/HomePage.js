@@ -45,10 +45,10 @@ function HomePage() {
       <div>
         <div className={classes.background}>
         <img src={city} alt="city" />
-          {/* <div className={classes.foreground}>
+          <div className={classes.foreground}>
             <img src={professional} className={classes.avatar} alt="professional" />
-            <p className={classes.quote}>"{quote}"</p>
-          </div> */}
+            {/* <p className={classes.quote}>"{quote}"</p> */}
+          </div>
         </div>
         <div className={classes.logoContainer}>
           {visibleInfo === 1 ? (

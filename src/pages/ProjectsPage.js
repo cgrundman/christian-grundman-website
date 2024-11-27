@@ -42,10 +42,10 @@ function ProjectsPage() {
       <div>
         <div className={classes.background}>
           <img src={desk} alt="desk" />
-          {/* <div className={classes.foreground}>
+          <div className={classes.foreground}>
             <img src={relaxed} className={classes.avatar} alt="relaxed" />
-            <p className={classes.quote}>"{quote}"</p>
-          </div> */}
+            {/* <p className={classes.quote}>"{quote}"</p> */}
+          </div>
         </div>
         <h1>Projects</h1>
         <p>Select a project icon to learn more.</p>
