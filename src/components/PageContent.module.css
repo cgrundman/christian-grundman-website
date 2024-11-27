@@ -1,21 +1,25 @@
 .background {
-  position: relative;
-  width: 100vw;
-  /* min-height: 100vh; */
-  background-size: cover;
-  background-position: center;
-  background-repeat: repeat-x;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
+  position: relative; /* Establish a stacking context */
+  overflow: hidden; /* Ensure content doesn't overflow */
+  max-width: 1500px;
+  max-height: 795px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.background_svg {
+  position: absolute; /* Ensure it remains at the back */
+  z-index: 1; /* Lower z-index to stay behind the overlay */
 }
 
 .foreground {
-  position: absolute;
-  height: 100%;
-  z-index: 1;
-  display: flex;
+  width: 50%; /* Size of the overlay SVG relative to the container */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute; /* Allows precise positioning */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust to align with center */
+  z-index: 2; /* Higher z-index to appear on top */
 }
 
 .banner {
@@ -45,7 +49,7 @@
   font-weight: bold;
   font-size: 45px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: auto auto 20px auto;
+  /* margin: auto auto 20px auto; */
 }
 
 .logoContainer {
@@ -121,6 +125,20 @@
 }
 
 /* Responsive styling for small screens */
+@media (max-width: 1000px) {
+  /* .background {
+    margin: auto;
+    margin-bottom: 2rem;
+    height: 250px;
+    width: fit-content;
+    overflow: hidden;
+  } */
+
+  .quote {
+      font-size: 32px;
+    }
+}
+
 @media (max-width: 600px) {
   /* .background {
     margin: auto;

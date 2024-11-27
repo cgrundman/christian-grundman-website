@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import professional from "../avatars/professional.svg";
-import city from "../backgrounds/city.svg";
+import city from "../backgrounds/city.svg"
+// import Generic from "../backgrounds/generic.jsx";
 import Electrical from "../logos/electrical.jsx";
 import ElectricalStatic from "../logos/electricalStatic.jsx";
 import MechanicalStatic from "../logos/mechanicalStatic.jsx";
@@ -43,15 +44,11 @@ function HomePage() {
     <PageContent>
       <div>
         <div className={classes.background}>
-          <img src={city} alt="city" style={{ width: 100 + "vw" }} />
-          <div className={classes.foreground}>
-            <img
-              src={professional}
-              className={classes.avatar}
-              alt="professional"
-            />
+        <img src={city} alt="city" />
+          {/* <div className={classes.foreground}>
+            <img src={professional} className={classes.avatar} alt="professional" />
             <p className={classes.quote}>"{quote}"</p>
-          </div>
+          </div> */}
         </div>
         <div className={classes.logoContainer}>
           {visibleInfo === 1 ? (
