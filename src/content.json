@@ -230,11 +230,27 @@
       ]
     },
     {
+      "id": "mac",
+      "title": "Custom Machinery",
+      "description": "Coming Soon...",
+      "tags": ["Mechanics"],
+      "logo": 7,
+      "subtitles": [
+        ""
+      ],
+      "sections": [
+        ""
+      ],
+      "images": [
+        ""
+      ]
+    },
+    {
       "id": "mls",
       "title": "ML Stethoscope",
       "description": "Medical application of machine learning to anaylze stethoscope audio.",
       "tags": ["Programming"],
-      "logo": 7,
+      "logo": 8,
       "subtitles": [
         "Automated Medicine",
         "The Dataset",
@@ -271,7 +287,7 @@
       "title": "Morse Code Translator",
       "description": "A simple dictionary-based Morse code translator.",
       "tags": ["Programming"],
-      "logo": 8,
+      "logo": 9,
       "subtitles": [
         "Introduction",
         "Code Function",
@@ -296,7 +312,7 @@
       "title": "Nuclear Magnetic Resonance",
       "description": "A digitalization and automation project for a CW-NMR Machine.",
       "tags": ["Programming", "Electronics", "Project Management", "Mechanics"],
-      "logo": 9,
+      "logo": 10,
       "subtitles": [
         "Problem Statement",
         "Starting Point",
@@ -339,7 +355,7 @@
       "title": "Smart Transcribe API",
       "description": "Project to transcribe audio data with a REST API.",
       "tags": ["Programming"],
-      "logo": 10,
+      "logo": 11,
       "subtitles": [
         "Concept",
         "Interface",
@@ -364,7 +380,7 @@
       "title": "Travel Map Vizualization",
       "description": "Project to visualize long term travels.",
       "tags": ["Programming"],
-      "logo": 11,
+      "logo": 12,
       "subtitles": [
         "Problem Statement",
         "Concept",
