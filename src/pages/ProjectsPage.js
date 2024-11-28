@@ -56,7 +56,7 @@ function ProjectsPage() {
             key={id}
             onClick={() => toggleInfo(id)}
             className={highlighted === id ? "highlight" : ""}
-            width="16%"
+            width="14%"
           />
         ))}
       </div>
