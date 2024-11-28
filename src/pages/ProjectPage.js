@@ -25,8 +25,17 @@ function ProjectPage() {
           {project.subtitles.map((subtitle, index) => (
             <div key={index}>
               <h3>{subtitle}</h3>
-              <p className={classes.projectText}>{project.sections[index]}</p>
-              {/* <img src={} alt={project.id + "_" + index} /> */}
+              {project.subtitles[index] !== "Links" ? (
+                <p className={classes.projectText}>{project.sections[index]}</p>
+              ) : (
+                <div>
+                  {project.sections[index].map((Link) => (
+                    <p>
+                    <a href={Link[1]} className={classes.projectText}>{Link[0]}</a>
+                    </p>
+                  ))}
+                </div>
+              )}
               {project.images[index] !== "" && (
                 <img
                   src={project.images[index]}
@@ -35,7 +44,7 @@ function ProjectPage() {
                 />
               )}
             </div>
-          ))}
+            ))}
         </ul>
         <Link to={`/projects`}>
           <div>
