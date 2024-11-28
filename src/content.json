@@ -110,7 +110,7 @@
       "title": "ESP32 Camera System",
       "description": "Project implementing computer vision algorithms on an ESP32 board.",
       "tags": ["Programming", "Electronics"],
-      "logo": 3,
+      "logo": 4,
       "subtitles": [
         "ESP32 Board Introduction",
         "ESP32 Camera Module",
@@ -132,7 +132,7 @@
       "title": "ISP Optimization",
       "description": "Optimization of an image signal processor using a differentiable proxy.",
       "tags": ["Programming", "Project Management"],
-      "logo": 4,
+      "logo": 5,
       "subtitles": [
         "The Problem: Part 1",
         "The Problem: Part 2",
@@ -178,7 +178,7 @@
       "title": "Leaf Disease Diagnosis",
       "description": "Agriculture application of deep learning in detecting plant disease.",
       "tags": ["Programming"],
-      "logo": 5,
+      "logo": 6,
       "subtitles": [
         "Motivation and Objective",
         "The Data",
@@ -212,7 +212,7 @@
       "title": "Lego Projects",
       "description": "I am no master builder, but I enjoy creating with Lego.",
       "tags": ["Mechanics"],
-      "logo": 6,
+      "logo": 7,
       "subtitles": [
         "Scenes of the Infinity Stones",
         "",
@@ -232,14 +232,14 @@
     {
       "id": "mac",
       "title": "Custom Machinery",
-      "description": "Coming Soon...",
-      "tags": ["Mechanics"],
-      "logo": 7,
+      "description": "Projects in custom machinery design and building.",
+      "tags": ["Mechanics", "Project Management"],
+      "logo": 8,
       "subtitles": [
-        ""
+        "Coming soon..."
       ],
       "sections": [
-        ""
+        "Projects coming as soon as I can pull out of archive."
       ],
       "images": [
         ""
@@ -250,7 +250,7 @@
       "title": "ML Stethoscope",
       "description": "Medical application of machine learning to anaylze stethoscope audio.",
       "tags": ["Programming"],
-      "logo": 8,
+      "logo": 9,
       "subtitles": [
         "Automated Medicine",
         "The Dataset",
@@ -287,7 +287,7 @@
       "title": "Morse Code Translator",
       "description": "A simple dictionary-based Morse code translator.",
       "tags": ["Programming"],
-      "logo": 9,
+      "logo": 10,
       "subtitles": [
         "Introduction",
         "Code Function",
@@ -312,7 +312,7 @@
       "title": "Nuclear Magnetic Resonance",
       "description": "A digitalization and automation project for a CW-NMR Machine.",
       "tags": ["Programming", "Electronics", "Project Management", "Mechanics"],
-      "logo": 10,
+      "logo": 11,
       "subtitles": [
         "Problem Statement",
         "Starting Point",
@@ -355,7 +355,7 @@
       "title": "Smart Transcribe API",
       "description": "Project to transcribe audio data with a REST API.",
       "tags": ["Programming"],
-      "logo": 11,
+      "logo": 12,
       "subtitles": [
         "Concept",
         "Interface",
@@ -380,7 +380,7 @@
       "title": "Travel Map Vizualization",
       "description": "Project to visualize long term travels.",
       "tags": ["Programming"],
-      "logo": 12,
+      "logo": 13,
       "subtitles": [
         "Problem Statement",
         "Concept",
