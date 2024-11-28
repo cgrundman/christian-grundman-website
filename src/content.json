@@ -94,7 +94,7 @@
         "Final analog circuit board. This is a handmade PCB from the above design.",
         "The signal received from the sensor, after analog processing, to the oscilloscope. This was used to tune the digital thresholding.",
         "Sample readout of heart, with high Pressure alarm. The device also includes a buzzer to indicate heart beat (during the QRS-complex).",
-        "Paniz Izadi, Sevda Golkar, Andrea Rǎileanu, Akin Çaǧlayan. Also to the Professors and student tutors that provided insights and learning opportunities."
+        "Paniz Izadi, Sevda Golkar, Andrea Raileanu, Akin Çaglayan. Also to the Professors and student tutors that provided insights and learning opportunities."
       ],
       "images": [
         "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ecg_1.jpg",
@@ -186,7 +186,8 @@
         "The Models",
         "Results",
         "Further Work",
-        "Special Thanks:"
+        "Special Thanks:",
+        "Links"
       ],
       "sections": [
         "Early diagnosis of plant diseases allows preventative measures to reduce economic and production damage. Traditional methods are limited by available expertise. Plant surveillance by farmers is not always practical or cost-effective. Evaluate different databases and implement various neural network architectures for classifying plant diseases.",
@@ -195,7 +196,8 @@
         "As with every AI project, data preprocessing had to be performed to normalize the image data for training the models. However, the main experiment performed was on the model architecture. There were 5 different CNN models tested:\n\n3 Convolutional Layers and 3 FC Layers\n3 Convolutional Layers and 4 FC Layers\n4 Convolutional Layers and 3 FC Layers\n3 Convolutional Layers and 3 FC Layers and dropout in the dense layers\n3 Convolutional Layers and 3 FC Layers and dropout in the convolutional layers",
         "The Results were promising, an accuracy of between 80-90% were the results for each model. The best results were for model 4, where dropout proved effective at improving model performance.",
         "This is a confusion matrix of the classification for the validation data. This tests how effective the model was at classifying each case. The results suggested an improvement. By separating the classification into the different types of plants, the performance could be improved. The model could be having to learn too many features. So one solution could be creating a series of small models for classifying each disease based on plant type. THe plant type would already be known by farmers, as crops are planted deliberately. Most of the functionality of a system like this would be to check for diseases on a known crop. Th other improvement would be to implement a more complicated model, like ResNet-18. This could recognize enough features to be effective.",
-        "<a href='www.google.com'>Andrew Yu's Deep Learning Coursera Course and OpenCampus.SH</a>"
+        "Andrew Ng's Deep Learning Specialty provided the theoretical nowledge base for this project. OpenCampus.SH provided the learning environment and the team to prepare this project with.",
+        [["Andrew Ng's Deep Learning Course on Coursera", "https://www.coursera.org/specializations/deep-learning?utm_medium=sem&utm_source=gg&utm_campaign=b2c_emea_deep-learning_deeplearning-ai_ftcof_specializations_arte_feb_24_dr_geo-multi_pmax_gads_lg-all&campaignid=21028581571&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adposition=&creativeid=&hide_mobile_promo&gad_source=1&gclid=Cj0KCQiAo5u6BhDJARIsAAVoDWtWCn0yH00j-RSdPXGVmLL11FyZwsU1LWkkiXKnbDNvWyOLnp5dDmAaAlIVEALw_wcB"],["OpenCampus.SH", "https://edu.opencampus.sh/en"]]
       ],
       "images": [
         "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_1.png",
@@ -204,6 +206,7 @@
         "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_4.png",
         "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_5.png",
         "https://raw.githubusercontent.com/cgrundman/christian-grundman-website/refs/heads/master/src/images/ldd_6.png",
+        "",
         ""
       ]
     },
