@@ -5,6 +5,7 @@ import ESP from "../logos/ESP";
 import ISP from "../logos/ISP";
 import LDD from "../logos/LDD";
 import LEG from "../logos/LEG";
+import MAC from "../logos/MAC";
 import MLS from "../logos/MLS";
 import MCT from "../logos/MCT";
 import NMR from "../logos/NMR";
@@ -19,11 +20,12 @@ const ProjectLogoMap = {
   5: ISP,
   6: LDD,
   7: LEG,
-  8: MLS,
-  9: MCT,
-  10: NMR,
-  11: STA,
-  12: TMV,
+  8: MAC,
+  9: MLS,
+  10: MCT,
+  11: NMR,
+  12: STA,
+  13: TMV,
 };
 
 export default ProjectLogoMap;
