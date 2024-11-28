@@ -4,7 +4,6 @@ const MAC = (props) => (
     <defs>
       <g id="body">
         <path
-          stroke="#aaa"
           stroke-width="12"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -12,7 +11,6 @@ const MAC = (props) => (
           d="M 355 170 v -70 h -140 v 65"
         />
         <path
-          stroke="#aaa"
           stroke-width="12"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -20,7 +18,6 @@ const MAC = (props) => (
           d="M 300 185 h 65 v 15 l -20 30 v 60 h -145 v -98"
         />
         <path
-          stroke="#aaa"
           stroke-width="12"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -54,7 +51,6 @@ const MAC = (props) => (
       </g>
       <g id="conveyer">
         <circle
-          stroke="#aaa"
           stroke-width="12"
           fill="transparent"
           cx="50"
@@ -62,7 +58,6 @@ const MAC = (props) => (
           r="12"
         />
         <circle
-          stroke="#aaa"
           stroke-width="12"
           fill="transparent"
           cx="125"
@@ -70,7 +65,6 @@ const MAC = (props) => (
           r="12"
         />
         <path
-          stroke="#aaa"
           stroke-width="12"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -78,7 +72,6 @@ const MAC = (props) => (
           d="M 50 178 h 200"
         />
         <path
-          stroke="#aaa"
           stroke-width="12"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -86,7 +79,6 @@ const MAC = (props) => (
           d="M 50 202 h 135"
         />
         <path
-          stroke="#aaa"
           stroke-width="12"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -94,7 +86,6 @@ const MAC = (props) => (
           d="M 50 217 v 75"
         />
         <path
-          stroke="#aaa"
           stroke-width="12"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -154,7 +145,6 @@ const MAC = (props) => (
       </g>
       <g id="abc">
         <circle
-          stroke="#aaa"
           stroke-width="12"
           fill="transparent"
           cx="0"
@@ -172,7 +162,6 @@ const MAC = (props) => (
       </g>
       <g id="bcd">
         <circle
-          stroke="#aaa"
           stroke-width="12"
           fill="transparent"
           cx="0"
@@ -180,7 +169,6 @@ const MAC = (props) => (
           r="7"
         />
         <path
-          stroke="#aaa"
           stroke-width="12"
           stroke-linecap="round"
           fill="transparent"
@@ -204,7 +192,6 @@ const MAC = (props) => (
       </g>
       <g id="foot">
         <polygon
-          stroke="#aaa"
           stroke-width="12"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -222,7 +209,7 @@ const MAC = (props) => (
       </g>
     </defs>
     <g>
-      <circle id="background" cx="200" cy="200" r="200" fill="#384247" />
+      <circle id="background" cx="200" cy="200" r="200" stroke="transparent" />
     </g>
     <use href="#abc" x="235" y="125" />
     <use href="#abc" x="260" y="125" />
