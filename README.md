@@ -1,6 +1,6 @@
 # Personal Website
 
-Personal website
+Website showcasing my work and projects. Site is being updated on a rolling basis as project work is added.
 
 ## Run Locally
 
